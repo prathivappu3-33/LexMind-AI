@@ -1,0 +1,316 @@
+[
+    {
+        "question_id": 1,
+        "question": "What is Docker?",
+        "relevant_chunk_ids": [
+            "de0a271f-c16c-47b5-8797-6e63f223506d",
+            "4aa65779-9784-418d-972e-6ada00ec04ca",
+            "697c4534-44a8-4495-ac47-6f1d9be6a0ef",
+            "1ce2eed5-2be7-46b2-b40c-85d53cccc7bb",
+            "14979b57-ef94-4222-a36c-f37336658318",
+            "830eeda9-ad9d-45ab-85b9-deeeb36c7c7e",
+            "2a07d2b1-d350-4b42-8018-8c91bdde28b4",
+            "80f35a1e-bcc1-4b0d-9290-949d3e206e92"
+        ],
+        "relevant_count": 8,
+        "skipped_chunk_ids": [],
+        "reviewed_count": 10,
+        "candidate_count": 10,
+        "validation_method": "human_verified"
+    },
+    {
+        "question_id": 2,
+        "question": "What problem does Docker solve?",
+        "relevant_chunk_ids": [
+            "0a41da50-7470-4102-9dfa-4a6f0c913ba2",
+            "06eb2065-30f3-4fb6-a8c7-88ddcfe99eb1",
+            "8e175097-48b7-4ddc-be16-a8051ead075a",
+            "4095f778-b1a2-4bae-b61d-d8f8118a183a",
+            "c47cb171-685b-49fe-ab40-e6687f2b999e"
+        ],
+        "relevant_count": 5,
+        "skipped_chunk_ids": [],
+        "reviewed_count": 10,
+        "candidate_count": 10,
+        "validation_method": "human_verified"
+    },
+    {
+        "question_id": 3,
+        "question": "What are Docker containers?",
+        "relevant_chunk_ids": [
+            "4aa65779-9784-418d-972e-6ada00ec04ca",
+            "80f35a1e-bcc1-4b0d-9290-949d3e206e92",
+            "830eeda9-ad9d-45ab-85b9-deeeb36c7c7e",
+            "9457a819-feed-4a46-9d41-0c4c3f00b07d",
+            "70728325-c5b3-448e-8282-ea569124b43f",
+            "1a8b558b-2260-4623-a651-be474a97a8bd",
+            "697c4534-44a8-4495-ac47-6f1d9be6a0ef",
+            "814a4ccd-2fc8-4413-a7ef-4214a81b9980",
+            "4cf034a5-a35e-4b4c-a103-3e1f3fae9a13",
+            "2a07d2b1-d350-4b42-8018-8c91bdde28b4"
+        ],
+        "relevant_count": 10,
+        "skipped_chunk_ids": [],
+        "reviewed_count": 10,
+        "candidate_count": 10,
+        "validation_method": "human_verified"
+    },
+    {
+        "question_id": 4,
+        "question": "What is a Docker image?",
+        "relevant_chunk_ids": [
+            "d0e6425d-8052-4c5d-aac7-aa61315fe16f",
+            "72ca7b0d-3e6f-4207-b6a8-d0f8dc2d20ae",
+            "d542ae44-4257-4efe-b887-2d0b43f6a899",
+            "9ef2bb8b-63d9-40ba-8718-89a09a93ba37",
+            "a2be0ce0-58ae-4ce5-80ff-621b34020ed6",
+            "d07bf21a-de1a-4de2-8176-4ee1e7751517",
+            "d6223c2b-c3b7-4e55-be72-59138f772947"
+        ],
+        "relevant_count": 7,
+        "skipped_chunk_ids": [],
+        "reviewed_count": 10,
+        "candidate_count": 10,
+        "validation_method": "human_verified"
+    },
+    {
+        "question_id": 5,
+        "question": "What is the difference between a Docker image and a Docker container?",
+        "relevant_chunk_ids": [
+            "9ef2bb8b-63d9-40ba-8718-89a09a93ba37",
+            "c2f5b49b-a6b9-4c6d-a01f-388e767c9a8b"
+        ],
+        "relevant_count": 2,
+        "skipped_chunk_ids": [],
+        "reviewed_count": 10,
+        "candidate_count": 10,
+        "validation_method": "human_verified"
+    },
+    {
+        "question_id": 6,
+        "question": "How does Docker isolate applications?",
+        "relevant_chunk_ids": [
+            "f96c65da-7dcf-49e1-92fd-7028ca334cfe",
+            "b6d0c254-1b14-4ae6-9283-e5f6ad912065",
+            "7ac9045d-d977-4d7b-819b-36e03782aadd",
+            "23f83396-7234-4376-aca9-236c426916d8",
+            "4fd51bca-6418-4be6-bc8d-91318e13f79e",
+            "88191fef-44f0-4daa-ad83-17c7193c2c47",
+            "50d914f6-2c33-4b09-bc50-25226b372c64",
+            "56bdd996-c78b-459e-933f-b2ad535b83cc"
+        ],
+        "relevant_count": 8,
+        "skipped_chunk_ids": [],
+        "reviewed_count": 10,
+        "candidate_count": 10,
+        "validation_method": "human_verified"
+    },
+    {
+        "question_id": 7,
+        "question": "Why are Docker containers considered lightweight?",
+        "relevant_chunk_ids": [
+            "1ce2eed5-2be7-46b2-b40c-85d53cccc7bb",
+            "80f35a1e-bcc1-4b0d-9290-949d3e206e92",
+            "830eeda9-ad9d-45ab-85b9-deeeb36c7c7e",
+            "70728325-c5b3-448e-8282-ea569124b43f",
+            "e6a34d72-e5f4-46ab-b58d-2cfb585e4206"
+        ],
+        "relevant_count": 5,
+        "skipped_chunk_ids": [],
+        "reviewed_count": 5,
+        "candidate_count": 5,
+        "validation_method": "human_verified"
+    },
+    {
+        "question_id": 8,
+        "question": "Can multiple Docker containers run on the same host?",
+        "relevant_chunk_ids": [
+            "80f35a1e-bcc1-4b0d-9290-949d3e206e92"
+        ],
+        "relevant_count": 1,
+        "skipped_chunk_ids": [],
+        "reviewed_count": 8,
+        "candidate_count": 8,
+        "validation_method": "human_verified"
+    },
+    {
+        "question_id": 9,
+        "question": "What is the Docker platform?",
+        "relevant_chunk_ids": [
+            "de0a271f-c16c-47b5-8797-6e63f223506d",
+            "697c4534-44a8-4495-ac47-6f1d9be6a0ef",
+            "0828f162-d5d5-4767-9ff3-bd0b41bd8bb7",
+            "e2514636-19db-44f5-8af2-218b437fbd25"
+        ],
+        "relevant_count": 4,
+        "skipped_chunk_ids": [],
+        "reviewed_count": 10,
+        "candidate_count": 10,
+        "validation_method": "human_verified"
+    },
+    {
+        "question_id": 10,
+        "question": "How does Docker simplify software deployment?",
+        "relevant_chunk_ids": [
+            "e13c6434-6d74-4885-8b47-4596f4cbd401",
+            "de0a271f-c16c-47b5-8797-6e63f223506d",
+            "c2591852-b906-4a3e-9d98-4bcc8f907fdc",
+            "cab226f8-cc65-4fa1-a41c-4b519f5c8def",
+            "85854283-fcd4-4705-bfb1-051765fab741",
+            "8a712ce9-a78d-41ac-a289-d0d782c39a08"
+        ],
+        "relevant_count": 6,
+        "skipped_chunk_ids": [],
+        "reviewed_count": 10,
+        "candidate_count": 10,
+        "validation_method": "human_verified"
+    },
+    {
+        "question_id": 11,
+        "question": "Why is Docker useful for developers?",
+        "relevant_chunk_ids": [
+            "26bea447-9ba2-4f27-b514-0e52d256d7ad",
+            "de0a271f-c16c-47b5-8797-6e63f223506d",
+            "80f35a1e-bcc1-4b0d-9290-949d3e206e92"
+        ],
+        "relevant_count": 3,
+        "skipped_chunk_ids": [],
+        "reviewed_count": 10,
+        "candidate_count": 10,
+        "validation_method": "human_verified"
+    },
+    {
+        "question_id": 12,
+        "question": "What components are required to run a Docker container?",
+        "relevant_chunk_ids": [
+            "9457a819-feed-4a46-9d41-0c4c3f00b07d",
+            "697c4534-44a8-4495-ac47-6f1d9be6a0ef",
+            "6edad898-77c5-4e8f-85d1-d82e8aaa70b7",
+            "8a712ce9-a78d-41ac-a289-d0d782c39a08",
+            "92a71a75-8974-4e27-a979-75c57463bbbd",
+            "bf6caa99-d6c5-4136-8dbd-54cd8d05247c"
+        ],
+        "relevant_count": 6,
+        "skipped_chunk_ids": [],
+        "reviewed_count": 10,
+        "candidate_count": 10,
+        "validation_method": "human_verified"
+    },
+    {
+        "question_id": 13,
+        "question": "How does Docker improve application portability?",
+        "relevant_chunk_ids": [
+            "80f35a1e-bcc1-4b0d-9290-949d3e206e92",
+            "49fb1535-291b-47f3-a70e-b7c4a5bd9ee0",
+            "830eeda9-ad9d-45ab-85b9-deeeb36c7c7e",
+            "cab226f8-cc65-4fa1-a41c-4b519f5c8def",
+            "70728325-c5b3-448e-8282-ea569124b43f",
+            "90298bf3-cd45-4cbb-bb38-4b8a695c7699"
+        ],
+        "relevant_count": 6,
+        "skipped_chunk_ids": [],
+        "reviewed_count": 10,
+        "candidate_count": 10,
+        "validation_method": "human_verified"
+    },
+    {
+        "question_id": 14,
+        "question": "What operating systems are supported by Docker?",
+        "relevant_chunk_ids": [
+            "9d4a4762-5e4b-48e5-89bb-5ed86fe8f0e8",
+            "247c7dfa-d3e7-430e-b3a3-46f9c70508db",
+            "a650a79d-501c-42db-b2ac-b3fab1f66bc3"
+        ],
+        "relevant_count": 3,
+        "skipped_chunk_ids": [],
+        "reviewed_count": 10,
+        "candidate_count": 10,
+        "validation_method": "human_verified"
+    },
+    {
+        "question_id": 15,
+        "question": "What is the Docker Engine?",
+        "relevant_chunk_ids": [
+            "4aa65779-9784-418d-972e-6ada00ec04ca"
+        ],
+        "relevant_count": 1,
+        "skipped_chunk_ids": [],
+        "reviewed_count": 10,
+        "candidate_count": 10,
+        "validation_method": "human_verified"
+    },
+    {
+        "question_id": 16,
+        "question": "How does Docker differ from a traditional virtual machine?",
+        "relevant_chunk_ids": [
+            "1ce2eed5-2be7-46b2-b40c-85d53cccc7bb"
+        ],
+        "relevant_count": 1,
+        "skipped_chunk_ids": [],
+        "reviewed_count": 10,
+        "candidate_count": 10,
+        "validation_method": "human_verified"
+    },
+    {
+        "question_id": 17,
+        "question": "What is containerization?",
+        "relevant_chunk_ids": [
+            "814a4ccd-2fc8-4413-a7ef-4214a81b9980",
+            "830eeda9-ad9d-45ab-85b9-deeeb36c7c7e"
+        ],
+        "relevant_count": 2,
+        "skipped_chunk_ids": [],
+        "reviewed_count": 4,
+        "candidate_count": 4,
+        "validation_method": "human_verified"
+    },
+    {
+        "question_id": 18,
+        "question": "Why is containerization important in modern software development?",
+        "relevant_chunk_ids": [
+            "26bea447-9ba2-4f27-b514-0e52d256d7ad",
+            "830eeda9-ad9d-45ab-85b9-deeeb36c7c7e",
+            "85854283-fcd4-4705-bfb1-051765fab741",
+            "80f35a1e-bcc1-4b0d-9290-949d3e206e92",
+            "1ce2eed5-2be7-46b2-b40c-85d53cccc7bb",
+            "de0a271f-c16c-47b5-8797-6e63f223506d"
+        ],
+        "relevant_count": 6,
+        "skipped_chunk_ids": [],
+        "reviewed_count": 10,
+        "candidate_count": 10,
+        "validation_method": "human_verified"
+    },
+    {
+        "question_id": 19,
+        "question": "What is the lifecycle of a Docker container?",
+        "relevant_chunk_ids": [
+            "814a4ccd-2fc8-4413-a7ef-4214a81b9980",
+            "830eeda9-ad9d-45ab-85b9-deeeb36c7c7e",
+            "9ef2bb8b-63d9-40ba-8718-89a09a93ba37",
+            "cab226f8-cc65-4fa1-a41c-4b519f5c8def",
+            "26bea447-9ba2-4f27-b514-0e52d256d7ad"
+        ],
+        "relevant_count": 5,
+        "skipped_chunk_ids": [],
+        "reviewed_count": 10,
+        "candidate_count": 10,
+        "validation_method": "human_verified"
+    },
+    {
+        "question_id": 20,
+        "question": "How does Docker support cloud-native application development?",
+        "relevant_chunk_ids": [
+            "a6badfe8-3aa9-42ed-a6be-8c5bd30992b1",
+            "80f35a1e-bcc1-4b0d-9290-949d3e206e92",
+            "31db8906-16fb-4813-b8dd-de07cdd0736c",
+            "fdc22254-6393-4f8f-873f-50d20953e7ba",
+            "85854283-fcd4-4705-bfb1-051765fab741"
+        ],
+        "relevant_count": 5,
+        "skipped_chunk_ids": [],
+        "reviewed_count": 10,
+        "candidate_count": 10,
+        "validation_method": "human_verified"
+    }
+]

@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "question": "What is Docker?",
+        "category": "Docker Basics",
+        "difficulty": "Easy"
+    },
+    {
+        "id": 2,
+        "question": "What problem does Docker solve?",
+        "category": "Docker Basics",
+        "difficulty": "Easy"
+    },
+    {
+        "id": 3,
+        "question": "What are Docker containers?",
+        "category": "Docker Basics",
+        "difficulty": "Easy"
+    },
+    {
+        "id": 4,
+        "question": "What is a Docker image?",
+        "category": "Docker Basics",
+        "difficulty": "Easy"
+    },
+    {
+        "id": 5,
+        "question": "What is the difference between a Docker image and a Docker container?",
+        "category": "Docker Basics",
+        "difficulty": "Medium"
+    },
+    {
+        "id": 6,
+        "question": "How does Docker isolate applications?",
+        "category": "Docker Basics",
+        "difficulty": "Medium"
+    },
+    {
+        "id": 7,
+        "question": "Why are Docker containers considered lightweight?",
+        "category": "Docker Basics",
+        "difficulty": "Medium"
+    },
+    {
+        "id": 8,
+        "question": "Can multiple Docker containers run on the same host?",
+        "category": "Docker Basics",
+        "difficulty": "Easy"
+    },
+    {
+        "id": 9,
+        "question": "What is the Docker platform?",
+        "category": "Docker Basics",
+        "difficulty": "Easy"
+    },
+    {
+        "id": 10,
+        "question": "How does Docker simplify software deployment?",
+        "category": "Docker Basics",
+        "difficulty": "Medium"
+    },
+    {
+        "id": 11,
+        "question": "Why is Docker useful for developers?",
+        "category": "Docker Basics",
+        "difficulty": "Medium"
+    },
+    {
+        "id": 12,
+        "question": "What components are required to run a Docker container?",
+        "category": "Docker Basics",
+        "difficulty": "Medium"
+    },
+    {
+        "id": 13,
+        "question": "How does Docker improve application portability?",
+        "category": "Docker Basics",
+        "difficulty": "Medium"
+    },
+    {
+        "id": 14,
+        "question": "What operating systems are supported by Docker?",
+        "category": "Docker Basics",
+        "difficulty": "Medium"
+    },
+    {
+        "id": 15,
+        "question": "What is the Docker Engine?",
+        "category": "Docker Basics",
+        "difficulty": "Medium"
+    },
+    {
+        "id": 16,
+        "question": "How does Docker differ from a traditional virtual machine?",
+        "category": "Docker Basics",
+        "difficulty": "Hard"
+    },
+    {
+        "id": 17,
+        "question": "What is containerization?",
+        "category": "Docker Basics",
+        "difficulty": "Easy"
+    },
+    {
+        "id": 18,
+        "question": "Why is containerization important in modern software development?",
+        "category": "Docker Basics",
+        "difficulty": "Medium"
+    },
+    {
+        "id": 19,
+        "question": "What is the lifecycle of a Docker container?",
+        "category": "Docker Basics",
+        "difficulty": "Hard"
+    },
+    {
+        "id": 20,
+        "question": "How does Docker support cloud-native application development?",
+        "category": "Docker Basics",
+        "difficulty": "Hard"
+    }
+]

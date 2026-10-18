@@ -1,0 +1,58 @@
+# -----------------------------
+# Python
+# -----------------------------
+__pycache__/
+*.py[cod]
+*.so
+
+# -----------------------------
+# Virtual Environments
+# -----------------------------
+.venv/
+venv/
+env/
+
+# -----------------------------
+# VS Code
+# -----------------------------
+.vscode/
+
+# -----------------------------
+# Environment Variables
+# -----------------------------
+.env
+
+# -----------------------------
+# Logs
+# -----------------------------
+*.log
+
+# -----------------------------
+# Python Cache
+# -----------------------------
+.pytest_cache/
+.mypy_cache/
+
+# -----------------------------
+# Jupyter
+# -----------------------------
+.ipynb_checkpoints/
+
+# -----------------------------
+# Downloaded Documentation
+# -----------------------------
+datasets/raw_documents/
+
+# -----------------------------
+# Generated Data
+# -----------------------------
+datasets/processed_documents/
+datasets/chunks/
+datasets/evaluation/
+
+# -----------------------------
+# Vector Database
+# -----------------------------
+vector_db/
+# Local Qdrant database
+qdrant_storage/

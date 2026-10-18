@@ -1,0 +1,2199 @@
+[
+    {
+        "question_id": 1,
+        "question": "What is Docker?",
+        "candidate_chunks": [
+            {
+                "chunk_id": "de0a271f-c16c-47b5-8797-6e63f223506d",
+                "document_id": "b50bada1-b4c0-43f3-847d-1ecdc9fce535",
+                "source": "datasets/raw_documents/docker/content/get-started/get-docker.md",
+                "title": "Get Docker",
+                "section_heading": "Introduction",
+                "section_level": 0,
+                "chunk_index": 0,
+                "score": 0.8206,
+                "preview": "Docker is an open platform for developing, shipping, and running applications. Docker allows you to separate your applications from your infrastructure so you can deliver software quickly. With Docker, you can manage your infrastructure in the same ways you manage your applications. By taking advant"
+            },
+            {
+                "chunk_id": "4aa65779-9784-418d-972e-6ada00ec04ca",
+                "document_id": "4d961c97-1476-439c-87c7-ad9b776705ad",
+                "source": "datasets/raw_documents/docker/content/get-started/docker-overview.md",
+                "title": "What is Docker?",
+                "section_heading": "Docker Desktop",
+                "section_level": 3,
+                "chunk_index": 0,
+                "score": 0.8183,
+                "preview": "Docker Desktop is an easy-to-install application for your Mac, Windows, or Linux environment that enables you to build and share containerized applications and microservices. Docker Desktop includes the Docker daemon (`dockerd`), the Docker client (`docker`), Docker Compose, Docker Content Trust, Ku"
+            },
+            {
+                "chunk_id": "697c4534-44a8-4495-ac47-6f1d9be6a0ef",
+                "document_id": "4d961c97-1476-439c-87c7-ad9b776705ad",
+                "source": "datasets/raw_documents/docker/content/get-started/docker-overview.md",
+                "title": "What is Docker?",
+                "section_heading": "Next steps",
+                "section_level": 2,
+                "chunk_index": 0,
+                "score": 0.8081,
+                "preview": "- Install Docker - Get started with Docker"
+            },
+            {
+                "chunk_id": "1ce2eed5-2be7-46b2-b40c-85d53cccc7bb",
+                "document_id": "4d961c97-1476-439c-87c7-ad9b776705ad",
+                "source": "datasets/raw_documents/docker/content/get-started/docker-overview.md",
+                "title": "What is Docker?",
+                "section_heading": "Running more workloads on the same hardware",
+                "section_level": 3,
+                "chunk_index": 0,
+                "score": 0.7859,
+                "preview": "Docker is lightweight and fast. It provides a viable, cost-effective alternative to hypervisor-based virtual machines, so you can use more of your server capacity to achieve your business goals. Docker is perfect for high density environments and for small and medium deployments where you need to do"
+            },
+            {
+                "chunk_id": "14979b57-ef94-4222-a36c-f37336658318",
+                "document_id": "4d961c97-1476-439c-87c7-ad9b776705ad",
+                "source": "datasets/raw_documents/docker/content/get-started/docker-overview.md",
+                "title": "What is Docker?",
+                "section_heading": "The Docker client",
+                "section_level": 3,
+                "chunk_index": 0,
+                "score": 0.7719,
+                "preview": "The Docker client (`docker`) is the primary way that many Docker users interact with Docker. When you use commands such as `docker run`, the client sends these commands to `dockerd`, which carries them out. The `docker` command uses the Docker API. The Docker client can communicate with more than on"
+            },
+            {
+                "chunk_id": "830eeda9-ad9d-45ab-85b9-deeeb36c7c7e",
+                "document_id": "4d961c97-1476-439c-87c7-ad9b776705ad",
+                "source": "datasets/raw_documents/docker/content/get-started/docker-overview.md",
+                "title": "What is Docker?",
+                "section_heading": "The Docker platform",
+                "section_level": 2,
+                "chunk_index": 0,
+                "score": 0.7668,
+                "preview": "Docker provides the ability to package and run an application in a loosely isolated environment called a container. The isolation and security let you run many containers simultaneously on a given host. Containers are lightweight and contain everything needed to run the application, so you don't nee"
+            },
+            {
+                "chunk_id": "a2be0ce0-58ae-4ce5-80ff-621b34020ed6",
+                "document_id": "27730d34-a5bc-4c79-97f4-22fcfb5ef542",
+                "source": "datasets/raw_documents/docker/content/get-started/docker-concepts/building-images/writing-a-dockerfile.md",
+                "title": "Writing a Dockerfile",
+                "section_heading": "Explanation",
+                "section_level": 2,
+                "chunk_index": 0,
+                "score": 0.7655,
+                "preview": "A Dockerfile is a text-based document that's used to create a container image. It provides instructions to the image builder on the commands to run, files to copy, startup command, and more. As an example, the following Dockerfile would produce a ready-to-run Python application: ```dockerfile FROM p"
+            },
+            {
+                "chunk_id": "2a07d2b1-d350-4b42-8018-8c91bdde28b4",
+                "document_id": "4d961c97-1476-439c-87c7-ad9b776705ad",
+                "source": "datasets/raw_documents/docker/content/get-started/docker-overview.md",
+                "title": "What is Docker?",
+                "section_heading": "The underlying technology",
+                "section_level": 2,
+                "chunk_index": 0,
+                "score": 0.7502,
+                "preview": "Docker is written in the Go programming language and takes advantage of several features of the Linux kernel to deliver its functionality. Docker uses a technology called `namespaces` to provide the isolated workspace called the container. When you run a container, Docker creates a set of namespaces"
+            },
+            {
+                "chunk_id": "80f35a1e-bcc1-4b0d-9290-949d3e206e92",
+                "document_id": "4d961c97-1476-439c-87c7-ad9b776705ad",
+                "source": "datasets/raw_documents/docker/content/get-started/docker-overview.md",
+                "title": "What is Docker?",
+                "section_heading": "Responsive deployment and scaling",
+                "section_level": 3,
+                "chunk_index": 0,
+                "score": 0.7463,
+                "preview": "Docker's container-based platform allows for highly portable workloads. Docker containers can run on a developer's local laptop, on physical or virtual machines in a data center, on cloud providers, or in a mixture of environments. Docker's portability and lightweight nature also make it easy to dyn"
+            },
+            {
+                "chunk_id": "1128e88c-2ac1-47e0-b906-131542416b3d",
+                "document_id": "2756573b-e991-4668-9292-d14f5c2cbea7",
+                "source": "datasets/raw_documents/docker/content/guides/tensorflowjs.md",
+                "title": "Face detection with TensorFlow.js",
+                "section_heading": "Explore the Dockerfile",
+                "section_level": 2,
+                "chunk_index": 0,
+                "score": 0.7453,
+                "preview": "In a Docker-based project, the Dockerfile serves as the foundational asset for building your application's environment. A Dockerfile is a text file that instructs Docker how to create an image of your application's environment. An image contains everything you want and need when running application,"
+            }
+        ],
+        "status": "SUCCESS"
+    },
+    {
+        "question_id": 2,
+        "question": "What problem does Docker solve?",
+        "candidate_chunks": [
+            {
+                "chunk_id": "0a41da50-7470-4102-9dfa-4a6f0c913ba2",
+                "document_id": "c1570840-cdb5-4517-84c7-0f22dfee4c94",
+                "source": "datasets/raw_documents/docker/content/manuals/engine/release-notes/prior-releases.md",
+                "title": "Docker Engine prior releases",
+                "section_heading": "Runtime",
+                "section_level": 3,
+                "chunk_index": 0,
+                "score": 0.7687,
+                "preview": "- Fix a panic that could occur when cleanup after a container started with invalid parameters (#21716) - Fix a race with event timers stopping early (#21692) - Fix race conditions in the layer store, potentially corrupting the map and crashing the process (#21677) - Un-deprecate auto-creation of hos"
+            },
+            {
+                "chunk_id": "06eb2065-30f3-4fb6-a8c7-88ddcfe99eb1",
+                "document_id": "c1570840-cdb5-4517-84c7-0f22dfee4c94",
+                "source": "datasets/raw_documents/docker/content/manuals/engine/release-notes/prior-releases.md",
+                "title": "Docker Engine prior releases",
+                "section_heading": "Runtime",
+                "section_level": 3,
+                "chunk_index": 0,
+                "score": 0.7674,
+                "preview": "- Fix a potential panic when running `docker build` (#23032) - Fix interpretation of `--user` parameter (#22998) - Fix a bug preventing container statistics to be correctly reported (#22955) - Fix an issue preventing container to be restarted after daemon restart (#22947) - Fix issues when running 3"
+            },
+            {
+                "chunk_id": "d678492b-0e42-476e-a43e-382992e812a5",
+                "document_id": "c1570840-cdb5-4517-84c7-0f22dfee4c94",
+                "source": "datasets/raw_documents/docker/content/manuals/engine/release-notes/prior-releases.md",
+                "title": "Docker Engine prior releases",
+                "section_heading": "Runtime",
+                "section_level": 3,
+                "chunk_index": 0,
+                "score": 0.7662,
+                "preview": "* Fix size issue in `docker system df` #30378 * Fix error on `docker inspect` when Swarm certificates were expired. #29246 * Fix deadlock on v1 plugin with activate error #30408 * Fix SELinux regression #30649"
+            },
+            {
+                "chunk_id": "0ed621d8-bfb7-4c04-ba02-6662de251b20",
+                "document_id": "c1570840-cdb5-4517-84c7-0f22dfee4c94",
+                "source": "datasets/raw_documents/docker/content/manuals/engine/release-notes/prior-releases.md",
+                "title": "Docker Engine prior releases",
+                "section_heading": "Runtime",
+                "section_level": 3,
+                "chunk_index": 0,
+                "score": 0.7603,
+                "preview": "- Fix a bug preventing labels configuration to be reloaded via the config file (#22299) - Fix a regression where container mounting `/var/run` would prevent other containers from being removed (#22256) - Fix an issue where it would be impossible to update both `memory-swap` and `memory` value togeth"
+            },
+            {
+                "chunk_id": "3cef2833-35a8-4b11-956e-3003ffa35d27",
+                "document_id": "c1570840-cdb5-4517-84c7-0f22dfee4c94",
+                "source": "datasets/raw_documents/docker/content/manuals/engine/release-notes/prior-releases.md",
+                "title": "Docker Engine prior releases",
+                "section_heading": "Client",
+                "section_level": 3,
+                "chunk_index": 0,
+                "score": 0.7586,
+                "preview": "- Fix `docker login` on windows (#17738) - Fix bug with `docker inspect` output when not connected to daemon (#17715) - Fix `docker inspect -f {{.HostConfig.Dns}} somecontainer` (#17680)"
+            },
+            {
+                "chunk_id": "734b1e64-90e7-4fbc-b0ae-3d4b3749bd99",
+                "document_id": "c1570840-cdb5-4517-84c7-0f22dfee4c94",
+                "source": "datasets/raw_documents/docker/content/manuals/engine/release-notes/prior-releases.md",
+                "title": "Docker Engine prior releases",
+                "section_heading": "Networking",
+                "section_level": 3,
+                "chunk_index": 0,
+                "score": 0.7582,
+                "preview": "- Fix panic if a node is forcibly removed from the cluster (#21671) - Fix \"error creating vxlan interface\" when starting a container in a Swarm cluster (#21671) * `docker network inspect` will now report all endpoints whether they have an active container or not (#21160) + Experimental support for t"
+            },
+            {
+                "chunk_id": "697c4534-44a8-4495-ac47-6f1d9be6a0ef",
+                "document_id": "4d961c97-1476-439c-87c7-ad9b776705ad",
+                "source": "datasets/raw_documents/docker/content/get-started/docker-overview.md",
+                "title": "What is Docker?",
+                "section_heading": "Next steps",
+                "section_level": 2,
+                "chunk_index": 0,
+                "score": 0.7577,
+                "preview": "- Install Docker - Get started with Docker"
+            },
+            {
+                "chunk_id": "8e175097-48b7-4ddc-be16-a8051ead075a",
+                "document_id": "4c781450-d5f3-4148-b538-9f97fa993158",
+                "source": "datasets/raw_documents/docker/content/manuals/desktop/setup/install/linux/archlinux.md",
+                "title": "Install Docker Desktop on Arch-based distributions",
+                "section_heading": "Next steps",
+                "section_level": 2,
+                "chunk_index": 0,
+                "score": 0.7571,
+                "preview": "- Explore Docker's subscriptions to see what Docker can offer you. - Take a look at the Docker workshop to learn how to build an image and run it as a containerized application. - Explore Docker Desktop and all its features. - Troubleshooting describes common problems, workarounds, how to run and su"
+            },
+            {
+                "chunk_id": "4095f778-b1a2-4bae-b61d-d8f8118a183a",
+                "document_id": "c1570840-cdb5-4517-84c7-0f22dfee4c94",
+                "source": "datasets/raw_documents/docker/content/manuals/engine/release-notes/prior-releases.md",
+                "title": "Docker Engine prior releases",
+                "section_heading": "Runtime",
+                "section_level": 3,
+                "chunk_index": 0,
+                "score": 0.7536,
+                "preview": "- Fix deadlock in `docker ps -f exited=1` - Fix a bug when `--volumes-from` references a container that failed to start"
+            },
+            {
+                "chunk_id": "c47cb171-685b-49fe-ab40-e6687f2b999e",
+                "document_id": "c1570840-cdb5-4517-84c7-0f22dfee4c94",
+                "source": "datasets/raw_documents/docker/content/manuals/engine/release-notes/prior-releases.md",
+                "title": "Docker Engine prior releases",
+                "section_heading": "Runtime",
+                "section_level": 3,
+                "chunk_index": 0,
+                "score": 0.7511,
+                "preview": "- Fix a panic due to a race condition filtering `docker ps` #26049 * Implement retry logic to prevent \"Unable to remove filesystem\" errors when using the aufs storage driver #26536 * Prevent devicemapper from removing device symlinks if `dm.use_deferred_removal` is enabled #24740 - Fix an issue wher"
+            }
+        ],
+        "status": "SUCCESS"
+    },
+    {
+        "question_id": 3,
+        "question": "What are Docker containers?",
+        "candidate_chunks": [
+            {
+                "chunk_id": "4aa65779-9784-418d-972e-6ada00ec04ca",
+                "document_id": "4d961c97-1476-439c-87c7-ad9b776705ad",
+                "source": "datasets/raw_documents/docker/content/get-started/docker-overview.md",
+                "title": "What is Docker?",
+                "section_heading": "Docker Desktop",
+                "section_level": 3,
+                "chunk_index": 0,
+                "score": 0.7668,
+                "preview": "Docker Desktop is an easy-to-install application for your Mac, Windows, or Linux environment that enables you to build and share containerized applications and microservices. Docker Desktop includes the Docker daemon (`dockerd`), the Docker client (`docker`), Docker Compose, Docker Content Trust, Ku"
+            },
+            {
+                "chunk_id": "80f35a1e-bcc1-4b0d-9290-949d3e206e92",
+                "document_id": "4d961c97-1476-439c-87c7-ad9b776705ad",
+                "source": "datasets/raw_documents/docker/content/get-started/docker-overview.md",
+                "title": "What is Docker?",
+                "section_heading": "Responsive deployment and scaling",
+                "section_level": 3,
+                "chunk_index": 0,
+                "score": 0.7607,
+                "preview": "Docker's container-based platform allows for highly portable workloads. Docker containers can run on a developer's local laptop, on physical or virtual machines in a data center, on cloud providers, or in a mixture of environments. Docker's portability and lightweight nature also make it easy to dyn"
+            },
+            {
+                "chunk_id": "830eeda9-ad9d-45ab-85b9-deeeb36c7c7e",
+                "document_id": "4d961c97-1476-439c-87c7-ad9b776705ad",
+                "source": "datasets/raw_documents/docker/content/get-started/docker-overview.md",
+                "title": "What is Docker?",
+                "section_heading": "The Docker platform",
+                "section_level": 2,
+                "chunk_index": 0,
+                "score": 0.7575,
+                "preview": "Docker provides the ability to package and run an application in a loosely isolated environment called a container. The isolation and security let you run many containers simultaneously on a given host. Containers are lightweight and contain everything needed to run the application, so you don't nee"
+            },
+            {
+                "chunk_id": "9457a819-feed-4a46-9d41-0c4c3f00b07d",
+                "document_id": "978a7bd4-a9a9-41a4-bbd2-6b819b53803a",
+                "source": "datasets/raw_documents/docker/content/get-started/docker-concepts/the-basics/what-is-a-container.md",
+                "title": "What is a container?",
+                "section_heading": "Additional resources",
+                "section_level": 2,
+                "chunk_index": 0,
+                "score": 0.7563,
+                "preview": "The following links provide additional guidance into containers: - Running a container - Overview of container - Why Docker?"
+            },
+            {
+                "chunk_id": "70728325-c5b3-448e-8282-ea569124b43f",
+                "document_id": "4f875f30-c794-456a-a1f3-8ef0113e01cd",
+                "source": "datasets/raw_documents/docker/content/get-started/introduction/whats-next.md",
+                "title": "What's next",
+                "section_heading": "Building images",
+                "section_level": 2,
+                "chunk_index": 0,
+                "score": 0.7533,
+                "preview": "Craft optimized container images with Dockerfiles, build cache, and multi-stage builds. {{}}"
+            },
+            {
+                "chunk_id": "1a8b558b-2260-4623-a651-be474a97a8bd",
+                "document_id": "969c1d95-cf1a-487b-9eba-d591adbc1db1",
+                "source": "datasets/raw_documents/docker/content/manuals/testcontainers.md",
+                "title": "Testcontainers",
+                "section_heading": "Introduction",
+                "section_level": 0,
+                "chunk_index": 0,
+                "score": 0.7495,
+                "preview": "Testcontainers is a set of open source libraries that provides easy and lightweight APIs for bootstrapping local development and test dependencies with real services wrapped in Docker containers. Using Testcontainers, you can write tests that depend on the same services you use in production without"
+            },
+            {
+                "chunk_id": "697c4534-44a8-4495-ac47-6f1d9be6a0ef",
+                "document_id": "4d961c97-1476-439c-87c7-ad9b776705ad",
+                "source": "datasets/raw_documents/docker/content/get-started/docker-overview.md",
+                "title": "What is Docker?",
+                "section_heading": "Next steps",
+                "section_level": 2,
+                "chunk_index": 0,
+                "score": 0.7453,
+                "preview": "- Install Docker - Get started with Docker"
+            },
+            {
+                "chunk_id": "814a4ccd-2fc8-4413-a7ef-4214a81b9980",
+                "document_id": "4d961c97-1476-439c-87c7-ad9b776705ad",
+                "source": "datasets/raw_documents/docker/content/get-started/docker-overview.md",
+                "title": "What is Docker?",
+                "section_heading": "Containers",
+                "section_level": 4,
+                "chunk_index": 0,
+                "score": 0.7427,
+                "preview": "A container is a runnable instance of an image. You can create, start, stop, move, or delete a container using the Docker API or CLI. You can connect a container to one or more networks, attach storage to it, or even create a new image based on its current state. By default, a container is relativel"
+            },
+            {
+                "chunk_id": "4cf034a5-a35e-4b4c-a103-3e1f3fae9a13",
+                "document_id": "04bac824-182d-494b-9408-341c5735835e",
+                "source": "datasets/raw_documents/docker/content/manuals/build/buildkit/frontend.md",
+                "title": "Custom Dockerfile syntax",
+                "section_heading": "syntax=[remote image reference]",
+                "section_level": 1,
+                "chunk_index": 0,
+                "score": 0.7403,
+                "preview": "``` For example: ```dockerfile"
+            },
+            {
+                "chunk_id": "2a07d2b1-d350-4b42-8018-8c91bdde28b4",
+                "document_id": "4d961c97-1476-439c-87c7-ad9b776705ad",
+                "source": "datasets/raw_documents/docker/content/get-started/docker-overview.md",
+                "title": "What is Docker?",
+                "section_heading": "The underlying technology",
+                "section_level": 2,
+                "chunk_index": 0,
+                "score": 0.7369,
+                "preview": "Docker is written in the Go programming language and takes advantage of several features of the Linux kernel to deliver its functionality. Docker uses a technology called `namespaces` to provide the isolated workspace called the container. When you run a container, Docker creates a set of namespaces"
+            }
+        ],
+        "status": "SUCCESS"
+    },
+    {
+        "question_id": 4,
+        "question": "What is a Docker image?",
+        "candidate_chunks": [
+            {
+                "chunk_id": "d0e6425d-8052-4c5d-aac7-aa61315fe16f",
+                "document_id": "e4e455b3-7573-4b87-a3ad-2e4725381dde",
+                "source": "datasets/raw_documents/docker/content/manuals/docker-hub/image-library/trusted-content.md",
+                "title": "Trusted content",
+                "section_heading": "Docker Official Images",
+                "section_level": 2,
+                "chunk_index": 0,
+                "score": 0.7908,
+                "preview": "The Docker Official Images are a curated set of Docker repositories hosted on Docker Hub. Docker recommends you use the Docker Official Images in your projects. These images have clear documentation, promote best practices, and are regularly updated. Docker Official Images support most common use ca"
+            },
+            {
+                "chunk_id": "72ca7b0d-3e6f-4207-b6a8-d0f8dc2d20ae",
+                "document_id": "4d961c97-1476-439c-87c7-ad9b776705ad",
+                "source": "datasets/raw_documents/docker/content/get-started/docker-overview.md",
+                "title": "What is Docker?",
+                "section_heading": "Images",
+                "section_level": 4,
+                "chunk_index": 0,
+                "score": 0.7865,
+                "preview": "An image is a read-only template with instructions for creating a Docker container. Often, an image is based on another image, with some additional customization. For example, you may build an image that is based on the Ubuntu image but includes the Apache web server and your application, as well as"
+            },
+            {
+                "chunk_id": "d542ae44-4257-4efe-b887-2d0b43f6a899",
+                "document_id": "dcea4e3c-ba84-4be1-acec-b95b61a1a324",
+                "source": "datasets/raw_documents/docker/content/manuals/desktop/previous-versions/edge-releases-windows.md",
+                "title": "Docker Desktop for Windows Edge Release notes",
+                "section_heading": "New",
+                "section_level": 3,
+                "chunk_index": 0,
+                "score": 0.7851,
+                "preview": "- Docker Desktop introduces the new **Images** view to the Docker Dashboard. The Images view allows users to view a list of Docker images on the disk, run an image as a container, pull the latest version of an image from Docker Hub, inspect images, and remove any unwanted images from the disk. To ac"
+            },
+            {
+                "chunk_id": "9ef2bb8b-63d9-40ba-8718-89a09a93ba37",
+                "document_id": "978a7bd4-a9a9-41a4-bbd2-6b819b53803a",
+                "source": "datasets/raw_documents/docker/content/get-started/docker-concepts/the-basics/what-is-a-container.md",
+                "title": "What is a container?",
+                "section_heading": "Next steps",
+                "section_level": 2,
+                "chunk_index": 0,
+                "score": 0.7726,
+                "preview": "Now that you have learned the basics of a Docker container, it's time to learn about Docker images. {{}}"
+            },
+            {
+                "chunk_id": "a2be0ce0-58ae-4ce5-80ff-621b34020ed6",
+                "document_id": "27730d34-a5bc-4c79-97f4-22fcfb5ef542",
+                "source": "datasets/raw_documents/docker/content/get-started/docker-concepts/building-images/writing-a-dockerfile.md",
+                "title": "Writing a Dockerfile",
+                "section_heading": "Explanation",
+                "section_level": 2,
+                "chunk_index": 0,
+                "score": 0.7695,
+                "preview": "A Dockerfile is a text-based document that's used to create a container image. It provides instructions to the image builder on the commands to run, files to copy, startup command, and more. As an example, the following Dockerfile would produce a ready-to-run Python application: ```dockerfile FROM p"
+            },
+            {
+                "chunk_id": "d07bf21a-de1a-4de2-8176-4ee1e7751517",
+                "document_id": "04bac824-182d-494b-9408-341c5735835e",
+                "source": "datasets/raw_documents/docker/content/manuals/build/buildkit/frontend.md",
+                "title": "Custom Dockerfile syntax",
+                "section_heading": "Official releases",
+                "section_level": 2,
+                "chunk_index": 0,
+                "score": 0.7654,
+                "preview": "Docker distributes official versions of the images that can be used for building Dockerfiles under `docker/dockerfile` repository on Docker Hub. There are two channels where new images are released: `stable` and `labs`."
+            },
+            {
+                "chunk_id": "d6223c2b-c3b7-4e55-be72-59138f772947",
+                "document_id": "0d33938d-6d68-4b55-abe3-d36459890bde",
+                "source": "datasets/raw_documents/docker/content/manuals/ai/gordon/use-cases.md",
+                "title": "Gordon use cases and examples",
+                "section_heading": "Inspect an image",
+                "section_level": 2,
+                "chunk_index": 0,
+                "score": 0.7652,
+                "preview": "You're in the Images view and want to understand what's in an image before running it, or you want to size up a base image: - \"How do I run this image in the CLI?\" - \"What environment variables are configured?\" - \"What entrypoint is configured?\" - \"What's the base architecture of this image?\" - \"Is "
+            },
+            {
+                "chunk_id": "4cf034a5-a35e-4b4c-a103-3e1f3fae9a13",
+                "document_id": "04bac824-182d-494b-9408-341c5735835e",
+                "source": "datasets/raw_documents/docker/content/manuals/build/buildkit/frontend.md",
+                "title": "Custom Dockerfile syntax",
+                "section_heading": "syntax=[remote image reference]",
+                "section_level": 1,
+                "chunk_index": 0,
+                "score": 0.7623,
+                "preview": "``` For example: ```dockerfile"
+            },
+            {
+                "chunk_id": "c5b08d88-beae-4713-9bf8-9011779f363e",
+                "document_id": "d3315d55-9f32-4394-8b21-7b0591f500b2",
+                "source": "datasets/raw_documents/docker/content/manuals/build-cloud/optimization.md",
+                "title": "Optimize for building in the cloud",
+                "section_heading": "Slim base images",
+                "section_level": 3,
+                "chunk_index": 0,
+                "score": 0.7616,
+                "preview": "Selecting smaller images for your `FROM` instructions in your Dockerfile can help reduce the size of the final image. The Alpine image is a good example of a minimal Docker image that provides all of the OS utilities you would expect from a Linux container. There’s also the special `scratch` image, "
+            },
+            {
+                "chunk_id": "4aa65779-9784-418d-972e-6ada00ec04ca",
+                "document_id": "4d961c97-1476-439c-87c7-ad9b776705ad",
+                "source": "datasets/raw_documents/docker/content/get-started/docker-overview.md",
+                "title": "What is Docker?",
+                "section_heading": "Docker Desktop",
+                "section_level": 3,
+                "chunk_index": 0,
+                "score": 0.7597,
+                "preview": "Docker Desktop is an easy-to-install application for your Mac, Windows, or Linux environment that enables you to build and share containerized applications and microservices. Docker Desktop includes the Docker daemon (`dockerd`), the Docker client (`docker`), Docker Compose, Docker Content Trust, Ku"
+            }
+        ],
+        "status": "SUCCESS"
+    },
+    {
+        "question_id": 5,
+        "question": "What is the difference between a Docker image and a Docker container?",
+        "candidate_chunks": [
+            {
+                "chunk_id": "72ca7b0d-3e6f-4207-b6a8-d0f8dc2d20ae",
+                "document_id": "4d961c97-1476-439c-87c7-ad9b776705ad",
+                "source": "datasets/raw_documents/docker/content/get-started/docker-overview.md",
+                "title": "What is Docker?",
+                "section_heading": "Images",
+                "section_level": 4,
+                "chunk_index": 0,
+                "score": 0.7698,
+                "preview": "An image is a read-only template with instructions for creating a Docker container. Often, an image is based on another image, with some additional customization. For example, you may build an image that is based on the Ubuntu image but includes the Apache web server and your application, as well as"
+            },
+            {
+                "chunk_id": "814a4ccd-2fc8-4413-a7ef-4214a81b9980",
+                "document_id": "4d961c97-1476-439c-87c7-ad9b776705ad",
+                "source": "datasets/raw_documents/docker/content/get-started/docker-overview.md",
+                "title": "What is Docker?",
+                "section_heading": "Containers",
+                "section_level": 4,
+                "chunk_index": 0,
+                "score": 0.7598,
+                "preview": "A container is a runnable instance of an image. You can create, start, stop, move, or delete a container using the Docker API or CLI. You can connect a container to one or more networks, attach storage to it, or even create a new image based on its current state. By default, a container is relativel"
+            },
+            {
+                "chunk_id": "9ef2bb8b-63d9-40ba-8718-89a09a93ba37",
+                "document_id": "978a7bd4-a9a9-41a4-bbd2-6b819b53803a",
+                "source": "datasets/raw_documents/docker/content/get-started/docker-concepts/the-basics/what-is-a-container.md",
+                "title": "What is a container?",
+                "section_heading": "Next steps",
+                "section_level": 2,
+                "chunk_index": 0,
+                "score": 0.7595,
+                "preview": "Now that you have learned the basics of a Docker container, it's time to learn about Docker images. {{}}"
+            },
+            {
+                "chunk_id": "c2f5b49b-a6b9-4c6d-a01f-388e767c9a8b",
+                "document_id": "9bbca246-1b3f-4651-b1e5-349ad67e57e7",
+                "source": "datasets/raw_documents/docker/content/manuals/build/policies/validate-images.md",
+                "title": "Validating image inputs",
+                "section_heading": "What are image inputs?",
+                "section_level": 2,
+                "chunk_index": 0,
+                "score": 0.7568,
+                "preview": "Image inputs come from two Dockerfile instructions: ```dockerfile"
+            },
+            {
+                "chunk_id": "d07bf21a-de1a-4de2-8176-4ee1e7751517",
+                "document_id": "04bac824-182d-494b-9408-341c5735835e",
+                "source": "datasets/raw_documents/docker/content/manuals/build/buildkit/frontend.md",
+                "title": "Custom Dockerfile syntax",
+                "section_heading": "Official releases",
+                "section_level": 2,
+                "chunk_index": 0,
+                "score": 0.7525,
+                "preview": "Docker distributes official versions of the images that can be used for building Dockerfiles under `docker/dockerfile` repository on Docker Hub. There are two channels where new images are released: `stable` and `labs`."
+            },
+            {
+                "chunk_id": "d6223c2b-c3b7-4e55-be72-59138f772947",
+                "document_id": "0d33938d-6d68-4b55-abe3-d36459890bde",
+                "source": "datasets/raw_documents/docker/content/manuals/ai/gordon/use-cases.md",
+                "title": "Gordon use cases and examples",
+                "section_heading": "Inspect an image",
+                "section_level": 2,
+                "chunk_index": 0,
+                "score": 0.7514,
+                "preview": "You're in the Images view and want to understand what's in an image before running it, or you want to size up a base image: - \"How do I run this image in the CLI?\" - \"What environment variables are configured?\" - \"What entrypoint is configured?\" - \"What's the base architecture of this image?\" - \"Is "
+            },
+            {
+                "chunk_id": "56898da2-98fa-42a0-a10d-c8a393056f05",
+                "document_id": "9e738da8-589a-494c-94ca-9f189404e7e6",
+                "source": "datasets/raw_documents/docker/content/manuals/build/concepts/dockerfile.md",
+                "title": "Dockerfile overview",
+                "section_heading": "Dockerfile",
+                "section_level": 2,
+                "chunk_index": 0,
+                "score": 0.7364,
+                "preview": "It all starts with a Dockerfile. Docker builds images by reading the instructions from a Dockerfile. A Dockerfile is a text file containing instructions for building your source code. The Dockerfile instruction syntax is defined by the specification reference in the Dockerfile reference. Here are th"
+            },
+            {
+                "chunk_id": "d0e6425d-8052-4c5d-aac7-aa61315fe16f",
+                "document_id": "e4e455b3-7573-4b87-a3ad-2e4725381dde",
+                "source": "datasets/raw_documents/docker/content/manuals/docker-hub/image-library/trusted-content.md",
+                "title": "Trusted content",
+                "section_heading": "Docker Official Images",
+                "section_level": 2,
+                "chunk_index": 0,
+                "score": 0.7355,
+                "preview": "The Docker Official Images are a curated set of Docker repositories hosted on Docker Hub. Docker recommends you use the Docker Official Images in your projects. These images have clear documentation, promote best practices, and are regularly updated. Docker Official Images support most common use ca"
+            },
+            {
+                "chunk_id": "9457a819-feed-4a46-9d41-0c4c3f00b07d",
+                "document_id": "978a7bd4-a9a9-41a4-bbd2-6b819b53803a",
+                "source": "datasets/raw_documents/docker/content/get-started/docker-concepts/the-basics/what-is-a-container.md",
+                "title": "What is a container?",
+                "section_heading": "Additional resources",
+                "section_level": 2,
+                "chunk_index": 0,
+                "score": 0.733,
+                "preview": "The following links provide additional guidance into containers: - Running a container - Overview of container - Why Docker?"
+            },
+            {
+                "chunk_id": "a52672d6-e768-4a65-9eb6-fe548d487361",
+                "document_id": "4d961c97-1476-439c-87c7-ad9b776705ad",
+                "source": "datasets/raw_documents/docker/content/get-started/docker-overview.md",
+                "title": "What is Docker?",
+                "section_heading": "Docker architecture",
+                "section_level": 2,
+                "chunk_index": 0,
+                "score": 0.7319,
+                "preview": "Docker uses a client-server architecture. The Docker client talks to the Docker daemon, which does the heavy lifting of building, running, and distributing your Docker containers. The Docker client and daemon can run on the same system, or you can connect a Docker client to a remote Docker daemon. T"
+            }
+        ],
+        "status": "SUCCESS"
+    },
+    {
+        "question_id": 6,
+        "question": "How does Docker isolate applications?",
+        "candidate_chunks": [
+            {
+                "chunk_id": "830eeda9-ad9d-45ab-85b9-deeeb36c7c7e",
+                "document_id": "4d961c97-1476-439c-87c7-ad9b776705ad",
+                "source": "datasets/raw_documents/docker/content/get-started/docker-overview.md",
+                "title": "What is Docker?",
+                "section_heading": "The Docker platform",
+                "section_level": 2,
+                "chunk_index": 0,
+                "score": 0.7625,
+                "preview": "Docker provides the ability to package and run an application in a loosely isolated environment called a container. The isolation and security let you run many containers simultaneously on a given host. Containers are lightweight and contain everything needed to run the application, so you don't nee"
+            },
+            {
+                "chunk_id": "85de3f9d-e70c-4d16-bb8b-b1f0c2a35836",
+                "document_id": "407386f8-9bfb-4f15-a43e-885890ccea53",
+                "source": "datasets/raw_documents/docker/content/manuals/enterprise/security/hardened-desktop/air-gapped-containers.md",
+                "title": "Air-gapped containers",
+                "section_heading": "Next steps",
+                "section_level": 2,
+                "chunk_index": 0,
+                "score": 0.7526,
+                "preview": "- Explore Enhanced Container Isolation to further restrict what containers can do at runtime - Understand how Docker Desktop handles host and container networking"
+            },
+            {
+                "chunk_id": "f96c65da-7dcf-49e1-92fd-7028ca334cfe",
+                "document_id": "dcea4e3c-ba84-4be1-acec-b95b61a1a324",
+                "source": "datasets/raw_documents/docker/content/manuals/desktop/previous-versions/edge-releases-windows.md",
+                "title": "Docker Desktop for Windows Edge Release notes",
+                "section_heading": "Beta 22 Release (2016-08-11 1.12.0-beta22)",
+                "section_level": 3,
+                "chunk_index": 0,
+                "score": 0.7351,
+                "preview": "Unreleased. See Beta 23 for changes. **Known issues** * Docker automatically disables lingering net adapters. The only way to remove them is manually using `devmgmt.msc` as documented in Troubleshooting."
+            },
+            {
+                "chunk_id": "b6d0c254-1b14-4ae6-9283-e5f6ad912065",
+                "document_id": "a7123184-40e7-494e-8094-e8da8ea9549c",
+                "source": "datasets/raw_documents/docker/content/manuals/desktop/troubleshoot-and-support/troubleshoot/topics.md",
+                "title": "Troubleshoot topics for Docker Desktop",
+                "section_heading": "`com.docker.vmnetd` is still running after I quit the app",
+                "section_level": 3,
+                "chunk_index": 0,
+                "score": 0.7342,
+                "preview": "The privileged helper process `com.docker.vmnetd` is started by `launchd` and runs in the background. The process does not consume any resources unless `Docker.app` connects to it, so it's safe to ignore."
+            },
+            {
+                "chunk_id": "7ac9045d-d977-4d7b-819b-36e03782aadd",
+                "document_id": "09494375-86d4-445f-b1f8-d1e92bb4415a",
+                "source": "datasets/raw_documents/docker/content/manuals/ai/model-runner/openwebui-integration.md",
+                "title": "Open WebUI integration",
+                "section_heading": "Docker Desktop",
+                "section_level": 3,
+                "chunk_index": 0,
+                "score": 0.7244,
+                "preview": "On Docker Desktop, `host.docker.internal` automatically resolves to the host machine. The previous example works without modification."
+            },
+            {
+                "chunk_id": "23f83396-7234-4376-aca9-236c426916d8",
+                "document_id": "566aed5b-ba37-4129-af67-07cdd25600d4",
+                "source": "datasets/raw_documents/docker/content/get-started/docker-concepts/running-containers/sharing-local-files.md",
+                "title": "Sharing local files with containers",
+                "section_heading": "Explanation",
+                "section_level": 2,
+                "chunk_index": 0,
+                "score": 0.7243,
+                "preview": "Each container has everything it needs to function with no reliance on any pre-installed dependencies on the host machine. Since containers run in isolation, they have minimal influence on the host and other containers. This isolation has a major benefit: containers minimize conflicts with the host "
+            },
+            {
+                "chunk_id": "4fd51bca-6418-4be6-bc8d-91318e13f79e",
+                "document_id": "27bd437f-581a-4b52-857a-efbb2911c735",
+                "source": "datasets/raw_documents/docker/content/manuals/enterprise/security/hardened-desktop/enhanced-container-isolation/limitations.md",
+                "title": "Enhanced Container Isolation limitations",
+                "section_heading": "WSL 2 security considerations",
+                "section_level": 2,
+                "chunk_index": 1,
+                "score": 0.7183,
+                "preview": "kernel settings that affect Docker Desktop's security."
+            },
+            {
+                "chunk_id": "88191fef-44f0-4daa-ad83-17c7193c2c47",
+                "document_id": "87c61eb9-ee7d-4436-aa17-e63a5ef29b09",
+                "source": "datasets/raw_documents/docker/content/reference/api/engine/sdk/examples.md",
+                "title": "Examples using the Docker Engine SDKs and Docker API",
+                "section_heading": "Run a container in the background",
+                "section_level": 2,
+                "chunk_index": 0,
+                "score": 0.7154,
+                "preview": "You can also run containers in the background, the equivalent of typing `docker run -d bfirsh/reticulate-splines`: {{}} {{}} ```go package main import ( \"context\" \"fmt\" \"io\" \"log\" \"os\" \"github.com/moby/moby/client\" ) func main() { ctx := context.Background() apiClient, err := client.New(client.FromE"
+            },
+            {
+                "chunk_id": "50d914f6-2c33-4b09-bc50-25226b372c64",
+                "document_id": "c1570840-cdb5-4517-84c7-0f22dfee4c94",
+                "source": "datasets/raw_documents/docker/content/manuals/engine/release-notes/prior-releases.md",
+                "title": "Docker Engine prior releases",
+                "section_heading": "Hack",
+                "section_level": 3,
+                "chunk_index": 0,
+                "score": 0.7149,
+                "preview": "+ Allow client-side only integration tests for Windows * Include docker-py integration tests against Docker daemon as part of our test suites"
+            },
+            {
+                "chunk_id": "56bdd996-c78b-459e-933f-b2ad535b83cc",
+                "document_id": "c1570840-cdb5-4517-84c7-0f22dfee4c94",
+                "source": "datasets/raw_documents/docker/content/manuals/engine/release-notes/prior-releases.md",
+                "title": "Docker Engine prior releases",
+                "section_heading": "Remote API",
+                "section_level": 3,
+                "chunk_index": 0,
+                "score": 0.7145,
+                "preview": "+ Introducing Remote API + control Docker programmatically using a simple HTTP/json API"
+            }
+        ],
+        "status": "SUCCESS"
+    },
+    {
+        "question_id": 7,
+        "question": "Why are Docker containers considered lightweight?",
+        "candidate_chunks": [
+            {
+                "chunk_id": "1ce2eed5-2be7-46b2-b40c-85d53cccc7bb",
+                "document_id": "4d961c97-1476-439c-87c7-ad9b776705ad",
+                "source": "datasets/raw_documents/docker/content/get-started/docker-overview.md",
+                "title": "What is Docker?",
+                "section_heading": "Running more workloads on the same hardware",
+                "section_level": 3,
+                "chunk_index": 0,
+                "score": 0.7795,
+                "preview": "Docker is lightweight and fast. It provides a viable, cost-effective alternative to hypervisor-based virtual machines, so you can use more of your server capacity to achieve your business goals. Docker is perfect for high density environments and for small and medium deployments where you need to do"
+            },
+            {
+                "chunk_id": "80f35a1e-bcc1-4b0d-9290-949d3e206e92",
+                "document_id": "4d961c97-1476-439c-87c7-ad9b776705ad",
+                "source": "datasets/raw_documents/docker/content/get-started/docker-overview.md",
+                "title": "What is Docker?",
+                "section_heading": "Responsive deployment and scaling",
+                "section_level": 3,
+                "chunk_index": 0,
+                "score": 0.7653,
+                "preview": "Docker's container-based platform allows for highly portable workloads. Docker containers can run on a developer's local laptop, on physical or virtual machines in a data center, on cloud providers, or in a mixture of environments. Docker's portability and lightweight nature also make it easy to dyn"
+            },
+            {
+                "chunk_id": "830eeda9-ad9d-45ab-85b9-deeeb36c7c7e",
+                "document_id": "4d961c97-1476-439c-87c7-ad9b776705ad",
+                "source": "datasets/raw_documents/docker/content/get-started/docker-overview.md",
+                "title": "What is Docker?",
+                "section_heading": "The Docker platform",
+                "section_level": 2,
+                "chunk_index": 0,
+                "score": 0.7454,
+                "preview": "Docker provides the ability to package and run an application in a loosely isolated environment called a container. The isolation and security let you run many containers simultaneously on a given host. Containers are lightweight and contain everything needed to run the application, so you don't nee"
+            },
+            {
+                "chunk_id": "70728325-c5b3-448e-8282-ea569124b43f",
+                "document_id": "4f875f30-c794-456a-a1f3-8ef0113e01cd",
+                "source": "datasets/raw_documents/docker/content/get-started/introduction/whats-next.md",
+                "title": "What's next",
+                "section_heading": "Building images",
+                "section_level": 2,
+                "chunk_index": 0,
+                "score": 0.7216,
+                "preview": "Craft optimized container images with Dockerfiles, build cache, and multi-stage builds. {{}}"
+            },
+            {
+                "chunk_id": "e6a34d72-e5f4-46ab-b58d-2cfb585e4206",
+                "document_id": "139912ab-b402-4486-b38c-e7767ca19615",
+                "source": "datasets/raw_documents/docker/content/manuals/dhi/explore/what.md",
+                "title": "What are hardened images and why use them?",
+                "section_heading": "Introduction",
+                "section_level": 0,
+                "chunk_index": 0,
+                "score": 0.7012,
+                "preview": "In today’s diverse software environments, container images are often designed for flexibility and broad compatibility. While that makes them ideal for many use cases, it can also result in images that include more components than needed for specific workloads. Docker Hardened Images take a minimal-b"
+            }
+        ],
+        "status": "SUCCESS"
+    },
+    {
+        "question_id": 8,
+        "question": "Can multiple Docker containers run on the same host?",
+        "candidate_chunks": [
+            {
+                "chunk_id": "7ac9045d-d977-4d7b-819b-36e03782aadd",
+                "document_id": "09494375-86d4-445f-b1f8-d1e92bb4415a",
+                "source": "datasets/raw_documents/docker/content/manuals/ai/model-runner/openwebui-integration.md",
+                "title": "Open WebUI integration",
+                "section_heading": "Docker Desktop",
+                "section_level": 3,
+                "chunk_index": 0,
+                "score": 0.7211,
+                "preview": "On Docker Desktop, `host.docker.internal` automatically resolves to the host machine. The previous example works without modification."
+            },
+            {
+                "chunk_id": "830eeda9-ad9d-45ab-85b9-deeeb36c7c7e",
+                "document_id": "4d961c97-1476-439c-87c7-ad9b776705ad",
+                "source": "datasets/raw_documents/docker/content/get-started/docker-overview.md",
+                "title": "What is Docker?",
+                "section_heading": "The Docker platform",
+                "section_level": 2,
+                "chunk_index": 0,
+                "score": 0.7186,
+                "preview": "Docker provides the ability to package and run an application in a loosely isolated environment called a container. The isolation and security let you run many containers simultaneously on a given host. Containers are lightweight and contain everything needed to run the application, so you don't nee"
+            },
+            {
+                "chunk_id": "dffec9c7-e7aa-449c-82c8-cce33952e2cf",
+                "document_id": "804e590a-f9ba-4de4-914b-a17d641ebcbc",
+                "source": "datasets/raw_documents/docker/content/get-started/docker-concepts/the-basics/what-is-docker-compose.md",
+                "title": "What is Docker Compose?",
+                "section_heading": "Explanation",
+                "section_level": 2,
+                "chunk_index": 0,
+                "score": 0.7183,
+                "preview": "If you've been following the guides so far, you've been working with single container applications. But, now you're wanting to do something more complicated - run databases, message queues, caches, or a variety of other services. Do you install everything in a single container? Run multiple containe"
+            },
+            {
+                "chunk_id": "c5824d3c-3c60-4aed-a128-3a107a5c6ae4",
+                "document_id": "2fa23373-bb63-4f1b-b686-f63ed048c139",
+                "source": "datasets/raw_documents/docker/content/manuals/ai/model-runner/inference-engines.md",
+                "title": "Inference engines",
+                "section_heading": "Running multiple engines",
+                "section_level": 2,
+                "chunk_index": 0,
+                "score": 0.7071,
+                "preview": "You can run llama.cpp, vLLM, and Diffusers simultaneously. Docker Model Runner routes requests to the appropriate engine based on the model or explicit engine selection. Check which engines are running: ```console $ docker model status Docker Model Runner is running Status: llama.cpp: running llama."
+            },
+            {
+                "chunk_id": "b53af080-44a9-41c5-bb3f-0f24107867b7",
+                "document_id": "c1570840-cdb5-4517-84c7-0f22dfee4c94",
+                "source": "datasets/raw_documents/docker/content/manuals/engine/release-notes/prior-releases.md",
+                "title": "Docker Engine prior releases",
+                "section_heading": "Runtime",
+                "section_level": 3,
+                "chunk_index": 0,
+                "score": 0.7054,
+                "preview": "* Improve detection of kernel version + Host directories can be mounted as volumes with 'docker run -b' - fix an issue when only attaching to stdin * Use 'tar --numeric-owner' to avoid uid mismatch across multiple hosts"
+            },
+            {
+                "chunk_id": "f4115531-ad53-49d9-911b-3fb113037fdb",
+                "document_id": "8a5e6ca8-4f48-4c39-80d8-c9be216c9373",
+                "source": "datasets/raw_documents/docker/content/manuals/desktop/setup/install/windows-permission-requirements.md",
+                "title": "Understand permission requirements for Windows",
+                "section_heading": "Containers running as root within the Linux VM",
+                "section_level": 2,
+                "chunk_index": 0,
+                "score": 0.7049,
+                "preview": "The Linux Docker daemon and containers run in a minimal, special-purpose Linux VM managed by Docker. It is immutable so you can’t extend it or change the installed software. This means that although containers run by default as `root`, this doesn't allow altering the VM and doesn't grant `Administra"
+            },
+            {
+                "chunk_id": "63e6c1f3-f1cf-4f0a-b364-372d72e0fa9a",
+                "document_id": "4f0dc832-c851-4035-8dc0-4dd2756733c0",
+                "source": "datasets/raw_documents/docker/content/manuals/engine/swarm/swarm-tutorial/scale-service.md",
+                "title": "Scale the service in the swarm",
+                "section_heading": "Introduction",
+                "section_level": 0,
+                "chunk_index": 1,
+                "score": 0.7049,
+                "preview": "minute ago Up About a minute helloworld.4.auky6trawmdlcne8ad8phb0f1 ``` If you want to see the containers running on other nodes, ssh into those nodes and run the `docker ps` command."
+            },
+            {
+                "chunk_id": "80f35a1e-bcc1-4b0d-9290-949d3e206e92",
+                "document_id": "4d961c97-1476-439c-87c7-ad9b776705ad",
+                "source": "datasets/raw_documents/docker/content/get-started/docker-overview.md",
+                "title": "What is Docker?",
+                "section_heading": "Responsive deployment and scaling",
+                "section_level": 3,
+                "chunk_index": 0,
+                "score": 0.7039,
+                "preview": "Docker's container-based platform allows for highly portable workloads. Docker containers can run on a developer's local laptop, on physical or virtual machines in a data center, on cloud providers, or in a mixture of environments. Docker's portability and lightweight nature also make it easy to dyn"
+            }
+        ],
+        "status": "SUCCESS"
+    },
+    {
+        "question_id": 9,
+        "question": "What is the Docker platform?",
+        "candidate_chunks": [
+            {
+                "chunk_id": "4aa65779-9784-418d-972e-6ada00ec04ca",
+                "document_id": "4d961c97-1476-439c-87c7-ad9b776705ad",
+                "source": "datasets/raw_documents/docker/content/get-started/docker-overview.md",
+                "title": "What is Docker?",
+                "section_heading": "Docker Desktop",
+                "section_level": 3,
+                "chunk_index": 0,
+                "score": 0.8015,
+                "preview": "Docker Desktop is an easy-to-install application for your Mac, Windows, or Linux environment that enables you to build and share containerized applications and microservices. Docker Desktop includes the Docker daemon (`dockerd`), the Docker client (`docker`), Docker Compose, Docker Content Trust, Ku"
+            },
+            {
+                "chunk_id": "de0a271f-c16c-47b5-8797-6e63f223506d",
+                "document_id": "b50bada1-b4c0-43f3-847d-1ecdc9fce535",
+                "source": "datasets/raw_documents/docker/content/get-started/get-docker.md",
+                "title": "Get Docker",
+                "section_heading": "Introduction",
+                "section_level": 0,
+                "chunk_index": 0,
+                "score": 0.8007,
+                "preview": "Docker is an open platform for developing, shipping, and running applications. Docker allows you to separate your applications from your infrastructure so you can deliver software quickly. With Docker, you can manage your infrastructure in the same ways you manage your applications. By taking advant"
+            },
+            {
+                "chunk_id": "80f35a1e-bcc1-4b0d-9290-949d3e206e92",
+                "document_id": "4d961c97-1476-439c-87c7-ad9b776705ad",
+                "source": "datasets/raw_documents/docker/content/get-started/docker-overview.md",
+                "title": "What is Docker?",
+                "section_heading": "Responsive deployment and scaling",
+                "section_level": 3,
+                "chunk_index": 0,
+                "score": 0.7632,
+                "preview": "Docker's container-based platform allows for highly portable workloads. Docker containers can run on a developer's local laptop, on physical or virtual machines in a data center, on cloud providers, or in a mixture of environments. Docker's portability and lightweight nature also make it easy to dyn"
+            },
+            {
+                "chunk_id": "697c4534-44a8-4495-ac47-6f1d9be6a0ef",
+                "document_id": "4d961c97-1476-439c-87c7-ad9b776705ad",
+                "source": "datasets/raw_documents/docker/content/get-started/docker-overview.md",
+                "title": "What is Docker?",
+                "section_heading": "Next steps",
+                "section_level": 2,
+                "chunk_index": 0,
+                "score": 0.7556,
+                "preview": "- Install Docker - Get started with Docker"
+            },
+            {
+                "chunk_id": "da2c1be5-c4f3-457e-8014-04e1f593dd35",
+                "document_id": "a7123184-40e7-494e-8094-e8da8ea9549c",
+                "source": "datasets/raw_documents/docker/content/manuals/desktop/troubleshoot-and-support/troubleshoot/topics.md",
+                "title": "Troubleshoot topics for Docker Desktop",
+                "section_heading": "Cause",
+                "section_level": 4,
+                "chunk_index": 0,
+                "score": 0.745,
+                "preview": "Docker Desktop requires a processor (CPU) that supports virtualization and, more specifically, the [Apple Hypervisor framework](https://developer.apple.com/library/mac/documentation/DriversKernelHardware/Reference/Hypervisor/)."
+            },
+            {
+                "chunk_id": "0828f162-d5d5-4767-9ff3-bd0b41bd8bb7",
+                "document_id": "4113d7d2-8ebb-49f7-b51c-ae0a78253b15",
+                "source": "datasets/raw_documents/docker/content/reference/compose-file/services.md",
+                "title": "Define services in Docker Compose",
+                "section_heading": "`platform`",
+                "section_level": 3,
+                "chunk_index": 0,
+                "score": 0.7446,
+                "preview": "`platform` defines the target platform the containers for the service run on. It uses the `os[/arch[/variant]]` syntax. The values of `os`, `arch`, and `variant` must conform to the convention used by the OCI Image Spec. Compose uses this attribute to determine which version of the image is pulled a"
+            },
+            {
+                "chunk_id": "1ce2eed5-2be7-46b2-b40c-85d53cccc7bb",
+                "document_id": "4d961c97-1476-439c-87c7-ad9b776705ad",
+                "source": "datasets/raw_documents/docker/content/get-started/docker-overview.md",
+                "title": "What is Docker?",
+                "section_heading": "Running more workloads on the same hardware",
+                "section_level": 3,
+                "chunk_index": 0,
+                "score": 0.7336,
+                "preview": "Docker is lightweight and fast. It provides a viable, cost-effective alternative to hypervisor-based virtual machines, so you can use more of your server capacity to achieve your business goals. Docker is perfect for high density environments and for small and medium deployments where you need to do"
+            },
+            {
+                "chunk_id": "e2514636-19db-44f5-8af2-218b437fbd25",
+                "document_id": "ad14a014-5dc9-40e6-bc0f-76e85aea4436",
+                "source": "datasets/raw_documents/docker/content/manuals/ai/mcp-catalog-and-toolkit/toolkit.md",
+                "title": "Docker MCP Toolkit",
+                "section_heading": "Introduction",
+                "section_level": 0,
+                "chunk_index": 0,
+                "score": 0.7305,
+                "preview": "{{}} > [!NOTE] > This page describes the MCP Toolkit interface in Docker Desktop 4.62 and > later. Earlier versions have a different UI. Upgrade to follow these > instructions exactly. The Docker MCP Toolkit is a management interface integrated into Docker Desktop that lets you set up, manage, and r"
+            },
+            {
+                "chunk_id": "830eeda9-ad9d-45ab-85b9-deeeb36c7c7e",
+                "document_id": "4d961c97-1476-439c-87c7-ad9b776705ad",
+                "source": "datasets/raw_documents/docker/content/get-started/docker-overview.md",
+                "title": "What is Docker?",
+                "section_heading": "The Docker platform",
+                "section_level": 2,
+                "chunk_index": 0,
+                "score": 0.7283,
+                "preview": "Docker provides the ability to package and run an application in a loosely isolated environment called a container. The isolation and security let you run many containers simultaneously on a given host. Containers are lightweight and contain everything needed to run the application, so you don't nee"
+            },
+            {
+                "chunk_id": "12102f3d-7c66-4b53-a4a9-e6973722ae65",
+                "document_id": "df718950-77a6-4e9c-8375-b07461b3269f",
+                "source": "datasets/raw_documents/docker/content/manuals/desktop/setup/vm-vdi.md",
+                "title": "Run Docker Desktop for Windows in a VM or VDI environment",
+                "section_heading": "Additional resources",
+                "section_level": 2,
+                "chunk_index": 0,
+                "score": 0.7281,
+                "preview": "- Docker Desktop on Microsoft Dev Box"
+            }
+        ],
+        "status": "SUCCESS"
+    },
+    {
+        "question_id": 10,
+        "question": "How does Docker simplify software deployment?",
+        "candidate_chunks": [
+            {
+                "chunk_id": "7b6edd5c-19af-4fe1-8069-5abb2761512c",
+                "document_id": "28e6221f-6aef-471a-808c-dc53aa5411e6",
+                "source": "datasets/raw_documents/docker/content/manuals/scout/quickstart.md",
+                "title": "Docker Scout quickstart",
+                "section_heading": "Step 7: View in Dashboard",
+                "section_level": 2,
+                "chunk_index": 1,
+                "score": 0.7582,
+                "preview": "GitHub Dependabot with `package-ecosystem: \"docker\"` to automate base image updates."
+            },
+            {
+                "chunk_id": "70728325-c5b3-448e-8282-ea569124b43f",
+                "document_id": "4f875f30-c794-456a-a1f3-8ef0113e01cd",
+                "source": "datasets/raw_documents/docker/content/get-started/introduction/whats-next.md",
+                "title": "What's next",
+                "section_heading": "Building images",
+                "section_level": 2,
+                "chunk_index": 0,
+                "score": 0.7418,
+                "preview": "Craft optimized container images with Dockerfiles, build cache, and multi-stage builds. {{}}"
+            },
+            {
+                "chunk_id": "830eeda9-ad9d-45ab-85b9-deeeb36c7c7e",
+                "document_id": "4d961c97-1476-439c-87c7-ad9b776705ad",
+                "source": "datasets/raw_documents/docker/content/get-started/docker-overview.md",
+                "title": "What is Docker?",
+                "section_heading": "The Docker platform",
+                "section_level": 2,
+                "chunk_index": 0,
+                "score": 0.7401,
+                "preview": "Docker provides the ability to package and run an application in a loosely isolated environment called a container. The isolation and security let you run many containers simultaneously on a given host. Containers are lightweight and contain everything needed to run the application, so you don't nee"
+            },
+            {
+                "chunk_id": "4d36b3d5-edbb-4183-96d6-ed1bd023e9fa",
+                "document_id": "c1570840-cdb5-4517-84c7-0f22dfee4c94",
+                "source": "datasets/raw_documents/docker/content/manuals/engine/release-notes/prior-releases.md",
+                "title": "Docker Engine prior releases",
+                "section_heading": "0.1.1 (2013-03-31)",
+                "section_level": 2,
+                "chunk_index": 0,
+                "score": 0.7383,
+                "preview": "- Display shorthand IDs for convenience - Stabilize process management - Layers can include a commit message - Simplified 'docker attach' - Fix support for re-attaching - Various bugfixes and stability improvements - Auto-download at run - Auto-login on push - Beefed up documentation"
+            },
+            {
+                "chunk_id": "e13c6434-6d74-4885-8b47-4596f4cbd401",
+                "document_id": "c1570840-cdb5-4517-84c7-0f22dfee4c94",
+                "source": "datasets/raw_documents/docker/content/manuals/engine/release-notes/prior-releases.md",
+                "title": "Docker Engine prior releases",
+                "section_heading": "Hack",
+                "section_level": 3,
+                "chunk_index": 0,
+                "score": 0.7292,
+                "preview": "* Simplify unit tests with helpers * Improve docker.upstart event * Add coverage testing into docker-ci"
+            },
+            {
+                "chunk_id": "de0a271f-c16c-47b5-8797-6e63f223506d",
+                "document_id": "b50bada1-b4c0-43f3-847d-1ecdc9fce535",
+                "source": "datasets/raw_documents/docker/content/get-started/get-docker.md",
+                "title": "Get Docker",
+                "section_heading": "Introduction",
+                "section_level": 0,
+                "chunk_index": 0,
+                "score": 0.7269,
+                "preview": "Docker is an open platform for developing, shipping, and running applications. Docker allows you to separate your applications from your infrastructure so you can deliver software quickly. With Docker, you can manage your infrastructure in the same ways you manage your applications. By taking advant"
+            },
+            {
+                "chunk_id": "c2591852-b906-4a3e-9d98-4bcc8f907fdc",
+                "document_id": "c1570840-cdb5-4517-84c7-0f22dfee4c94",
+                "source": "datasets/raw_documents/docker/content/manuals/engine/release-notes/prior-releases.md",
+                "title": "Docker Engine prior releases",
+                "section_heading": "0.1.2 (2013-04-03)",
+                "section_level": 2,
+                "chunk_index": 0,
+                "score": 0.7216,
+                "preview": "- Set container hostname with 'docker run -h' - Selective attach at run with 'docker run -a [stdin[,stdout[,stderr]]]' - Various bugfixes and stability improvements - UI polish - Progress bar on push/pull - Use XZ compression by default - Make IP allocator lazy"
+            },
+            {
+                "chunk_id": "cab226f8-cc65-4fa1-a41c-4b519f5c8def",
+                "document_id": "08109cec-cd2b-4898-b9a5-7168f4ec0fc7",
+                "source": "datasets/raw_documents/docker/content/get-started/introduction/develop-with-containers.md",
+                "title": "Develop with containers",
+                "section_heading": "Next steps",
+                "section_level": 2,
+                "chunk_index": 0,
+                "score": 0.7202,
+                "preview": "Now that the application has been updated, you’re ready to learn about packaging it as a container image and pushing it to a registry, specifically Docker Hub. {{}}"
+            },
+            {
+                "chunk_id": "85854283-fcd4-4705-bfb1-051765fab741",
+                "document_id": "08109cec-cd2b-4898-b9a5-7168f4ec0fc7",
+                "source": "datasets/raw_documents/docker/content/get-started/introduction/develop-with-containers.md",
+                "title": "Develop with containers",
+                "section_heading": "Recap",
+                "section_level": 2,
+                "chunk_index": 0,
+                "score": 0.7202,
+                "preview": "Before you move on, take a moment and reflect on what happened here. Within a few moments, you were able to: - Start a complete development project with zero installation effort. The containerized environment provided the development environment, ensuring you have everything you need. You didn't hav"
+            },
+            {
+                "chunk_id": "8a712ce9-a78d-41ac-a289-d0d782c39a08",
+                "document_id": "c1570840-cdb5-4517-84c7-0f22dfee4c94",
+                "source": "datasets/raw_documents/docker/content/manuals/engine/release-notes/prior-releases.md",
+                "title": "Docker Engine prior releases",
+                "section_heading": "0.2.1 (2013-05-01)",
+                "section_level": 2,
+                "chunk_index": 0,
+                "score": 0.716,
+                "preview": "+ 'docker commit -run' bundles a layer with default runtime options: command, ports etc. * Improve install process on Vagrant + New Dockerfile operation: \"maintainer\" + New Dockerfile operation: \"expose\" + New Dockerfile operation: \"cmd\" + Contrib script to build a Debian base layer + 'docker -d -r'"
+            }
+        ],
+        "status": "SUCCESS"
+    },
+    {
+        "question_id": 11,
+        "question": "Why is Docker useful for developers?",
+        "candidate_chunks": [
+            {
+                "chunk_id": "26bea447-9ba2-4f27-b514-0e52d256d7ad",
+                "document_id": "4d961c97-1476-439c-87c7-ad9b776705ad",
+                "source": "datasets/raw_documents/docker/content/get-started/docker-overview.md",
+                "title": "What is Docker?",
+                "section_heading": "Fast, consistent delivery of your applications",
+                "section_level": 3,
+                "chunk_index": 0,
+                "score": 0.8168,
+                "preview": "Docker streamlines the development lifecycle by allowing developers to work in standardized environments using local containers which provide your applications and services. Containers are great for continuous integration and continuous delivery (CI/CD) workflows. Consider the following example scen"
+            },
+            {
+                "chunk_id": "78cbb191-b91a-49d2-886f-0c1290191e51",
+                "document_id": "f7febd52-6cd1-4d2d-a6d8-36dbfdd337cf",
+                "source": "datasets/raw_documents/docker/content/get-started/introduction/build-and-push-first-image.md",
+                "title": "Build and push your first image",
+                "section_heading": "Next steps",
+                "section_level": 2,
+                "chunk_index": 0,
+                "score": 0.7905,
+                "preview": "Now that you’ve built an image, it's time to discuss why you as a developer should learn more about Docker and how it will help you in your day-to-day tasks. {{}}"
+            },
+            {
+                "chunk_id": "de0a271f-c16c-47b5-8797-6e63f223506d",
+                "document_id": "b50bada1-b4c0-43f3-847d-1ecdc9fce535",
+                "source": "datasets/raw_documents/docker/content/get-started/get-docker.md",
+                "title": "Get Docker",
+                "section_heading": "Introduction",
+                "section_level": 0,
+                "chunk_index": 0,
+                "score": 0.7896,
+                "preview": "Docker is an open platform for developing, shipping, and running applications. Docker allows you to separate your applications from your infrastructure so you can deliver software quickly. With Docker, you can manage your infrastructure in the same ways you manage your applications. By taking advant"
+            },
+            {
+                "chunk_id": "1ce2eed5-2be7-46b2-b40c-85d53cccc7bb",
+                "document_id": "4d961c97-1476-439c-87c7-ad9b776705ad",
+                "source": "datasets/raw_documents/docker/content/get-started/docker-overview.md",
+                "title": "What is Docker?",
+                "section_heading": "Running more workloads on the same hardware",
+                "section_level": 3,
+                "chunk_index": 0,
+                "score": 0.7719,
+                "preview": "Docker is lightweight and fast. It provides a viable, cost-effective alternative to hypervisor-based virtual machines, so you can use more of your server capacity to achieve your business goals. Docker is perfect for high density environments and for small and medium deployments where you need to do"
+            },
+            {
+                "chunk_id": "80f35a1e-bcc1-4b0d-9290-949d3e206e92",
+                "document_id": "4d961c97-1476-439c-87c7-ad9b776705ad",
+                "source": "datasets/raw_documents/docker/content/get-started/docker-overview.md",
+                "title": "What is Docker?",
+                "section_heading": "Responsive deployment and scaling",
+                "section_level": 3,
+                "chunk_index": 0,
+                "score": 0.7604,
+                "preview": "Docker's container-based platform allows for highly portable workloads. Docker containers can run on a developer's local laptop, on physical or virtual machines in a data center, on cloud providers, or in a mixture of environments. Docker's portability and lightweight nature also make it easy to dyn"
+            },
+            {
+                "chunk_id": "830eeda9-ad9d-45ab-85b9-deeeb36c7c7e",
+                "document_id": "4d961c97-1476-439c-87c7-ad9b776705ad",
+                "source": "datasets/raw_documents/docker/content/get-started/docker-overview.md",
+                "title": "What is Docker?",
+                "section_heading": "The Docker platform",
+                "section_level": 2,
+                "chunk_index": 0,
+                "score": 0.7539,
+                "preview": "Docker provides the ability to package and run an application in a loosely isolated environment called a container. The isolation and security let you run many containers simultaneously on a given host. Containers are lightweight and contain everything needed to run the application, so you don't nee"
+            },
+            {
+                "chunk_id": "85854283-fcd4-4705-bfb1-051765fab741",
+                "document_id": "08109cec-cd2b-4898-b9a5-7168f4ec0fc7",
+                "source": "datasets/raw_documents/docker/content/get-started/introduction/develop-with-containers.md",
+                "title": "Develop with containers",
+                "section_heading": "Recap",
+                "section_level": 2,
+                "chunk_index": 0,
+                "score": 0.7533,
+                "preview": "Before you move on, take a moment and reflect on what happened here. Within a few moments, you were able to: - Start a complete development project with zero installation effort. The containerized environment provided the development environment, ensuring you have everything you need. You didn't hav"
+            },
+            {
+                "chunk_id": "04abe4e1-6380-449e-8cfb-324675e8e6bb",
+                "document_id": "f2a66afc-693a-4c9c-88b8-88ab2d4bba1f",
+                "source": "datasets/raw_documents/docker/content/get-started/introduction/get-docker-desktop.md",
+                "title": "Get Docker Desktop",
+                "section_heading": "What's next?",
+                "section_level": 2,
+                "chunk_index": 0,
+                "score": 0.7499,
+                "preview": "Now that you have Docker Desktop installed and ran your first container, it's time to start developing with containers. {{}}"
+            },
+            {
+                "chunk_id": "673f3eb9-db05-4952-b95d-6135d78d05cf",
+                "document_id": "3492d629-5ad5-4ad2-9d56-2920d2e54669",
+                "source": "datasets/raw_documents/docker/content/get-started/workshop/10_what_next.md",
+                "title": "What next after the Docker workshop",
+                "section_heading": "Build with AI",
+                "section_level": 2,
+                "chunk_index": 0,
+                "score": 0.7473,
+                "preview": "Docker makes it easy to run AI models locally and build agentic AI applications. Explore Docker's AI tools and start building AI-powered apps. {{}}"
+            },
+            {
+                "chunk_id": "697c4534-44a8-4495-ac47-6f1d9be6a0ef",
+                "document_id": "4d961c97-1476-439c-87c7-ad9b776705ad",
+                "source": "datasets/raw_documents/docker/content/get-started/docker-overview.md",
+                "title": "What is Docker?",
+                "section_heading": "Next steps",
+                "section_level": 2,
+                "chunk_index": 0,
+                "score": 0.7422,
+                "preview": "- Install Docker - Get started with Docker"
+            }
+        ],
+        "status": "SUCCESS"
+    },
+    {
+        "question_id": 12,
+        "question": "What components are required to run a Docker container?",
+        "candidate_chunks": [
+            {
+                "chunk_id": "4ef8f660-d4b1-4749-8624-542c6ff97e35",
+                "document_id": "a7123184-40e7-494e-8094-e8da8ea9549c",
+                "source": "datasets/raw_documents/docker/content/manuals/desktop/troubleshoot-and-support/troubleshoot/topics.md",
+                "title": "Troubleshoot topics for Docker Desktop",
+                "section_heading": "Solutions",
+                "section_level": 4,
+                "chunk_index": 0,
+                "score": 0.753,
+                "preview": "Your machine must have the following features for Docker Desktop to function correctly:"
+            },
+            {
+                "chunk_id": "a399825b-74a1-4dd9-9909-ef4e1d53a285",
+                "document_id": "b3a6dfff-5c1d-430f-aedd-83c0660ffd54",
+                "source": "datasets/raw_documents/docker/content/manuals/engine/security/trust/trust_sandbox.md",
+                "title": "Play in a content trust sandbox",
+                "section_heading": "Prerequisites",
+                "section_level": 2,
+                "chunk_index": 0,
+                "score": 0.7452,
+                "preview": "These instructions assume you are running in Linux or macOS. You can run this sandbox on a local machine or on a virtual machine. You need to have privileges to run docker commands on your local machine or in the VM. This sandbox requires you to install two Docker tools: Docker Engine >= 1.10.0 and "
+            },
+            {
+                "chunk_id": "9457a819-feed-4a46-9d41-0c4c3f00b07d",
+                "document_id": "978a7bd4-a9a9-41a4-bbd2-6b819b53803a",
+                "source": "datasets/raw_documents/docker/content/get-started/docker-concepts/the-basics/what-is-a-container.md",
+                "title": "What is a container?",
+                "section_heading": "Additional resources",
+                "section_level": 2,
+                "chunk_index": 0,
+                "score": 0.7407,
+                "preview": "The following links provide additional guidance into containers: - Running a container - Overview of container - Why Docker?"
+            },
+            {
+                "chunk_id": "697c4534-44a8-4495-ac47-6f1d9be6a0ef",
+                "document_id": "4d961c97-1476-439c-87c7-ad9b776705ad",
+                "source": "datasets/raw_documents/docker/content/get-started/docker-overview.md",
+                "title": "What is Docker?",
+                "section_heading": "Next steps",
+                "section_level": 2,
+                "chunk_index": 0,
+                "score": 0.7379,
+                "preview": "- Install Docker - Get started with Docker"
+            },
+            {
+                "chunk_id": "6edad898-77c5-4e8f-85d1-d82e8aaa70b7",
+                "document_id": "c1570840-cdb5-4517-84c7-0f22dfee4c94",
+                "source": "datasets/raw_documents/docker/content/manuals/engine/release-notes/prior-releases.md",
+                "title": "Docker Engine prior releases",
+                "section_heading": "Builder",
+                "section_level": 3,
+                "chunk_index": 0,
+                "score": 0.7373,
+                "preview": "+ Implement the autorun capability within docker builder + Add caching to docker builder + Add support for docker builder with native API as top level command + Implement ENV within docker builder - Check the command existence prior create and add Unit tests for the case * use any whitespaces instea"
+            },
+            {
+                "chunk_id": "8a712ce9-a78d-41ac-a289-d0d782c39a08",
+                "document_id": "c1570840-cdb5-4517-84c7-0f22dfee4c94",
+                "source": "datasets/raw_documents/docker/content/manuals/engine/release-notes/prior-releases.md",
+                "title": "Docker Engine prior releases",
+                "section_heading": "0.2.1 (2013-05-01)",
+                "section_level": 2,
+                "chunk_index": 0,
+                "score": 0.7353,
+                "preview": "+ 'docker commit -run' bundles a layer with default runtime options: command, ports etc. * Improve install process on Vagrant + New Dockerfile operation: \"maintainer\" + New Dockerfile operation: \"expose\" + New Dockerfile operation: \"cmd\" + Contrib script to build a Debian base layer + 'docker -d -r'"
+            },
+            {
+                "chunk_id": "92a71a75-8974-4e27-a979-75c57463bbbd",
+                "document_id": "27bd437f-581a-4b52-857a-efbb2911c735",
+                "source": "datasets/raw_documents/docker/content/manuals/enterprise/security/hardened-desktop/enhanced-container-isolation/limitations.md",
+                "title": "Enhanced Container Isolation limitations",
+                "section_heading": "Recommendation",
+                "section_level": 3,
+                "chunk_index": 0,
+                "score": 0.7319,
+                "preview": "Use `docker-container` build driver for builds requiring these features: ```console $ docker buildx create --driver docker-container --use $ docker buildx build --network=host . ```"
+            },
+            {
+                "chunk_id": "bf6caa99-d6c5-4136-8dbd-54cd8d05247c",
+                "document_id": "566aed5b-ba37-4129-af67-07cdd25600d4",
+                "source": "datasets/raw_documents/docker/content/get-started/docker-concepts/running-containers/sharing-local-files.md",
+                "title": "Sharing local files with containers",
+                "section_heading": "Run a container",
+                "section_level": 3,
+                "chunk_index": 0,
+                "score": 0.7283,
+                "preview": "1. Download and install Docker Desktop. 2. Start a container using the httpd image with the following command: ```console $ docker run -d -p 8080:80 --name my_site httpd:2.4 ``` This will start the `httpd` service in the background, and publish the webpage to port `8080` on the host. 3. Open the bro"
+            },
+            {
+                "chunk_id": "a48d1d96-6dd2-4a6b-91be-9a76bf013048",
+                "document_id": "c1570840-cdb5-4517-84c7-0f22dfee4c94",
+                "source": "datasets/raw_documents/docker/content/manuals/engine/release-notes/prior-releases.md",
+                "title": "Docker Engine prior releases",
+                "section_heading": "0.2.2 (2013-05-03)",
+                "section_level": 2,
+                "chunk_index": 0,
+                "score": 0.7238,
+                "preview": "+ Support for data volumes ('docker run -v=PATH') + Share data volumes between containers ('docker run -volumes-from') + Improve documentation * Upgrade to Go 1.0.3 * Various upgrades to the dev environment for contributors"
+            },
+            {
+                "chunk_id": "c2c056df-ca3b-42f8-939e-2438b20748f7",
+                "document_id": "dd968b93-6b99-48c5-bf6d-ea4bcce5251e",
+                "source": "datasets/raw_documents/docker/content/guides/genai-claude-code-mcp/claude-code-mcp-guide.md",
+                "title": "Generate Docker Compose Files with Claude Code and Docker MCP Toolkit",
+                "section_heading": "9. Run the Docker Compose stack",
+                "section_level": 2,
+                "chunk_index": 0,
+                "score": 0.7194,
+                "preview": "From your project root: ```console $ docker compose up ``` Docker will: - Pull the Node and Postgres images selected through Docker Hub MCP - Create networks and volumes - Start the containers Open your browser: ```console http://localhost:3000 ``` Your Node.js app should now be running. ---"
+            }
+        ],
+        "status": "SUCCESS"
+    },
+    {
+        "question_id": 13,
+        "question": "How does Docker improve application portability?",
+        "candidate_chunks": [
+            {
+                "chunk_id": "80f35a1e-bcc1-4b0d-9290-949d3e206e92",
+                "document_id": "4d961c97-1476-439c-87c7-ad9b776705ad",
+                "source": "datasets/raw_documents/docker/content/get-started/docker-overview.md",
+                "title": "What is Docker?",
+                "section_heading": "Responsive deployment and scaling",
+                "section_level": 3,
+                "chunk_index": 0,
+                "score": 0.7785,
+                "preview": "Docker's container-based platform allows for highly portable workloads. Docker containers can run on a developer's local laptop, on physical or virtual machines in a data center, on cloud providers, or in a mixture of environments. Docker's portability and lightweight nature also make it easy to dyn"
+            },
+            {
+                "chunk_id": "a48d1d96-6dd2-4a6b-91be-9a76bf013048",
+                "document_id": "c1570840-cdb5-4517-84c7-0f22dfee4c94",
+                "source": "datasets/raw_documents/docker/content/manuals/engine/release-notes/prior-releases.md",
+                "title": "Docker Engine prior releases",
+                "section_heading": "0.2.2 (2013-05-03)",
+                "section_level": 2,
+                "chunk_index": 0,
+                "score": 0.763,
+                "preview": "+ Support for data volumes ('docker run -v=PATH') + Share data volumes between containers ('docker run -volumes-from') + Improve documentation * Upgrade to Go 1.0.3 * Various upgrades to the dev environment for contributors"
+            },
+            {
+                "chunk_id": "c2591852-b906-4a3e-9d98-4bcc8f907fdc",
+                "document_id": "c1570840-cdb5-4517-84c7-0f22dfee4c94",
+                "source": "datasets/raw_documents/docker/content/manuals/engine/release-notes/prior-releases.md",
+                "title": "Docker Engine prior releases",
+                "section_heading": "0.1.2 (2013-04-03)",
+                "section_level": 2,
+                "chunk_index": 0,
+                "score": 0.7591,
+                "preview": "- Set container hostname with 'docker run -h' - Selective attach at run with 'docker run -a [stdin[,stdout[,stderr]]]' - Various bugfixes and stability improvements - UI polish - Progress bar on push/pull - Use XZ compression by default - Make IP allocator lazy"
+            },
+            {
+                "chunk_id": "49fb1535-291b-47f3-a70e-b7c4a5bd9ee0",
+                "document_id": "c1570840-cdb5-4517-84c7-0f22dfee4c94",
+                "source": "datasets/raw_documents/docker/content/manuals/engine/release-notes/prior-releases.md",
+                "title": "Docker Engine prior releases",
+                "section_heading": "0.1.7 (2013-04-18)",
+                "section_level": 2,
+                "chunk_index": 0,
+                "score": 0.7487,
+                "preview": "- Container ports are available on localhost - 'docker ps' shows allocated TCP ports - Contributors can run 'make hack' to start a continuous integration VM - Streamline ubuntu packaging & uploading - Various bugfixes and stability improvements"
+            },
+            {
+                "chunk_id": "830eeda9-ad9d-45ab-85b9-deeeb36c7c7e",
+                "document_id": "4d961c97-1476-439c-87c7-ad9b776705ad",
+                "source": "datasets/raw_documents/docker/content/get-started/docker-overview.md",
+                "title": "What is Docker?",
+                "section_heading": "The Docker platform",
+                "section_level": 2,
+                "chunk_index": 0,
+                "score": 0.7445,
+                "preview": "Docker provides the ability to package and run an application in a loosely isolated environment called a container. The isolation and security let you run many containers simultaneously on a given host. Containers are lightweight and contain everything needed to run the application, so you don't nee"
+            },
+            {
+                "chunk_id": "cab226f8-cc65-4fa1-a41c-4b519f5c8def",
+                "document_id": "08109cec-cd2b-4898-b9a5-7168f4ec0fc7",
+                "source": "datasets/raw_documents/docker/content/get-started/introduction/develop-with-containers.md",
+                "title": "Develop with containers",
+                "section_heading": "Next steps",
+                "section_level": 2,
+                "chunk_index": 0,
+                "score": 0.7435,
+                "preview": "Now that the application has been updated, you’re ready to learn about packaging it as a container image and pushing it to a registry, specifically Docker Hub. {{}}"
+            },
+            {
+                "chunk_id": "70728325-c5b3-448e-8282-ea569124b43f",
+                "document_id": "4f875f30-c794-456a-a1f3-8ef0113e01cd",
+                "source": "datasets/raw_documents/docker/content/get-started/introduction/whats-next.md",
+                "title": "What's next",
+                "section_heading": "Building images",
+                "section_level": 2,
+                "chunk_index": 0,
+                "score": 0.738,
+                "preview": "Craft optimized container images with Dockerfiles, build cache, and multi-stage builds. {{}}"
+            },
+            {
+                "chunk_id": "de0a271f-c16c-47b5-8797-6e63f223506d",
+                "document_id": "b50bada1-b4c0-43f3-847d-1ecdc9fce535",
+                "source": "datasets/raw_documents/docker/content/get-started/get-docker.md",
+                "title": "Get Docker",
+                "section_heading": "Introduction",
+                "section_level": 0,
+                "chunk_index": 0,
+                "score": 0.7368,
+                "preview": "Docker is an open platform for developing, shipping, and running applications. Docker allows you to separate your applications from your infrastructure so you can deliver software quickly. With Docker, you can manage your infrastructure in the same ways you manage your applications. By taking advant"
+            },
+            {
+                "chunk_id": "90298bf3-cd45-4cbb-bb38-4b8a695c7699",
+                "document_id": "c1570840-cdb5-4517-84c7-0f22dfee4c94",
+                "source": "datasets/raw_documents/docker/content/manuals/engine/release-notes/prior-releases.md",
+                "title": "Docker Engine prior releases",
+                "section_heading": "Hack",
+                "section_level": 3,
+                "chunk_index": 0,
+                "score": 0.7327,
+                "preview": "* Add vagrant user to the docker group * Add proper bash completion for \"docker push\" * Add xz utils as a runtime dep * Add cleanup/refactor portion of #2010 for hack and Dockerfile updates + Add contrib/mkimage-centos.sh back (from #1621), and associated documentation link * Add several of the smal"
+            },
+            {
+                "chunk_id": "131feb37-41da-43ea-8800-aa809cfda1a1",
+                "document_id": "c1570840-cdb5-4517-84c7-0f22dfee4c94",
+                "source": "datasets/raw_documents/docker/content/manuals/engine/release-notes/prior-releases.md",
+                "title": "Docker Engine prior releases",
+                "section_heading": "Distribution",
+                "section_level": 3,
+                "chunk_index": 0,
+                "score": 0.7316,
+                "preview": "* Use content-addressable storage for images and layers #17924 A migration is performed the first time docker is run; it can take a significant amount of time depending on the number of images and containers present. Images no longer depend on the parent chain but contain a list of layer references."
+            }
+        ],
+        "status": "SUCCESS"
+    },
+    {
+        "question_id": 14,
+        "question": "What operating systems are supported by Docker?",
+        "candidate_chunks": [
+            {
+                "chunk_id": "9d4a4762-5e4b-48e5-89bb-5ed86fe8f0e8",
+                "document_id": "8232adec-a729-4727-abc1-753819f466dc",
+                "source": "datasets/raw_documents/docker/content/manuals/desktop/troubleshoot-and-support/faqs/windowsfaqs.md",
+                "title": "FAQs for Docker Desktop for Windows",
+                "section_heading": "Can I run Docker Desktop on Windows Server?",
+                "section_level": 3,
+                "chunk_index": 0,
+                "score": 0.7745,
+                "preview": "No, running Docker Desktop on Windows Server is not supported."
+            },
+            {
+                "chunk_id": "4ef8f660-d4b1-4749-8624-542c6ff97e35",
+                "document_id": "a7123184-40e7-494e-8094-e8da8ea9549c",
+                "source": "datasets/raw_documents/docker/content/manuals/desktop/troubleshoot-and-support/troubleshoot/topics.md",
+                "title": "Troubleshoot topics for Docker Desktop",
+                "section_heading": "Solutions",
+                "section_level": 4,
+                "chunk_index": 0,
+                "score": 0.755,
+                "preview": "Your machine must have the following features for Docker Desktop to function correctly:"
+            },
+            {
+                "chunk_id": "247c7dfa-d3e7-430e-b3a3-46f9c70508db",
+                "document_id": "8232adec-a729-4727-abc1-753819f466dc",
+                "source": "datasets/raw_documents/docker/content/manuals/desktop/troubleshoot-and-support/faqs/windowsfaqs.md",
+                "title": "FAQs for Docker Desktop for Windows",
+                "section_heading": "Why is Windows 10 or Windows 11 required?",
+                "section_level": 3,
+                "chunk_index": 0,
+                "score": 0.7533,
+                "preview": "Docker Desktop uses the Windows Hyper-V features. While older Windows versions have Hyper-V, their Hyper-V implementations lack features critical for Docker Desktop to work."
+            },
+            {
+                "chunk_id": "da2c1be5-c4f3-457e-8014-04e1f593dd35",
+                "document_id": "a7123184-40e7-494e-8094-e8da8ea9549c",
+                "source": "datasets/raw_documents/docker/content/manuals/desktop/troubleshoot-and-support/troubleshoot/topics.md",
+                "title": "Troubleshoot topics for Docker Desktop",
+                "section_heading": "Cause",
+                "section_level": 4,
+                "chunk_index": 0,
+                "score": 0.7474,
+                "preview": "Docker Desktop requires a processor (CPU) that supports virtualization and, more specifically, the [Apple Hypervisor framework](https://developer.apple.com/library/mac/documentation/DriversKernelHardware/Reference/Hypervisor/)."
+            },
+            {
+                "chunk_id": "f1f67fd2-b375-4774-a020-c230d82de605",
+                "document_id": "8232adec-a729-4727-abc1-753819f466dc",
+                "source": "datasets/raw_documents/docker/content/manuals/desktop/troubleshoot-and-support/faqs/windowsfaqs.md",
+                "title": "FAQs for Docker Desktop for Windows",
+                "section_heading": "Can I use VirtualBox alongside Docker Desktop?",
+                "section_level": 3,
+                "chunk_index": 0,
+                "score": 0.7443,
+                "preview": "Yes, you can run VirtualBox along with Docker Desktop if you have enabled the Windows Hypervisor Platform feature on your machine."
+            },
+            {
+                "chunk_id": "a650a79d-501c-42db-b2ac-b3fab1f66bc3",
+                "document_id": "df718950-77a6-4e9c-8375-b07461b3269f",
+                "source": "datasets/raw_documents/docker/content/manuals/desktop/setup/vm-vdi.md",
+                "title": "Run Docker Desktop for Windows in a VM or VDI environment",
+                "section_heading": "Introduction",
+                "section_level": 0,
+                "chunk_index": 0,
+                "score": 0.741,
+                "preview": "Docker recommends running Docker Desktop natively on Mac, Linux, or Windows. However, Docker Desktop for Windows can run inside a virtual desktop provided the virtual desktop is properly configured. To run Docker Desktop in a virtual desktop environment, you have two options, depending on whether ne"
+            },
+            {
+                "chunk_id": "99d5bfdb-5671-4b6b-aab5-0ceb4b03ca1d",
+                "document_id": "2fa23373-bb63-4f1b-b686-f63ed048c139",
+                "source": "datasets/raw_documents/docker/content/manuals/ai/model-runner/inference-engines.md",
+                "title": "Inference engines",
+                "section_heading": "Install an engine",
+                "section_level": 3,
+                "chunk_index": 0,
+                "score": 0.7342,
+                "preview": "```console $ docker model install-runner --backend [--gpu ] ``` Options: - `--backend`: `llama.cpp`, `vllm`, or `diffusers` - `--gpu`: `cuda`, `rocm`, `vulkan`, or `metal` (depends on platform)"
+            },
+            {
+                "chunk_id": "697c4534-44a8-4495-ac47-6f1d9be6a0ef",
+                "document_id": "4d961c97-1476-439c-87c7-ad9b776705ad",
+                "source": "datasets/raw_documents/docker/content/get-started/docker-overview.md",
+                "title": "What is Docker?",
+                "section_heading": "Next steps",
+                "section_level": 2,
+                "chunk_index": 0,
+                "score": 0.7319,
+                "preview": "- Install Docker - Get started with Docker"
+            },
+            {
+                "chunk_id": "bcea1a29-7404-4de7-ae96-5238b95e31eb",
+                "document_id": "2fa23373-bb63-4f1b-b686-f63ed048c139",
+                "source": "datasets/raw_documents/docker/content/manuals/ai/model-runner/inference-engines.md",
+                "title": "Inference engines",
+                "section_heading": "vLLM won't start",
+                "section_level": 3,
+                "chunk_index": 0,
+                "score": 0.726,
+                "preview": "1. Verify NVIDIA GPU is available: ```console $ nvidia-smi ``` 2. Check Docker has GPU access: ```console $ docker run --rm --gpus all nvidia/cuda:12.0-base nvidia-smi ``` 3. Verify you're on a supported platform (Linux x86_64 or Windows WSL2)."
+            },
+            {
+                "chunk_id": "2d1520d5-4744-494a-a850-c6da880523b9",
+                "document_id": "9bbca246-1b3f-4651-b1e5-349ad67e57e7",
+                "source": "datasets/raw_documents/docker/content/manuals/build/policies/validate-images.md",
+                "title": "Validating image inputs",
+                "section_heading": "Validate platform constraints",
+                "section_level": 2,
+                "chunk_index": 0,
+                "score": 0.7236,
+                "preview": "Multi-architecture images support different operating systems and CPU architectures. You can restrict builds to specific platforms: ```rego package docker default allow := false allow if input.local allow if { input.image.os == \"linux\" input.image.arch in [\"amd64\", \"arm64\"] } decision := {\"allow\": a"
+            }
+        ],
+        "status": "SUCCESS"
+    },
+    {
+        "question_id": 15,
+        "question": "What is the Docker Engine?",
+        "candidate_chunks": [
+            {
+                "chunk_id": "de0a271f-c16c-47b5-8797-6e63f223506d",
+                "document_id": "b50bada1-b4c0-43f3-847d-1ecdc9fce535",
+                "source": "datasets/raw_documents/docker/content/get-started/get-docker.md",
+                "title": "Get Docker",
+                "section_heading": "Introduction",
+                "section_level": 0,
+                "chunk_index": 0,
+                "score": 0.7789,
+                "preview": "Docker is an open platform for developing, shipping, and running applications. Docker allows you to separate your applications from your infrastructure so you can deliver software quickly. With Docker, you can manage your infrastructure in the same ways you manage your applications. By taking advant"
+            },
+            {
+                "chunk_id": "e043e333-8f5e-45c8-86eb-f97de253275e",
+                "document_id": "dcea4e3c-ba84-4be1-acec-b95b61a1a324",
+                "source": "datasets/raw_documents/docker/content/manuals/desktop/previous-versions/edge-releases-windows.md",
+                "title": "Docker Desktop for Windows Edge Release notes",
+                "section_heading": "Upgrades",
+                "section_level": 3,
+                "chunk_index": 0,
+                "score": 0.756,
+                "preview": "- Docker Engine 20.10.0-rc2 - Go 1.15.6"
+            },
+            {
+                "chunk_id": "e6022503-ce8b-4aaf-a2bf-45e256c749c8",
+                "document_id": "95a7ffc5-a1ac-4716-a0e4-f728dfaab221",
+                "source": "datasets/raw_documents/docker/content/manuals/compose/how-tos/provider-services.md",
+                "title": "Use provider services",
+                "section_heading": "Reference",
+                "section_level": 2,
+                "chunk_index": 0,
+                "score": 0.749,
+                "preview": "- Docker Model Runner documentation - Compose Extensions documentation"
+            },
+            {
+                "chunk_id": "70728325-c5b3-448e-8282-ea569124b43f",
+                "document_id": "4f875f30-c794-456a-a1f3-8ef0113e01cd",
+                "source": "datasets/raw_documents/docker/content/get-started/introduction/whats-next.md",
+                "title": "What's next",
+                "section_heading": "Building images",
+                "section_level": 2,
+                "chunk_index": 0,
+                "score": 0.7486,
+                "preview": "Craft optimized container images with Dockerfiles, build cache, and multi-stage builds. {{}}"
+            },
+            {
+                "chunk_id": "4aa65779-9784-418d-972e-6ada00ec04ca",
+                "document_id": "4d961c97-1476-439c-87c7-ad9b776705ad",
+                "source": "datasets/raw_documents/docker/content/get-started/docker-overview.md",
+                "title": "What is Docker?",
+                "section_heading": "Docker Desktop",
+                "section_level": 3,
+                "chunk_index": 0,
+                "score": 0.7459,
+                "preview": "Docker Desktop is an easy-to-install application for your Mac, Windows, or Linux environment that enables you to build and share containerized applications and microservices. Docker Desktop includes the Docker daemon (`dockerd`), the Docker client (`docker`), Docker Compose, Docker Content Trust, Ku"
+            },
+            {
+                "chunk_id": "fdc22254-6393-4f8f-873f-50d20953e7ba",
+                "document_id": "dcea4e3c-ba84-4be1-acec-b95b61a1a324",
+                "source": "datasets/raw_documents/docker/content/manuals/desktop/previous-versions/edge-releases-windows.md",
+                "title": "Docker Desktop for Windows Edge Release notes",
+                "section_heading": "Docker Community Edition 17.03.0 Release Notes (2017-02-22 17.03.0-ce-rc1-win1)",
+                "section_level": 3,
+                "chunk_index": 0,
+                "score": 0.7451,
+                "preview": "**New** - Introduce Docker Community Edition - Integration with Docker Cloud: control remote Swarms from the local CLI and view your repositories. This feature is being rolled out to all users progressively. **Upgrades** - Docker 17.03.0-ce-rc1 - Linux Kernel 4.9.11 **Bug fixes and minor changes** -"
+            },
+            {
+                "chunk_id": "697c4534-44a8-4495-ac47-6f1d9be6a0ef",
+                "document_id": "4d961c97-1476-439c-87c7-ad9b776705ad",
+                "source": "datasets/raw_documents/docker/content/get-started/docker-overview.md",
+                "title": "What is Docker?",
+                "section_heading": "Next steps",
+                "section_level": 2,
+                "chunk_index": 0,
+                "score": 0.7393,
+                "preview": "- Install Docker - Get started with Docker"
+            },
+            {
+                "chunk_id": "a2be0ce0-58ae-4ce5-80ff-621b34020ed6",
+                "document_id": "27730d34-a5bc-4c79-97f4-22fcfb5ef542",
+                "source": "datasets/raw_documents/docker/content/get-started/docker-concepts/building-images/writing-a-dockerfile.md",
+                "title": "Writing a Dockerfile",
+                "section_heading": "Explanation",
+                "section_level": 2,
+                "chunk_index": 0,
+                "score": 0.7391,
+                "preview": "A Dockerfile is a text-based document that's used to create a container image. It provides instructions to the image builder on the commands to run, files to copy, startup command, and more. As an example, the following Dockerfile would produce a ready-to-run Python application: ```dockerfile FROM p"
+            },
+            {
+                "chunk_id": "14979b57-ef94-4222-a36c-f37336658318",
+                "document_id": "4d961c97-1476-439c-87c7-ad9b776705ad",
+                "source": "datasets/raw_documents/docker/content/get-started/docker-overview.md",
+                "title": "What is Docker?",
+                "section_heading": "The Docker client",
+                "section_level": 3,
+                "chunk_index": 0,
+                "score": 0.7365,
+                "preview": "The Docker client (`docker`) is the primary way that many Docker users interact with Docker. When you use commands such as `docker run`, the client sends these commands to `dockerd`, which carries them out. The `docker` command uses the Docker API. The Docker client can communicate with more than on"
+            },
+            {
+                "chunk_id": "226628b0-664e-49f0-ae9e-d61b3f5a0626",
+                "document_id": "dcea4e3c-ba84-4be1-acec-b95b61a1a324",
+                "source": "datasets/raw_documents/docker/content/manuals/desktop/previous-versions/edge-releases-windows.md",
+                "title": "Docker Desktop for Windows Edge Release notes",
+                "section_heading": "Docker Community Edition 17.03.0 Release Notes (2017-03-06 17.03.0-ce-win1)",
+                "section_level": 3,
+                "chunk_index": 0,
+                "score": 0.7355,
+                "preview": "**New** - Renamed to Docker Community Edition - Integration with Docker Cloud: control remote Swarms from the local CLI and view your repositories. This feature is going to be rolled out to all users progressively **Upgrades** - Docker 17.03.0-ce - Docker Compose 1.11.2 - Docker Machine 0.10.0 - Lin"
+            }
+        ],
+        "status": "SUCCESS"
+    },
+    {
+        "question_id": 16,
+        "question": "How does Docker differ from a traditional virtual machine?",
+        "candidate_chunks": [
+            {
+                "chunk_id": "1ce2eed5-2be7-46b2-b40c-85d53cccc7bb",
+                "document_id": "4d961c97-1476-439c-87c7-ad9b776705ad",
+                "source": "datasets/raw_documents/docker/content/get-started/docker-overview.md",
+                "title": "What is Docker?",
+                "section_heading": "Running more workloads on the same hardware",
+                "section_level": 3,
+                "chunk_index": 0,
+                "score": 0.8097,
+                "preview": "Docker is lightweight and fast. It provides a viable, cost-effective alternative to hypervisor-based virtual machines, so you can use more of your server capacity to achieve your business goals. Docker is perfect for high density environments and for small and medium deployments where you need to do"
+            },
+            {
+                "chunk_id": "80f35a1e-bcc1-4b0d-9290-949d3e206e92",
+                "document_id": "4d961c97-1476-439c-87c7-ad9b776705ad",
+                "source": "datasets/raw_documents/docker/content/get-started/docker-overview.md",
+                "title": "What is Docker?",
+                "section_heading": "Responsive deployment and scaling",
+                "section_level": 3,
+                "chunk_index": 0,
+                "score": 0.777,
+                "preview": "Docker's container-based platform allows for highly portable workloads. Docker containers can run on a developer's local laptop, on physical or virtual machines in a data center, on cloud providers, or in a mixture of environments. Docker's portability and lightweight nature also make it easy to dyn"
+            },
+            {
+                "chunk_id": "f4115531-ad53-49d9-911b-3fb113037fdb",
+                "document_id": "8a5e6ca8-4f48-4c39-80d8-c9be216c9373",
+                "source": "datasets/raw_documents/docker/content/manuals/desktop/setup/install/windows-permission-requirements.md",
+                "title": "Understand permission requirements for Windows",
+                "section_heading": "Containers running as root within the Linux VM",
+                "section_level": 2,
+                "chunk_index": 0,
+                "score": 0.7716,
+                "preview": "The Linux Docker daemon and containers run in a minimal, special-purpose Linux VM managed by Docker. It is immutable so you can’t extend it or change the installed software. This means that although containers run by default as `root`, this doesn't allow altering the VM and doesn't grant `Administra"
+            },
+            {
+                "chunk_id": "781e6253-6c74-4465-952f-5ddb8d416e69",
+                "document_id": "df718950-77a6-4e9c-8375-b07461b3269f",
+                "source": "datasets/raw_documents/docker/content/manuals/desktop/setup/vm-vdi.md",
+                "title": "Run Docker Desktop for Windows in a VM or VDI environment",
+                "section_heading": "Use Docker Offload",
+                "section_level": 2,
+                "chunk_index": 0,
+                "score": 0.7521,
+                "preview": "Docker Offload lets you offload container workloads to a high-performance, fully hosted cloud environment, enabling a seamless hybrid experience. Docker Offload is useful in virtual desktop environments where nested virtualization isn't supported. In these environments, Docker Desktop can use Docker"
+            },
+            {
+                "chunk_id": "830eeda9-ad9d-45ab-85b9-deeeb36c7c7e",
+                "document_id": "4d961c97-1476-439c-87c7-ad9b776705ad",
+                "source": "datasets/raw_documents/docker/content/get-started/docker-overview.md",
+                "title": "What is Docker?",
+                "section_heading": "The Docker platform",
+                "section_level": 2,
+                "chunk_index": 0,
+                "score": 0.7501,
+                "preview": "Docker provides the ability to package and run an application in a loosely isolated environment called a container. The isolation and security let you run many containers simultaneously on a given host. Containers are lightweight and contain everything needed to run the application, so you don't nee"
+            },
+            {
+                "chunk_id": "f1f67fd2-b375-4774-a020-c230d82de605",
+                "document_id": "8232adec-a729-4727-abc1-753819f466dc",
+                "source": "datasets/raw_documents/docker/content/manuals/desktop/troubleshoot-and-support/faqs/windowsfaqs.md",
+                "title": "FAQs for Docker Desktop for Windows",
+                "section_heading": "Can I use VirtualBox alongside Docker Desktop?",
+                "section_level": 3,
+                "chunk_index": 0,
+                "score": 0.7491,
+                "preview": "Yes, you can run VirtualBox along with Docker Desktop if you have enabled the Windows Hypervisor Platform feature on your machine."
+            },
+            {
+                "chunk_id": "5f5842ae-323c-4d9f-8020-9f223511aa31",
+                "document_id": "d7350460-3f2e-432b-b67b-dcf8f15dabad",
+                "source": "datasets/raw_documents/docker/content/manuals/desktop/features/networking/networking-how-tos.md",
+                "title": "Explore networking how-tos on Docker Desktop",
+                "section_heading": "There is no `docker0` bridge on the host",
+                "section_level": 3,
+                "chunk_index": 0,
+                "score": 0.7473,
+                "preview": "Because of the way networking is implemented in Docker Desktop, you cannot see a `docker0` interface on the host. This interface is actually within the virtual machine."
+            },
+            {
+                "chunk_id": "247c7dfa-d3e7-430e-b3a3-46f9c70508db",
+                "document_id": "8232adec-a729-4727-abc1-753819f466dc",
+                "source": "datasets/raw_documents/docker/content/manuals/desktop/troubleshoot-and-support/faqs/windowsfaqs.md",
+                "title": "FAQs for Docker Desktop for Windows",
+                "section_heading": "Why is Windows 10 or Windows 11 required?",
+                "section_level": 3,
+                "chunk_index": 0,
+                "score": 0.7468,
+                "preview": "Docker Desktop uses the Windows Hyper-V features. While older Windows versions have Hyper-V, their Hyper-V implementations lack features critical for Docker Desktop to work."
+            },
+            {
+                "chunk_id": "da2c1be5-c4f3-457e-8014-04e1f593dd35",
+                "document_id": "a7123184-40e7-494e-8094-e8da8ea9549c",
+                "source": "datasets/raw_documents/docker/content/manuals/desktop/troubleshoot-and-support/troubleshoot/topics.md",
+                "title": "Troubleshoot topics for Docker Desktop",
+                "section_heading": "Cause",
+                "section_level": 4,
+                "chunk_index": 0,
+                "score": 0.7414,
+                "preview": "Docker Desktop requires a processor (CPU) that supports virtualization and, more specifically, the [Apple Hypervisor framework](https://developer.apple.com/library/mac/documentation/DriversKernelHardware/Reference/Hypervisor/)."
+            },
+            {
+                "chunk_id": "0f4ab56d-d764-46c4-b6cc-a454d2c8bf5e",
+                "document_id": "df718950-77a6-4e9c-8375-b07461b3269f",
+                "source": "datasets/raw_documents/docker/content/manuals/desktop/setup/vm-vdi.md",
+                "title": "Run Docker Desktop for Windows in a VM or VDI environment",
+                "section_heading": "Turn on nested virtualization",
+                "section_level": 2,
+                "chunk_index": 0,
+                "score": 0.7374,
+                "preview": "You must turn on nested virtualization before you install Docker Desktop on a virtual machine that will not use Docker Cloud."
+            }
+        ],
+        "status": "SUCCESS"
+    },
+    {
+        "question_id": 17,
+        "question": "What is containerization?",
+        "candidate_chunks": [
+            {
+                "chunk_id": "814a4ccd-2fc8-4413-a7ef-4214a81b9980",
+                "document_id": "4d961c97-1476-439c-87c7-ad9b776705ad",
+                "source": "datasets/raw_documents/docker/content/get-started/docker-overview.md",
+                "title": "What is Docker?",
+                "section_heading": "Containers",
+                "section_level": 4,
+                "chunk_index": 0,
+                "score": 0.7598,
+                "preview": "A container is a runnable instance of an image. You can create, start, stop, move, or delete a container using the Docker API or CLI. You can connect a container to one or more networks, attach storage to it, or even create a new image based on its current state. By default, a container is relativel"
+            },
+            {
+                "chunk_id": "830eeda9-ad9d-45ab-85b9-deeeb36c7c7e",
+                "document_id": "4d961c97-1476-439c-87c7-ad9b776705ad",
+                "source": "datasets/raw_documents/docker/content/get-started/docker-overview.md",
+                "title": "What is Docker?",
+                "section_heading": "The Docker platform",
+                "section_level": 2,
+                "chunk_index": 0,
+                "score": 0.7317,
+                "preview": "Docker provides the ability to package and run an application in a loosely isolated environment called a container. The isolation and security let you run many containers simultaneously on a given host. Containers are lightweight and contain everything needed to run the application, so you don't nee"
+            },
+            {
+                "chunk_id": "de0a271f-c16c-47b5-8797-6e63f223506d",
+                "document_id": "b50bada1-b4c0-43f3-847d-1ecdc9fce535",
+                "source": "datasets/raw_documents/docker/content/get-started/get-docker.md",
+                "title": "Get Docker",
+                "section_heading": "Introduction",
+                "section_level": 0,
+                "chunk_index": 0,
+                "score": 0.7024,
+                "preview": "Docker is an open platform for developing, shipping, and running applications. Docker allows you to separate your applications from your infrastructure so you can deliver software quickly. With Docker, you can manage your infrastructure in the same ways you manage your applications. By taking advant"
+            },
+            {
+                "chunk_id": "cab226f8-cc65-4fa1-a41c-4b519f5c8def",
+                "document_id": "08109cec-cd2b-4898-b9a5-7168f4ec0fc7",
+                "source": "datasets/raw_documents/docker/content/get-started/introduction/develop-with-containers.md",
+                "title": "Develop with containers",
+                "section_heading": "Next steps",
+                "section_level": 2,
+                "chunk_index": 0,
+                "score": 0.7009,
+                "preview": "Now that the application has been updated, you’re ready to learn about packaging it as a container image and pushing it to a registry, specifically Docker Hub. {{}}"
+            }
+        ],
+        "status": "SUCCESS"
+    },
+    {
+        "question_id": 18,
+        "question": "Why is containerization important in modern software development?",
+        "candidate_chunks": [
+            {
+                "chunk_id": "26bea447-9ba2-4f27-b514-0e52d256d7ad",
+                "document_id": "4d961c97-1476-439c-87c7-ad9b776705ad",
+                "source": "datasets/raw_documents/docker/content/get-started/docker-overview.md",
+                "title": "What is Docker?",
+                "section_heading": "Fast, consistent delivery of your applications",
+                "section_level": 3,
+                "chunk_index": 0,
+                "score": 0.7794,
+                "preview": "Docker streamlines the development lifecycle by allowing developers to work in standardized environments using local containers which provide your applications and services. Containers are great for continuous integration and continuous delivery (CI/CD) workflows. Consider the following example scen"
+            },
+            {
+                "chunk_id": "830eeda9-ad9d-45ab-85b9-deeeb36c7c7e",
+                "document_id": "4d961c97-1476-439c-87c7-ad9b776705ad",
+                "source": "datasets/raw_documents/docker/content/get-started/docker-overview.md",
+                "title": "What is Docker?",
+                "section_heading": "The Docker platform",
+                "section_level": 2,
+                "chunk_index": 0,
+                "score": 0.7434,
+                "preview": "Docker provides the ability to package and run an application in a loosely isolated environment called a container. The isolation and security let you run many containers simultaneously on a given host. Containers are lightweight and contain everything needed to run the application, so you don't nee"
+            },
+            {
+                "chunk_id": "85854283-fcd4-4705-bfb1-051765fab741",
+                "document_id": "08109cec-cd2b-4898-b9a5-7168f4ec0fc7",
+                "source": "datasets/raw_documents/docker/content/get-started/introduction/develop-with-containers.md",
+                "title": "Develop with containers",
+                "section_heading": "Recap",
+                "section_level": 2,
+                "chunk_index": 0,
+                "score": 0.7412,
+                "preview": "Before you move on, take a moment and reflect on what happened here. Within a few moments, you were able to: - Start a complete development project with zero installation effort. The containerized environment provided the development environment, ensuring you have everything you need. You didn't hav"
+            },
+            {
+                "chunk_id": "04abe4e1-6380-449e-8cfb-324675e8e6bb",
+                "document_id": "f2a66afc-693a-4c9c-88b8-88ab2d4bba1f",
+                "source": "datasets/raw_documents/docker/content/get-started/introduction/get-docker-desktop.md",
+                "title": "Get Docker Desktop",
+                "section_heading": "What's next?",
+                "section_level": 2,
+                "chunk_index": 0,
+                "score": 0.7357,
+                "preview": "Now that you have Docker Desktop installed and ran your first container, it's time to start developing with containers. {{}}"
+            },
+            {
+                "chunk_id": "d3fa9cf4-3464-4a36-aec2-2de907034f9c",
+                "document_id": "566aed5b-ba37-4129-af67-07cdd25600d4",
+                "source": "datasets/raw_documents/docker/content/get-started/docker-concepts/running-containers/sharing-local-files.md",
+                "title": "Sharing local files with containers",
+                "section_heading": "Next steps",
+                "section_level": 2,
+                "chunk_index": 0,
+                "score": 0.7321,
+                "preview": "Now that you have learned about sharing local files with containers, it’s time to learn about multi-container applications. {{}}"
+            },
+            {
+                "chunk_id": "80f35a1e-bcc1-4b0d-9290-949d3e206e92",
+                "document_id": "4d961c97-1476-439c-87c7-ad9b776705ad",
+                "source": "datasets/raw_documents/docker/content/get-started/docker-overview.md",
+                "title": "What is Docker?",
+                "section_heading": "Responsive deployment and scaling",
+                "section_level": 3,
+                "chunk_index": 0,
+                "score": 0.7213,
+                "preview": "Docker's container-based platform allows for highly portable workloads. Docker containers can run on a developer's local laptop, on physical or virtual machines in a data center, on cloud providers, or in a mixture of environments. Docker's portability and lightweight nature also make it easy to dyn"
+            },
+            {
+                "chunk_id": "70728325-c5b3-448e-8282-ea569124b43f",
+                "document_id": "4f875f30-c794-456a-a1f3-8ef0113e01cd",
+                "source": "datasets/raw_documents/docker/content/get-started/introduction/whats-next.md",
+                "title": "What's next",
+                "section_heading": "Building images",
+                "section_level": 2,
+                "chunk_index": 0,
+                "score": 0.7144,
+                "preview": "Craft optimized container images with Dockerfiles, build cache, and multi-stage builds. {{}}"
+            },
+            {
+                "chunk_id": "78cbb191-b91a-49d2-886f-0c1290191e51",
+                "document_id": "f7febd52-6cd1-4d2d-a6d8-36dbfdd337cf",
+                "source": "datasets/raw_documents/docker/content/get-started/introduction/build-and-push-first-image.md",
+                "title": "Build and push your first image",
+                "section_heading": "Next steps",
+                "section_level": 2,
+                "chunk_index": 0,
+                "score": 0.7099,
+                "preview": "Now that you’ve built an image, it's time to discuss why you as a developer should learn more about Docker and how it will help you in your day-to-day tasks. {{}}"
+            },
+            {
+                "chunk_id": "1ce2eed5-2be7-46b2-b40c-85d53cccc7bb",
+                "document_id": "4d961c97-1476-439c-87c7-ad9b776705ad",
+                "source": "datasets/raw_documents/docker/content/get-started/docker-overview.md",
+                "title": "What is Docker?",
+                "section_heading": "Running more workloads on the same hardware",
+                "section_level": 3,
+                "chunk_index": 0,
+                "score": 0.7095,
+                "preview": "Docker is lightweight and fast. It provides a viable, cost-effective alternative to hypervisor-based virtual machines, so you can use more of your server capacity to achieve your business goals. Docker is perfect for high density environments and for small and medium deployments where you need to do"
+            },
+            {
+                "chunk_id": "de0a271f-c16c-47b5-8797-6e63f223506d",
+                "document_id": "b50bada1-b4c0-43f3-847d-1ecdc9fce535",
+                "source": "datasets/raw_documents/docker/content/get-started/get-docker.md",
+                "title": "Get Docker",
+                "section_heading": "Introduction",
+                "section_level": 0,
+                "chunk_index": 0,
+                "score": 0.702,
+                "preview": "Docker is an open platform for developing, shipping, and running applications. Docker allows you to separate your applications from your infrastructure so you can deliver software quickly. With Docker, you can manage your infrastructure in the same ways you manage your applications. By taking advant"
+            }
+        ],
+        "status": "SUCCESS"
+    },
+    {
+        "question_id": 19,
+        "question": "What is the lifecycle of a Docker container?",
+        "candidate_chunks": [
+            {
+                "chunk_id": "814a4ccd-2fc8-4413-a7ef-4214a81b9980",
+                "document_id": "4d961c97-1476-439c-87c7-ad9b776705ad",
+                "source": "datasets/raw_documents/docker/content/get-started/docker-overview.md",
+                "title": "What is Docker?",
+                "section_heading": "Containers",
+                "section_level": 4,
+                "chunk_index": 0,
+                "score": 0.7575,
+                "preview": "A container is a runnable instance of an image. You can create, start, stop, move, or delete a container using the Docker API or CLI. You can connect a container to one or more networks, attach storage to it, or even create a new image based on its current state. By default, a container is relativel"
+            },
+            {
+                "chunk_id": "04abe4e1-6380-449e-8cfb-324675e8e6bb",
+                "document_id": "f2a66afc-693a-4c9c-88b8-88ab2d4bba1f",
+                "source": "datasets/raw_documents/docker/content/get-started/introduction/get-docker-desktop.md",
+                "title": "Get Docker Desktop",
+                "section_heading": "What's next?",
+                "section_level": 2,
+                "chunk_index": 0,
+                "score": 0.7491,
+                "preview": "Now that you have Docker Desktop installed and ran your first container, it's time to start developing with containers. {{}}"
+            },
+            {
+                "chunk_id": "830eeda9-ad9d-45ab-85b9-deeeb36c7c7e",
+                "document_id": "4d961c97-1476-439c-87c7-ad9b776705ad",
+                "source": "datasets/raw_documents/docker/content/get-started/docker-overview.md",
+                "title": "What is Docker?",
+                "section_heading": "The Docker platform",
+                "section_level": 2,
+                "chunk_index": 0,
+                "score": 0.7486,
+                "preview": "Docker provides the ability to package and run an application in a loosely isolated environment called a container. The isolation and security let you run many containers simultaneously on a given host. Containers are lightweight and contain everything needed to run the application, so you don't nee"
+            },
+            {
+                "chunk_id": "70728325-c5b3-448e-8282-ea569124b43f",
+                "document_id": "4f875f30-c794-456a-a1f3-8ef0113e01cd",
+                "source": "datasets/raw_documents/docker/content/get-started/introduction/whats-next.md",
+                "title": "What's next",
+                "section_heading": "Building images",
+                "section_level": 2,
+                "chunk_index": 0,
+                "score": 0.7477,
+                "preview": "Craft optimized container images with Dockerfiles, build cache, and multi-stage builds. {{}}"
+            },
+            {
+                "chunk_id": "9ef2bb8b-63d9-40ba-8718-89a09a93ba37",
+                "document_id": "978a7bd4-a9a9-41a4-bbd2-6b819b53803a",
+                "source": "datasets/raw_documents/docker/content/get-started/docker-concepts/the-basics/what-is-a-container.md",
+                "title": "What is a container?",
+                "section_heading": "Next steps",
+                "section_level": 2,
+                "chunk_index": 0,
+                "score": 0.7423,
+                "preview": "Now that you have learned the basics of a Docker container, it's time to learn about Docker images. {{}}"
+            },
+            {
+                "chunk_id": "324a7cd5-a1b5-4820-a06c-fafdc717c1a4",
+                "document_id": "c4f4426b-6882-43df-bfa5-0f6de27adc1d",
+                "source": "datasets/raw_documents/docker/content/manuals/build/cache/invalidation.md",
+                "title": "Build cache invalidation",
+                "section_heading": "Introduction",
+                "section_level": 0,
+                "chunk_index": 0,
+                "score": 0.7395,
+                "preview": "When building an image, Docker steps through the instructions in your Dockerfile, executing each in the order specified. For each instruction, the builder checks whether it can reuse the instruction from the build cache."
+            },
+            {
+                "chunk_id": "cab226f8-cc65-4fa1-a41c-4b519f5c8def",
+                "document_id": "08109cec-cd2b-4898-b9a5-7168f4ec0fc7",
+                "source": "datasets/raw_documents/docker/content/get-started/introduction/develop-with-containers.md",
+                "title": "Develop with containers",
+                "section_heading": "Next steps",
+                "section_level": 2,
+                "chunk_index": 0,
+                "score": 0.7359,
+                "preview": "Now that the application has been updated, you’re ready to learn about packaging it as a container image and pushing it to a registry, specifically Docker Hub. {{}}"
+            },
+            {
+                "chunk_id": "9457a819-feed-4a46-9d41-0c4c3f00b07d",
+                "document_id": "978a7bd4-a9a9-41a4-bbd2-6b819b53803a",
+                "source": "datasets/raw_documents/docker/content/get-started/docker-concepts/the-basics/what-is-a-container.md",
+                "title": "What is a container?",
+                "section_heading": "Additional resources",
+                "section_level": 2,
+                "chunk_index": 0,
+                "score": 0.7307,
+                "preview": "The following links provide additional guidance into containers: - Running a container - Overview of container - Why Docker?"
+            },
+            {
+                "chunk_id": "26bea447-9ba2-4f27-b514-0e52d256d7ad",
+                "document_id": "4d961c97-1476-439c-87c7-ad9b776705ad",
+                "source": "datasets/raw_documents/docker/content/get-started/docker-overview.md",
+                "title": "What is Docker?",
+                "section_heading": "Fast, consistent delivery of your applications",
+                "section_level": 3,
+                "chunk_index": 0,
+                "score": 0.7292,
+                "preview": "Docker streamlines the development lifecycle by allowing developers to work in standardized environments using local containers which provide your applications and services. Containers are great for continuous integration and continuous delivery (CI/CD) workflows. Consider the following example scen"
+            },
+            {
+                "chunk_id": "5c6f0e94-1257-4565-95ef-a18cb44c13d4",
+                "document_id": "c1570840-cdb5-4517-84c7-0f22dfee4c94",
+                "source": "datasets/raw_documents/docker/content/manuals/engine/release-notes/prior-releases.md",
+                "title": "Docker Engine prior releases",
+                "section_heading": "Swarm Mode",
+                "section_level": 3,
+                "chunk_index": 1,
+                "score": 0.728,
+                "preview": "init` running inside a container #26457 + (experimental) Add `docker service logs` command to view logs for a service #28089 + Pin images by digest for `docker service create` and `update` #28173 * Add short (`-f`) flag for `docker node rm --force` and `docker swarm leave --force` #28196 + Add optio"
+            }
+        ],
+        "status": "SUCCESS"
+    },
+    {
+        "question_id": 20,
+        "question": "How does Docker support cloud-native application development?",
+        "candidate_chunks": [
+            {
+                "chunk_id": "a6badfe8-3aa9-42ed-a6be-8c5bd30992b1",
+                "document_id": "6bd5b5f4-50ff-4e65-86cb-4c7f1f72f2bf",
+                "source": "datasets/raw_documents/docker/content/manuals/docker-hub/release-notes.md",
+                "title": "Docker Hub release notes",
+                "section_heading": "New features",
+                "section_level": 3,
+                "chunk_index": 0,
+                "score": 0.7493,
+                "preview": "- Docker has announced a new, per-seat pricing model to accelerate developer workflows for cloud-native development. The previous private repository/concurrent autobuild-based plans have been replaced with new **Pro** and **Team** plans that include unlimited private repositories. For more informati"
+            },
+            {
+                "chunk_id": "781e6253-6c74-4465-952f-5ddb8d416e69",
+                "document_id": "df718950-77a6-4e9c-8375-b07461b3269f",
+                "source": "datasets/raw_documents/docker/content/manuals/desktop/setup/vm-vdi.md",
+                "title": "Run Docker Desktop for Windows in a VM or VDI environment",
+                "section_heading": "Use Docker Offload",
+                "section_level": 2,
+                "chunk_index": 0,
+                "score": 0.7406,
+                "preview": "Docker Offload lets you offload container workloads to a high-performance, fully hosted cloud environment, enabling a seamless hybrid experience. Docker Offload is useful in virtual desktop environments where nested virtualization isn't supported. In these environments, Docker Desktop can use Docker"
+            },
+            {
+                "chunk_id": "80f35a1e-bcc1-4b0d-9290-949d3e206e92",
+                "document_id": "4d961c97-1476-439c-87c7-ad9b776705ad",
+                "source": "datasets/raw_documents/docker/content/get-started/docker-overview.md",
+                "title": "What is Docker?",
+                "section_heading": "Responsive deployment and scaling",
+                "section_level": 3,
+                "chunk_index": 0,
+                "score": 0.7317,
+                "preview": "Docker's container-based platform allows for highly portable workloads. Docker containers can run on a developer's local laptop, on physical or virtual machines in a data center, on cloud providers, or in a mixture of environments. Docker's portability and lightweight nature also make it easy to dyn"
+            },
+            {
+                "chunk_id": "3a8ab6d9-7e6a-4c50-a7c1-ec92809b5410",
+                "document_id": "2b41c764-9ff1-4675-8e3e-0cd52e27b034",
+                "source": "datasets/raw_documents/docker/content/manuals/retired.md",
+                "title": "Deprecated and retired Docker products and features",
+                "section_heading": "Docker Cloud integrations",
+                "section_level": 3,
+                "chunk_index": 0,
+                "score": 0.7295,
+                "preview": "Docker previously offered integrations for Amazon's Elastic Container Service (ECS) and Azure Container Instances (ACI) to streamline container workflows. These integrations have been deprecated, and users should now rely on native cloud tools or third-party solutions to manage their workloads. The "
+            },
+            {
+                "chunk_id": "31db8906-16fb-4813-b8dd-de07cdd0736c",
+                "document_id": "9e738da8-589a-494c-94ca-9f189404e7e6",
+                "source": "datasets/raw_documents/docker/content/manuals/build/concepts/dockerfile.md",
+                "title": "Dockerfile overview",
+                "section_heading": "Example",
+                "section_level": 3,
+                "chunk_index": 0,
+                "score": 0.7282,
+                "preview": "Here's what a typical workflow for building applications with Docker looks like. The following example code shows a small \"Hello World\" application written in Python, using the Flask framework. ```python from flask import Flask app = Flask(__name__) @app.route(\"/\") def hello(): return \"Hello World!\""
+            },
+            {
+                "chunk_id": "40341594-db5b-42fd-89f6-076a391b7a79",
+                "document_id": "9a95c254-3183-4e2d-b64c-843faa36682c",
+                "source": "datasets/raw_documents/docker/content/guides/dhi-openshift.md",
+                "title": "Use Docker Hardened Images with Red Hat OpenShift",
+                "section_heading": "Option 3: Use `oc debug` or ephemeral containers",
+                "section_level": 3,
+                "chunk_index": 0,
+                "score": 0.7244,
+                "preview": "For distroless runtime images with no shell, use OpenShift-native debugging tools instead of `docker debug` (which only works with Docker Engine, not with CRI-O on OpenShift). Use `oc debug` to create a copy of a pod with a debug shell: ```console"
+            },
+            {
+                "chunk_id": "fdc22254-6393-4f8f-873f-50d20953e7ba",
+                "document_id": "dcea4e3c-ba84-4be1-acec-b95b61a1a324",
+                "source": "datasets/raw_documents/docker/content/manuals/desktop/previous-versions/edge-releases-windows.md",
+                "title": "Docker Desktop for Windows Edge Release notes",
+                "section_heading": "Docker Community Edition 17.03.0 Release Notes (2017-02-22 17.03.0-ce-rc1-win1)",
+                "section_level": 3,
+                "chunk_index": 0,
+                "score": 0.722,
+                "preview": "**New** - Introduce Docker Community Edition - Integration with Docker Cloud: control remote Swarms from the local CLI and view your repositories. This feature is being rolled out to all users progressively. **Upgrades** - Docker 17.03.0-ce-rc1 - Linux Kernel 4.9.11 **Bug fixes and minor changes** -"
+            },
+            {
+                "chunk_id": "da2c1be5-c4f3-457e-8014-04e1f593dd35",
+                "document_id": "a7123184-40e7-494e-8094-e8da8ea9549c",
+                "source": "datasets/raw_documents/docker/content/manuals/desktop/troubleshoot-and-support/troubleshoot/topics.md",
+                "title": "Troubleshoot topics for Docker Desktop",
+                "section_heading": "Cause",
+                "section_level": 4,
+                "chunk_index": 0,
+                "score": 0.716,
+                "preview": "Docker Desktop requires a processor (CPU) that supports virtualization and, more specifically, the [Apple Hypervisor framework](https://developer.apple.com/library/mac/documentation/DriversKernelHardware/Reference/Hypervisor/)."
+            },
+            {
+                "chunk_id": "85854283-fcd4-4705-bfb1-051765fab741",
+                "document_id": "08109cec-cd2b-4898-b9a5-7168f4ec0fc7",
+                "source": "datasets/raw_documents/docker/content/get-started/introduction/develop-with-containers.md",
+                "title": "Develop with containers",
+                "section_heading": "Recap",
+                "section_level": 2,
+                "chunk_index": 0,
+                "score": 0.716,
+                "preview": "Before you move on, take a moment and reflect on what happened here. Within a few moments, you were able to: - Start a complete development project with zero installation effort. The containerized environment provided the development environment, ensuring you have everything you need. You didn't hav"
+            },
+            {
+                "chunk_id": "830eeda9-ad9d-45ab-85b9-deeeb36c7c7e",
+                "document_id": "4d961c97-1476-439c-87c7-ad9b776705ad",
+                "source": "datasets/raw_documents/docker/content/get-started/docker-overview.md",
+                "title": "What is Docker?",
+                "section_heading": "The Docker platform",
+                "section_level": 2,
+                "chunk_index": 0,
+                "score": 0.7157,
+                "preview": "Docker provides the ability to package and run an application in a loosely isolated environment called a container. The isolation and security let you run many containers simultaneously on a given host. Containers are lightweight and contain everything needed to run the application, so you don't nee"
+            }
+        ],
+        "status": "SUCCESS"
+    }
+]

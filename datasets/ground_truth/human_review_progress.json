@@ -1,0 +1,1685 @@
+[
+    {
+        "question_id": 1,
+        "question": "What is Docker?",
+        "candidate_rank": 1,
+        "chunk_id": "de0a271f-c16c-47b5-8797-6e63f223506d",
+        "decision": "relevant",
+        "title": "Get Docker",
+        "section_heading": "Introduction"
+    },
+    {
+        "question_id": 1,
+        "question": "What is Docker?",
+        "candidate_rank": 2,
+        "chunk_id": "4aa65779-9784-418d-972e-6ada00ec04ca",
+        "decision": "relevant",
+        "title": "What is Docker?",
+        "section_heading": "Docker Desktop"
+    },
+    {
+        "question_id": 1,
+        "question": "What is Docker?",
+        "candidate_rank": 3,
+        "chunk_id": "697c4534-44a8-4495-ac47-6f1d9be6a0ef",
+        "decision": "relevant",
+        "title": "What is Docker?",
+        "section_heading": "Next steps"
+    },
+    {
+        "question_id": 1,
+        "question": "What is Docker?",
+        "candidate_rank": 4,
+        "chunk_id": "1ce2eed5-2be7-46b2-b40c-85d53cccc7bb",
+        "decision": "relevant",
+        "title": "What is Docker?",
+        "section_heading": "Running more workloads on the same hardware"
+    },
+    {
+        "question_id": 1,
+        "question": "What is Docker?",
+        "candidate_rank": 5,
+        "chunk_id": "14979b57-ef94-4222-a36c-f37336658318",
+        "decision": "relevant",
+        "title": "What is Docker?",
+        "section_heading": "The Docker client"
+    },
+    {
+        "question_id": 1,
+        "question": "What is Docker?",
+        "candidate_rank": 6,
+        "chunk_id": "830eeda9-ad9d-45ab-85b9-deeeb36c7c7e",
+        "decision": "relevant",
+        "title": "What is Docker?",
+        "section_heading": "The Docker platform"
+    },
+    {
+        "question_id": 1,
+        "question": "What is Docker?",
+        "candidate_rank": 7,
+        "chunk_id": "a2be0ce0-58ae-4ce5-80ff-621b34020ed6",
+        "decision": "not_relevant",
+        "title": "Writing a Dockerfile",
+        "section_heading": "Explanation"
+    },
+    {
+        "question_id": 1,
+        "question": "What is Docker?",
+        "candidate_rank": 8,
+        "chunk_id": "2a07d2b1-d350-4b42-8018-8c91bdde28b4",
+        "decision": "relevant",
+        "title": "What is Docker?",
+        "section_heading": "The underlying technology"
+    },
+    {
+        "question_id": 1,
+        "question": "What is Docker?",
+        "candidate_rank": 9,
+        "chunk_id": "80f35a1e-bcc1-4b0d-9290-949d3e206e92",
+        "decision": "relevant",
+        "title": "What is Docker?",
+        "section_heading": "Responsive deployment and scaling"
+    },
+    {
+        "question_id": 1,
+        "question": "What is Docker?",
+        "candidate_rank": 10,
+        "chunk_id": "1128e88c-2ac1-47e0-b906-131542416b3d",
+        "decision": "not_relevant",
+        "title": "Face detection with TensorFlow.js",
+        "section_heading": "Explore the Dockerfile"
+    },
+    {
+        "question_id": 2,
+        "question": "What problem does Docker solve?",
+        "candidate_rank": 1,
+        "chunk_id": "0a41da50-7470-4102-9dfa-4a6f0c913ba2",
+        "decision": "relevant",
+        "title": "Docker Engine prior releases",
+        "section_heading": "Runtime"
+    },
+    {
+        "question_id": 2,
+        "question": "What problem does Docker solve?",
+        "candidate_rank": 2,
+        "chunk_id": "06eb2065-30f3-4fb6-a8c7-88ddcfe99eb1",
+        "decision": "relevant",
+        "title": "Docker Engine prior releases",
+        "section_heading": "Runtime"
+    },
+    {
+        "question_id": 2,
+        "question": "What problem does Docker solve?",
+        "candidate_rank": 3,
+        "chunk_id": "d678492b-0e42-476e-a43e-382992e812a5",
+        "decision": "not_relevant",
+        "title": "Docker Engine prior releases",
+        "section_heading": "Runtime"
+    },
+    {
+        "question_id": 2,
+        "question": "What problem does Docker solve?",
+        "candidate_rank": 4,
+        "chunk_id": "0ed621d8-bfb7-4c04-ba02-6662de251b20",
+        "decision": "not_relevant",
+        "title": "Docker Engine prior releases",
+        "section_heading": "Runtime"
+    },
+    {
+        "question_id": 2,
+        "question": "What problem does Docker solve?",
+        "candidate_rank": 5,
+        "chunk_id": "3cef2833-35a8-4b11-956e-3003ffa35d27",
+        "decision": "not_relevant",
+        "title": "Docker Engine prior releases",
+        "section_heading": "Client"
+    },
+    {
+        "question_id": 2,
+        "question": "What problem does Docker solve?",
+        "candidate_rank": 6,
+        "chunk_id": "734b1e64-90e7-4fbc-b0ae-3d4b3749bd99",
+        "decision": "not_relevant",
+        "title": "Docker Engine prior releases",
+        "section_heading": "Networking"
+    },
+    {
+        "question_id": 2,
+        "question": "What problem does Docker solve?",
+        "candidate_rank": 7,
+        "chunk_id": "697c4534-44a8-4495-ac47-6f1d9be6a0ef",
+        "decision": "not_relevant",
+        "title": "What is Docker?",
+        "section_heading": "Next steps"
+    },
+    {
+        "question_id": 2,
+        "question": "What problem does Docker solve?",
+        "candidate_rank": 8,
+        "chunk_id": "8e175097-48b7-4ddc-be16-a8051ead075a",
+        "decision": "relevant",
+        "title": "Install Docker Desktop on Arch-based distributions",
+        "section_heading": "Next steps"
+    },
+    {
+        "question_id": 2,
+        "question": "What problem does Docker solve?",
+        "candidate_rank": 9,
+        "chunk_id": "4095f778-b1a2-4bae-b61d-d8f8118a183a",
+        "decision": "relevant",
+        "title": "Docker Engine prior releases",
+        "section_heading": "Runtime"
+    },
+    {
+        "question_id": 2,
+        "question": "What problem does Docker solve?",
+        "candidate_rank": 10,
+        "chunk_id": "c47cb171-685b-49fe-ab40-e6687f2b999e",
+        "decision": "relevant",
+        "title": "Docker Engine prior releases",
+        "section_heading": "Runtime"
+    },
+    {
+        "question_id": 3,
+        "question": "What are Docker containers?",
+        "candidate_rank": 1,
+        "chunk_id": "4aa65779-9784-418d-972e-6ada00ec04ca",
+        "decision": "relevant",
+        "title": "What is Docker?",
+        "section_heading": "Docker Desktop"
+    },
+    {
+        "question_id": 3,
+        "question": "What are Docker containers?",
+        "candidate_rank": 2,
+        "chunk_id": "80f35a1e-bcc1-4b0d-9290-949d3e206e92",
+        "decision": "relevant",
+        "title": "What is Docker?",
+        "section_heading": "Responsive deployment and scaling"
+    },
+    {
+        "question_id": 3,
+        "question": "What are Docker containers?",
+        "candidate_rank": 3,
+        "chunk_id": "830eeda9-ad9d-45ab-85b9-deeeb36c7c7e",
+        "decision": "relevant",
+        "title": "What is Docker?",
+        "section_heading": "The Docker platform"
+    },
+    {
+        "question_id": 3,
+        "question": "What are Docker containers?",
+        "candidate_rank": 4,
+        "chunk_id": "9457a819-feed-4a46-9d41-0c4c3f00b07d",
+        "decision": "relevant",
+        "title": "What is a container?",
+        "section_heading": "Additional resources"
+    },
+    {
+        "question_id": 3,
+        "question": "What are Docker containers?",
+        "candidate_rank": 5,
+        "chunk_id": "70728325-c5b3-448e-8282-ea569124b43f",
+        "decision": "relevant",
+        "title": "What's next",
+        "section_heading": "Building images"
+    },
+    {
+        "question_id": 3,
+        "question": "What are Docker containers?",
+        "candidate_rank": 6,
+        "chunk_id": "1a8b558b-2260-4623-a651-be474a97a8bd",
+        "decision": "relevant",
+        "title": "Testcontainers",
+        "section_heading": "Introduction"
+    },
+    {
+        "question_id": 3,
+        "question": "What are Docker containers?",
+        "candidate_rank": 7,
+        "chunk_id": "697c4534-44a8-4495-ac47-6f1d9be6a0ef",
+        "decision": "relevant",
+        "title": "What is Docker?",
+        "section_heading": "Next steps"
+    },
+    {
+        "question_id": 3,
+        "question": "What are Docker containers?",
+        "candidate_rank": 8,
+        "chunk_id": "814a4ccd-2fc8-4413-a7ef-4214a81b9980",
+        "decision": "relevant",
+        "title": "What is Docker?",
+        "section_heading": "Containers"
+    },
+    {
+        "question_id": 3,
+        "question": "What are Docker containers?",
+        "candidate_rank": 9,
+        "chunk_id": "4cf034a5-a35e-4b4c-a103-3e1f3fae9a13",
+        "decision": "relevant",
+        "title": "Custom Dockerfile syntax",
+        "section_heading": "syntax=[remote image reference]"
+    },
+    {
+        "question_id": 3,
+        "question": "What are Docker containers?",
+        "candidate_rank": 10,
+        "chunk_id": "2a07d2b1-d350-4b42-8018-8c91bdde28b4",
+        "decision": "relevant",
+        "title": "What is Docker?",
+        "section_heading": "The underlying technology"
+    },
+    {
+        "question_id": 4,
+        "question": "What is a Docker image?",
+        "candidate_rank": 1,
+        "chunk_id": "d0e6425d-8052-4c5d-aac7-aa61315fe16f",
+        "decision": "relevant",
+        "title": "Trusted content",
+        "section_heading": "Docker Official Images"
+    },
+    {
+        "question_id": 4,
+        "question": "What is a Docker image?",
+        "candidate_rank": 2,
+        "chunk_id": "72ca7b0d-3e6f-4207-b6a8-d0f8dc2d20ae",
+        "decision": "relevant",
+        "title": "What is Docker?",
+        "section_heading": "Images"
+    },
+    {
+        "question_id": 4,
+        "question": "What is a Docker image?",
+        "candidate_rank": 3,
+        "chunk_id": "d542ae44-4257-4efe-b887-2d0b43f6a899",
+        "decision": "relevant",
+        "title": "Docker Desktop for Windows Edge Release notes",
+        "section_heading": "New"
+    },
+    {
+        "question_id": 4,
+        "question": "What is a Docker image?",
+        "candidate_rank": 4,
+        "chunk_id": "9ef2bb8b-63d9-40ba-8718-89a09a93ba37",
+        "decision": "relevant",
+        "title": "What is a container?",
+        "section_heading": "Next steps"
+    },
+    {
+        "question_id": 4,
+        "question": "What is a Docker image?",
+        "candidate_rank": 5,
+        "chunk_id": "a2be0ce0-58ae-4ce5-80ff-621b34020ed6",
+        "decision": "relevant",
+        "title": "Writing a Dockerfile",
+        "section_heading": "Explanation"
+    },
+    {
+        "question_id": 4,
+        "question": "What is a Docker image?",
+        "candidate_rank": 6,
+        "chunk_id": "d07bf21a-de1a-4de2-8176-4ee1e7751517",
+        "decision": "relevant",
+        "title": "Custom Dockerfile syntax",
+        "section_heading": "Official releases"
+    },
+    {
+        "question_id": 4,
+        "question": "What is a Docker image?",
+        "candidate_rank": 7,
+        "chunk_id": "d6223c2b-c3b7-4e55-be72-59138f772947",
+        "decision": "relevant",
+        "title": "Gordon use cases and examples",
+        "section_heading": "Inspect an image"
+    },
+    {
+        "question_id": 4,
+        "question": "What is a Docker image?",
+        "candidate_rank": 8,
+        "chunk_id": "4cf034a5-a35e-4b4c-a103-3e1f3fae9a13",
+        "decision": "not_relevant",
+        "title": "Custom Dockerfile syntax",
+        "section_heading": "syntax=[remote image reference]"
+    },
+    {
+        "question_id": 4,
+        "question": "What is a Docker image?",
+        "candidate_rank": 9,
+        "chunk_id": "c5b08d88-beae-4713-9bf8-9011779f363e",
+        "decision": "not_relevant",
+        "title": "Optimize for building in the cloud",
+        "section_heading": "Slim base images"
+    },
+    {
+        "question_id": 4,
+        "question": "What is a Docker image?",
+        "candidate_rank": 10,
+        "chunk_id": "4aa65779-9784-418d-972e-6ada00ec04ca",
+        "decision": "not_relevant",
+        "title": "What is Docker?",
+        "section_heading": "Docker Desktop"
+    },
+    {
+        "question_id": 5,
+        "question": "What is the difference between a Docker image and a Docker container?",
+        "candidate_rank": 1,
+        "chunk_id": "72ca7b0d-3e6f-4207-b6a8-d0f8dc2d20ae",
+        "decision": "not_relevant",
+        "title": "What is Docker?",
+        "section_heading": "Images"
+    },
+    {
+        "question_id": 5,
+        "question": "What is the difference between a Docker image and a Docker container?",
+        "candidate_rank": 2,
+        "chunk_id": "814a4ccd-2fc8-4413-a7ef-4214a81b9980",
+        "decision": "not_relevant",
+        "title": "What is Docker?",
+        "section_heading": "Containers"
+    },
+    {
+        "question_id": 5,
+        "question": "What is the difference between a Docker image and a Docker container?",
+        "candidate_rank": 3,
+        "chunk_id": "9ef2bb8b-63d9-40ba-8718-89a09a93ba37",
+        "decision": "relevant",
+        "title": "What is a container?",
+        "section_heading": "Next steps"
+    },
+    {
+        "question_id": 5,
+        "question": "What is the difference between a Docker image and a Docker container?",
+        "candidate_rank": 4,
+        "chunk_id": "c2f5b49b-a6b9-4c6d-a01f-388e767c9a8b",
+        "decision": "relevant",
+        "title": "Validating image inputs",
+        "section_heading": "What are image inputs?"
+    },
+    {
+        "question_id": 5,
+        "question": "What is the difference between a Docker image and a Docker container?",
+        "candidate_rank": 5,
+        "chunk_id": "d07bf21a-de1a-4de2-8176-4ee1e7751517",
+        "decision": "not_relevant",
+        "title": "Custom Dockerfile syntax",
+        "section_heading": "Official releases"
+    },
+    {
+        "question_id": 5,
+        "question": "What is the difference between a Docker image and a Docker container?",
+        "candidate_rank": 6,
+        "chunk_id": "d6223c2b-c3b7-4e55-be72-59138f772947",
+        "decision": "not_relevant",
+        "title": "Gordon use cases and examples",
+        "section_heading": "Inspect an image"
+    },
+    {
+        "question_id": 5,
+        "question": "What is the difference between a Docker image and a Docker container?",
+        "candidate_rank": 7,
+        "chunk_id": "56898da2-98fa-42a0-a10d-c8a393056f05",
+        "decision": "not_relevant",
+        "title": "Dockerfile overview",
+        "section_heading": "Dockerfile"
+    },
+    {
+        "question_id": 5,
+        "question": "What is the difference between a Docker image and a Docker container?",
+        "candidate_rank": 8,
+        "chunk_id": "d0e6425d-8052-4c5d-aac7-aa61315fe16f",
+        "decision": "not_relevant",
+        "title": "Trusted content",
+        "section_heading": "Docker Official Images"
+    },
+    {
+        "question_id": 5,
+        "question": "What is the difference between a Docker image and a Docker container?",
+        "candidate_rank": 9,
+        "chunk_id": "9457a819-feed-4a46-9d41-0c4c3f00b07d",
+        "decision": "not_relevant",
+        "title": "What is a container?",
+        "section_heading": "Additional resources"
+    },
+    {
+        "question_id": 5,
+        "question": "What is the difference between a Docker image and a Docker container?",
+        "candidate_rank": 10,
+        "chunk_id": "a52672d6-e768-4a65-9eb6-fe548d487361",
+        "decision": "not_relevant",
+        "title": "What is Docker?",
+        "section_heading": "Docker architecture"
+    },
+    {
+        "question_id": 6,
+        "question": "How does Docker isolate applications?",
+        "candidate_rank": 1,
+        "chunk_id": "830eeda9-ad9d-45ab-85b9-deeeb36c7c7e",
+        "decision": "not_relevant",
+        "title": "What is Docker?",
+        "section_heading": "The Docker platform"
+    },
+    {
+        "question_id": 6,
+        "question": "How does Docker isolate applications?",
+        "candidate_rank": 2,
+        "chunk_id": "85de3f9d-e70c-4d16-bb8b-b1f0c2a35836",
+        "decision": "not_relevant",
+        "title": "Air-gapped containers",
+        "section_heading": "Next steps"
+    },
+    {
+        "question_id": 6,
+        "question": "How does Docker isolate applications?",
+        "candidate_rank": 3,
+        "chunk_id": "f96c65da-7dcf-49e1-92fd-7028ca334cfe",
+        "decision": "relevant",
+        "title": "Docker Desktop for Windows Edge Release notes",
+        "section_heading": "Beta 22 Release (2016-08-11 1.12.0-beta22)"
+    },
+    {
+        "question_id": 6,
+        "question": "How does Docker isolate applications?",
+        "candidate_rank": 4,
+        "chunk_id": "b6d0c254-1b14-4ae6-9283-e5f6ad912065",
+        "decision": "relevant",
+        "title": "Troubleshoot topics for Docker Desktop",
+        "section_heading": "`com.docker.vmnetd` is still running after I quit the app"
+    },
+    {
+        "question_id": 6,
+        "question": "How does Docker isolate applications?",
+        "candidate_rank": 5,
+        "chunk_id": "7ac9045d-d977-4d7b-819b-36e03782aadd",
+        "decision": "relevant",
+        "title": "Open WebUI integration",
+        "section_heading": "Docker Desktop"
+    },
+    {
+        "question_id": 6,
+        "question": "How does Docker isolate applications?",
+        "candidate_rank": 6,
+        "chunk_id": "23f83396-7234-4376-aca9-236c426916d8",
+        "decision": "relevant",
+        "title": "Sharing local files with containers",
+        "section_heading": "Explanation"
+    },
+    {
+        "question_id": 6,
+        "question": "How does Docker isolate applications?",
+        "candidate_rank": 7,
+        "chunk_id": "4fd51bca-6418-4be6-bc8d-91318e13f79e",
+        "decision": "relevant",
+        "title": "Enhanced Container Isolation limitations",
+        "section_heading": "WSL 2 security considerations"
+    },
+    {
+        "question_id": 6,
+        "question": "How does Docker isolate applications?",
+        "candidate_rank": 8,
+        "chunk_id": "88191fef-44f0-4daa-ad83-17c7193c2c47",
+        "decision": "relevant",
+        "title": "Examples using the Docker Engine SDKs and Docker API",
+        "section_heading": "Run a container in the background"
+    },
+    {
+        "question_id": 6,
+        "question": "How does Docker isolate applications?",
+        "candidate_rank": 9,
+        "chunk_id": "50d914f6-2c33-4b09-bc50-25226b372c64",
+        "decision": "relevant",
+        "title": "Docker Engine prior releases",
+        "section_heading": "Hack"
+    },
+    {
+        "question_id": 6,
+        "question": "How does Docker isolate applications?",
+        "candidate_rank": 10,
+        "chunk_id": "56bdd996-c78b-459e-933f-b2ad535b83cc",
+        "decision": "relevant",
+        "title": "Docker Engine prior releases",
+        "section_heading": "Remote API"
+    },
+    {
+        "question_id": 7,
+        "question": "Why are Docker containers considered lightweight?",
+        "candidate_rank": 1,
+        "chunk_id": "1ce2eed5-2be7-46b2-b40c-85d53cccc7bb",
+        "decision": "relevant",
+        "title": "What is Docker?",
+        "section_heading": "Running more workloads on the same hardware"
+    },
+    {
+        "question_id": 7,
+        "question": "Why are Docker containers considered lightweight?",
+        "candidate_rank": 2,
+        "chunk_id": "80f35a1e-bcc1-4b0d-9290-949d3e206e92",
+        "decision": "relevant",
+        "title": "What is Docker?",
+        "section_heading": "Responsive deployment and scaling"
+    },
+    {
+        "question_id": 7,
+        "question": "Why are Docker containers considered lightweight?",
+        "candidate_rank": 3,
+        "chunk_id": "830eeda9-ad9d-45ab-85b9-deeeb36c7c7e",
+        "decision": "relevant",
+        "title": "What is Docker?",
+        "section_heading": "The Docker platform"
+    },
+    {
+        "question_id": 7,
+        "question": "Why are Docker containers considered lightweight?",
+        "candidate_rank": 4,
+        "chunk_id": "70728325-c5b3-448e-8282-ea569124b43f",
+        "decision": "relevant",
+        "title": "What's next",
+        "section_heading": "Building images"
+    },
+    {
+        "question_id": 7,
+        "question": "Why are Docker containers considered lightweight?",
+        "candidate_rank": 5,
+        "chunk_id": "e6a34d72-e5f4-46ab-b58d-2cfb585e4206",
+        "decision": "relevant",
+        "title": "What are hardened images and why use them?",
+        "section_heading": "Introduction"
+    },
+    {
+        "question_id": 8,
+        "question": "Can multiple Docker containers run on the same host?",
+        "candidate_rank": 1,
+        "chunk_id": "7ac9045d-d977-4d7b-819b-36e03782aadd",
+        "decision": "not_relevant",
+        "title": "Open WebUI integration",
+        "section_heading": "Docker Desktop"
+    },
+    {
+        "question_id": 8,
+        "question": "Can multiple Docker containers run on the same host?",
+        "candidate_rank": 2,
+        "chunk_id": "830eeda9-ad9d-45ab-85b9-deeeb36c7c7e",
+        "decision": "not_relevant",
+        "title": "What is Docker?",
+        "section_heading": "The Docker platform"
+    },
+    {
+        "question_id": 8,
+        "question": "Can multiple Docker containers run on the same host?",
+        "candidate_rank": 3,
+        "chunk_id": "dffec9c7-e7aa-449c-82c8-cce33952e2cf",
+        "decision": "not_relevant",
+        "title": "What is Docker Compose?",
+        "section_heading": "Explanation"
+    },
+    {
+        "question_id": 8,
+        "question": "Can multiple Docker containers run on the same host?",
+        "candidate_rank": 4,
+        "chunk_id": "c5824d3c-3c60-4aed-a128-3a107a5c6ae4",
+        "decision": "not_relevant",
+        "title": "Inference engines",
+        "section_heading": "Running multiple engines"
+    },
+    {
+        "question_id": 8,
+        "question": "Can multiple Docker containers run on the same host?",
+        "candidate_rank": 5,
+        "chunk_id": "b53af080-44a9-41c5-bb3f-0f24107867b7",
+        "decision": "not_relevant",
+        "title": "Docker Engine prior releases",
+        "section_heading": "Runtime"
+    },
+    {
+        "question_id": 8,
+        "question": "Can multiple Docker containers run on the same host?",
+        "candidate_rank": 6,
+        "chunk_id": "f4115531-ad53-49d9-911b-3fb113037fdb",
+        "decision": "not_relevant",
+        "title": "Understand permission requirements for Windows",
+        "section_heading": "Containers running as root within the Linux VM"
+    },
+    {
+        "question_id": 8,
+        "question": "Can multiple Docker containers run on the same host?",
+        "candidate_rank": 7,
+        "chunk_id": "63e6c1f3-f1cf-4f0a-b364-372d72e0fa9a",
+        "decision": "not_relevant",
+        "title": "Scale the service in the swarm",
+        "section_heading": "Introduction"
+    },
+    {
+        "question_id": 8,
+        "question": "Can multiple Docker containers run on the same host?",
+        "candidate_rank": 8,
+        "chunk_id": "80f35a1e-bcc1-4b0d-9290-949d3e206e92",
+        "decision": "relevant",
+        "title": "What is Docker?",
+        "section_heading": "Responsive deployment and scaling"
+    },
+    {
+        "question_id": 9,
+        "question": "What is the Docker platform?",
+        "candidate_rank": 1,
+        "chunk_id": "4aa65779-9784-418d-972e-6ada00ec04ca",
+        "decision": "not_relevant",
+        "title": "What is Docker?",
+        "section_heading": "Docker Desktop"
+    },
+    {
+        "question_id": 9,
+        "question": "What is the Docker platform?",
+        "candidate_rank": 2,
+        "chunk_id": "de0a271f-c16c-47b5-8797-6e63f223506d",
+        "decision": "relevant",
+        "title": "Get Docker",
+        "section_heading": "Introduction"
+    },
+    {
+        "question_id": 9,
+        "question": "What is the Docker platform?",
+        "candidate_rank": 3,
+        "chunk_id": "80f35a1e-bcc1-4b0d-9290-949d3e206e92",
+        "decision": "not_relevant",
+        "title": "What is Docker?",
+        "section_heading": "Responsive deployment and scaling"
+    },
+    {
+        "question_id": 9,
+        "question": "What is the Docker platform?",
+        "candidate_rank": 4,
+        "chunk_id": "697c4534-44a8-4495-ac47-6f1d9be6a0ef",
+        "decision": "relevant",
+        "title": "What is Docker?",
+        "section_heading": "Next steps"
+    },
+    {
+        "question_id": 9,
+        "question": "What is the Docker platform?",
+        "candidate_rank": 5,
+        "chunk_id": "da2c1be5-c4f3-457e-8014-04e1f593dd35",
+        "decision": "not_relevant",
+        "title": "Troubleshoot topics for Docker Desktop",
+        "section_heading": "Cause"
+    },
+    {
+        "question_id": 9,
+        "question": "What is the Docker platform?",
+        "candidate_rank": 6,
+        "chunk_id": "0828f162-d5d5-4767-9ff3-bd0b41bd8bb7",
+        "decision": "relevant",
+        "title": "Define services in Docker Compose",
+        "section_heading": "`platform`"
+    },
+    {
+        "question_id": 9,
+        "question": "What is the Docker platform?",
+        "candidate_rank": 7,
+        "chunk_id": "1ce2eed5-2be7-46b2-b40c-85d53cccc7bb",
+        "decision": "not_relevant",
+        "title": "What is Docker?",
+        "section_heading": "Running more workloads on the same hardware"
+    },
+    {
+        "question_id": 9,
+        "question": "What is the Docker platform?",
+        "candidate_rank": 8,
+        "chunk_id": "e2514636-19db-44f5-8af2-218b437fbd25",
+        "decision": "relevant",
+        "title": "Docker MCP Toolkit",
+        "section_heading": "Introduction"
+    },
+    {
+        "question_id": 9,
+        "question": "What is the Docker platform?",
+        "candidate_rank": 9,
+        "chunk_id": "830eeda9-ad9d-45ab-85b9-deeeb36c7c7e",
+        "decision": "not_relevant",
+        "title": "What is Docker?",
+        "section_heading": "The Docker platform"
+    },
+    {
+        "question_id": 9,
+        "question": "What is the Docker platform?",
+        "candidate_rank": 10,
+        "chunk_id": "12102f3d-7c66-4b53-a4a9-e6973722ae65",
+        "decision": "not_relevant",
+        "title": "Run Docker Desktop for Windows in a VM or VDI environment",
+        "section_heading": "Additional resources"
+    },
+    {
+        "question_id": 10,
+        "question": "How does Docker simplify software deployment?",
+        "candidate_rank": 1,
+        "chunk_id": "7b6edd5c-19af-4fe1-8069-5abb2761512c",
+        "decision": "not_relevant",
+        "title": "Docker Scout quickstart",
+        "section_heading": "Step 7: View in Dashboard"
+    },
+    {
+        "question_id": 10,
+        "question": "How does Docker simplify software deployment?",
+        "candidate_rank": 2,
+        "chunk_id": "70728325-c5b3-448e-8282-ea569124b43f",
+        "decision": "not_relevant",
+        "title": "What's next",
+        "section_heading": "Building images"
+    },
+    {
+        "question_id": 10,
+        "question": "How does Docker simplify software deployment?",
+        "candidate_rank": 3,
+        "chunk_id": "830eeda9-ad9d-45ab-85b9-deeeb36c7c7e",
+        "decision": "not_relevant",
+        "title": "What is Docker?",
+        "section_heading": "The Docker platform"
+    },
+    {
+        "question_id": 10,
+        "question": "How does Docker simplify software deployment?",
+        "candidate_rank": 4,
+        "chunk_id": "4d36b3d5-edbb-4183-96d6-ed1bd023e9fa",
+        "decision": "not_relevant",
+        "title": "Docker Engine prior releases",
+        "section_heading": "0.1.1 (2013-03-31)"
+    },
+    {
+        "question_id": 10,
+        "question": "How does Docker simplify software deployment?",
+        "candidate_rank": 5,
+        "chunk_id": "e13c6434-6d74-4885-8b47-4596f4cbd401",
+        "decision": "relevant",
+        "title": "Docker Engine prior releases",
+        "section_heading": "Hack"
+    },
+    {
+        "question_id": 10,
+        "question": "How does Docker simplify software deployment?",
+        "candidate_rank": 6,
+        "chunk_id": "de0a271f-c16c-47b5-8797-6e63f223506d",
+        "decision": "relevant",
+        "title": "Get Docker",
+        "section_heading": "Introduction"
+    },
+    {
+        "question_id": 10,
+        "question": "How does Docker simplify software deployment?",
+        "candidate_rank": 7,
+        "chunk_id": "c2591852-b906-4a3e-9d98-4bcc8f907fdc",
+        "decision": "relevant",
+        "title": "Docker Engine prior releases",
+        "section_heading": "0.1.2 (2013-04-03)"
+    },
+    {
+        "question_id": 10,
+        "question": "How does Docker simplify software deployment?",
+        "candidate_rank": 8,
+        "chunk_id": "cab226f8-cc65-4fa1-a41c-4b519f5c8def",
+        "decision": "relevant",
+        "title": "Develop with containers",
+        "section_heading": "Next steps"
+    },
+    {
+        "question_id": 10,
+        "question": "How does Docker simplify software deployment?",
+        "candidate_rank": 9,
+        "chunk_id": "85854283-fcd4-4705-bfb1-051765fab741",
+        "decision": "relevant",
+        "title": "Develop with containers",
+        "section_heading": "Recap"
+    },
+    {
+        "question_id": 10,
+        "question": "How does Docker simplify software deployment?",
+        "candidate_rank": 10,
+        "chunk_id": "8a712ce9-a78d-41ac-a289-d0d782c39a08",
+        "decision": "relevant",
+        "title": "Docker Engine prior releases",
+        "section_heading": "0.2.1 (2013-05-01)"
+    },
+    {
+        "question_id": 11,
+        "question": "Why is Docker useful for developers?",
+        "candidate_rank": 1,
+        "chunk_id": "26bea447-9ba2-4f27-b514-0e52d256d7ad",
+        "decision": "relevant",
+        "title": "What is Docker?",
+        "section_heading": "Fast, consistent delivery of your applications"
+    },
+    {
+        "question_id": 11,
+        "question": "Why is Docker useful for developers?",
+        "candidate_rank": 2,
+        "chunk_id": "78cbb191-b91a-49d2-886f-0c1290191e51",
+        "decision": "not_relevant",
+        "title": "Build and push your first image",
+        "section_heading": "Next steps"
+    },
+    {
+        "question_id": 11,
+        "question": "Why is Docker useful for developers?",
+        "candidate_rank": 3,
+        "chunk_id": "de0a271f-c16c-47b5-8797-6e63f223506d",
+        "decision": "relevant",
+        "title": "Get Docker",
+        "section_heading": "Introduction"
+    },
+    {
+        "question_id": 11,
+        "question": "Why is Docker useful for developers?",
+        "candidate_rank": 4,
+        "chunk_id": "1ce2eed5-2be7-46b2-b40c-85d53cccc7bb",
+        "decision": "not_relevant",
+        "title": "What is Docker?",
+        "section_heading": "Running more workloads on the same hardware"
+    },
+    {
+        "question_id": 11,
+        "question": "Why is Docker useful for developers?",
+        "candidate_rank": 5,
+        "chunk_id": "80f35a1e-bcc1-4b0d-9290-949d3e206e92",
+        "decision": "relevant",
+        "title": "What is Docker?",
+        "section_heading": "Responsive deployment and scaling"
+    },
+    {
+        "question_id": 11,
+        "question": "Why is Docker useful for developers?",
+        "candidate_rank": 6,
+        "chunk_id": "830eeda9-ad9d-45ab-85b9-deeeb36c7c7e",
+        "decision": "not_relevant",
+        "title": "What is Docker?",
+        "section_heading": "The Docker platform"
+    },
+    {
+        "question_id": 11,
+        "question": "Why is Docker useful for developers?",
+        "candidate_rank": 7,
+        "chunk_id": "85854283-fcd4-4705-bfb1-051765fab741",
+        "decision": "not_relevant",
+        "title": "Develop with containers",
+        "section_heading": "Recap"
+    },
+    {
+        "question_id": 11,
+        "question": "Why is Docker useful for developers?",
+        "candidate_rank": 8,
+        "chunk_id": "04abe4e1-6380-449e-8cfb-324675e8e6bb",
+        "decision": "not_relevant",
+        "title": "Get Docker Desktop",
+        "section_heading": "What's next?"
+    },
+    {
+        "question_id": 11,
+        "question": "Why is Docker useful for developers?",
+        "candidate_rank": 9,
+        "chunk_id": "673f3eb9-db05-4952-b95d-6135d78d05cf",
+        "decision": "not_relevant",
+        "title": "What next after the Docker workshop",
+        "section_heading": "Build with AI"
+    },
+    {
+        "question_id": 11,
+        "question": "Why is Docker useful for developers?",
+        "candidate_rank": 10,
+        "chunk_id": "697c4534-44a8-4495-ac47-6f1d9be6a0ef",
+        "decision": "not_relevant",
+        "title": "What is Docker?",
+        "section_heading": "Next steps"
+    },
+    {
+        "question_id": 12,
+        "question": "What components are required to run a Docker container?",
+        "candidate_rank": 1,
+        "chunk_id": "4ef8f660-d4b1-4749-8624-542c6ff97e35",
+        "decision": "not_relevant",
+        "title": "Troubleshoot topics for Docker Desktop",
+        "section_heading": "Solutions"
+    },
+    {
+        "question_id": 12,
+        "question": "What components are required to run a Docker container?",
+        "candidate_rank": 2,
+        "chunk_id": "a399825b-74a1-4dd9-9909-ef4e1d53a285",
+        "decision": "not_relevant",
+        "title": "Play in a content trust sandbox",
+        "section_heading": "Prerequisites"
+    },
+    {
+        "question_id": 12,
+        "question": "What components are required to run a Docker container?",
+        "candidate_rank": 3,
+        "chunk_id": "9457a819-feed-4a46-9d41-0c4c3f00b07d",
+        "decision": "relevant",
+        "title": "What is a container?",
+        "section_heading": "Additional resources"
+    },
+    {
+        "question_id": 12,
+        "question": "What components are required to run a Docker container?",
+        "candidate_rank": 4,
+        "chunk_id": "697c4534-44a8-4495-ac47-6f1d9be6a0ef",
+        "decision": "relevant",
+        "title": "What is Docker?",
+        "section_heading": "Next steps"
+    },
+    {
+        "question_id": 12,
+        "question": "What components are required to run a Docker container?",
+        "candidate_rank": 5,
+        "chunk_id": "6edad898-77c5-4e8f-85d1-d82e8aaa70b7",
+        "decision": "relevant",
+        "title": "Docker Engine prior releases",
+        "section_heading": "Builder"
+    },
+    {
+        "question_id": 12,
+        "question": "What components are required to run a Docker container?",
+        "candidate_rank": 6,
+        "chunk_id": "8a712ce9-a78d-41ac-a289-d0d782c39a08",
+        "decision": "relevant",
+        "title": "Docker Engine prior releases",
+        "section_heading": "0.2.1 (2013-05-01)"
+    },
+    {
+        "question_id": 12,
+        "question": "What components are required to run a Docker container?",
+        "candidate_rank": 7,
+        "chunk_id": "92a71a75-8974-4e27-a979-75c57463bbbd",
+        "decision": "relevant",
+        "title": "Enhanced Container Isolation limitations",
+        "section_heading": "Recommendation"
+    },
+    {
+        "question_id": 12,
+        "question": "What components are required to run a Docker container?",
+        "candidate_rank": 8,
+        "chunk_id": "bf6caa99-d6c5-4136-8dbd-54cd8d05247c",
+        "decision": "relevant",
+        "title": "Sharing local files with containers",
+        "section_heading": "Run a container"
+    },
+    {
+        "question_id": 12,
+        "question": "What components are required to run a Docker container?",
+        "candidate_rank": 9,
+        "chunk_id": "a48d1d96-6dd2-4a6b-91be-9a76bf013048",
+        "decision": "not_relevant",
+        "title": "Docker Engine prior releases",
+        "section_heading": "0.2.2 (2013-05-03)"
+    },
+    {
+        "question_id": 12,
+        "question": "What components are required to run a Docker container?",
+        "candidate_rank": 10,
+        "chunk_id": "c2c056df-ca3b-42f8-939e-2438b20748f7",
+        "decision": "not_relevant",
+        "title": "Generate Docker Compose Files with Claude Code and Docker MCP Toolkit",
+        "section_heading": "9. Run the Docker Compose stack"
+    },
+    {
+        "question_id": 13,
+        "question": "How does Docker improve application portability?",
+        "candidate_rank": 1,
+        "chunk_id": "80f35a1e-bcc1-4b0d-9290-949d3e206e92",
+        "decision": "relevant",
+        "title": "What is Docker?",
+        "section_heading": "Responsive deployment and scaling"
+    },
+    {
+        "question_id": 13,
+        "question": "How does Docker improve application portability?",
+        "candidate_rank": 2,
+        "chunk_id": "a48d1d96-6dd2-4a6b-91be-9a76bf013048",
+        "decision": "not_relevant",
+        "title": "Docker Engine prior releases",
+        "section_heading": "0.2.2 (2013-05-03)"
+    },
+    {
+        "question_id": 13,
+        "question": "How does Docker improve application portability?",
+        "candidate_rank": 3,
+        "chunk_id": "c2591852-b906-4a3e-9d98-4bcc8f907fdc",
+        "decision": "not_relevant",
+        "title": "Docker Engine prior releases",
+        "section_heading": "0.1.2 (2013-04-03)"
+    },
+    {
+        "question_id": 13,
+        "question": "How does Docker improve application portability?",
+        "candidate_rank": 4,
+        "chunk_id": "49fb1535-291b-47f3-a70e-b7c4a5bd9ee0",
+        "decision": "relevant",
+        "title": "Docker Engine prior releases",
+        "section_heading": "0.1.7 (2013-04-18)"
+    },
+    {
+        "question_id": 13,
+        "question": "How does Docker improve application portability?",
+        "candidate_rank": 5,
+        "chunk_id": "830eeda9-ad9d-45ab-85b9-deeeb36c7c7e",
+        "decision": "relevant",
+        "title": "What is Docker?",
+        "section_heading": "The Docker platform"
+    },
+    {
+        "question_id": 13,
+        "question": "How does Docker improve application portability?",
+        "candidate_rank": 6,
+        "chunk_id": "cab226f8-cc65-4fa1-a41c-4b519f5c8def",
+        "decision": "relevant",
+        "title": "Develop with containers",
+        "section_heading": "Next steps"
+    },
+    {
+        "question_id": 13,
+        "question": "How does Docker improve application portability?",
+        "candidate_rank": 7,
+        "chunk_id": "70728325-c5b3-448e-8282-ea569124b43f",
+        "decision": "relevant",
+        "title": "What's next",
+        "section_heading": "Building images"
+    },
+    {
+        "question_id": 13,
+        "question": "How does Docker improve application portability?",
+        "candidate_rank": 8,
+        "chunk_id": "de0a271f-c16c-47b5-8797-6e63f223506d",
+        "decision": "not_relevant",
+        "title": "Get Docker",
+        "section_heading": "Introduction"
+    },
+    {
+        "question_id": 13,
+        "question": "How does Docker improve application portability?",
+        "candidate_rank": 9,
+        "chunk_id": "90298bf3-cd45-4cbb-bb38-4b8a695c7699",
+        "decision": "relevant",
+        "title": "Docker Engine prior releases",
+        "section_heading": "Hack"
+    },
+    {
+        "question_id": 13,
+        "question": "How does Docker improve application portability?",
+        "candidate_rank": 10,
+        "chunk_id": "131feb37-41da-43ea-8800-aa809cfda1a1",
+        "decision": "not_relevant",
+        "title": "Docker Engine prior releases",
+        "section_heading": "Distribution"
+    },
+    {
+        "question_id": 14,
+        "question": "What operating systems are supported by Docker?",
+        "candidate_rank": 1,
+        "chunk_id": "9d4a4762-5e4b-48e5-89bb-5ed86fe8f0e8",
+        "decision": "relevant",
+        "title": "FAQs for Docker Desktop for Windows",
+        "section_heading": "Can I run Docker Desktop on Windows Server?"
+    },
+    {
+        "question_id": 14,
+        "question": "What operating systems are supported by Docker?",
+        "candidate_rank": 2,
+        "chunk_id": "4ef8f660-d4b1-4749-8624-542c6ff97e35",
+        "decision": "not_relevant",
+        "title": "Troubleshoot topics for Docker Desktop",
+        "section_heading": "Solutions"
+    },
+    {
+        "question_id": 14,
+        "question": "What operating systems are supported by Docker?",
+        "candidate_rank": 3,
+        "chunk_id": "247c7dfa-d3e7-430e-b3a3-46f9c70508db",
+        "decision": "relevant",
+        "title": "FAQs for Docker Desktop for Windows",
+        "section_heading": "Why is Windows 10 or Windows 11 required?"
+    },
+    {
+        "question_id": 14,
+        "question": "What operating systems are supported by Docker?",
+        "candidate_rank": 4,
+        "chunk_id": "da2c1be5-c4f3-457e-8014-04e1f593dd35",
+        "decision": "not_relevant",
+        "title": "Troubleshoot topics for Docker Desktop",
+        "section_heading": "Cause"
+    },
+    {
+        "question_id": 14,
+        "question": "What operating systems are supported by Docker?",
+        "candidate_rank": 5,
+        "chunk_id": "f1f67fd2-b375-4774-a020-c230d82de605",
+        "decision": "not_relevant",
+        "title": "FAQs for Docker Desktop for Windows",
+        "section_heading": "Can I use VirtualBox alongside Docker Desktop?"
+    },
+    {
+        "question_id": 14,
+        "question": "What operating systems are supported by Docker?",
+        "candidate_rank": 6,
+        "chunk_id": "a650a79d-501c-42db-b2ac-b3fab1f66bc3",
+        "decision": "relevant",
+        "title": "Run Docker Desktop for Windows in a VM or VDI environment",
+        "section_heading": "Introduction"
+    },
+    {
+        "question_id": 14,
+        "question": "What operating systems are supported by Docker?",
+        "candidate_rank": 7,
+        "chunk_id": "99d5bfdb-5671-4b6b-aab5-0ceb4b03ca1d",
+        "decision": "not_relevant",
+        "title": "Inference engines",
+        "section_heading": "Install an engine"
+    },
+    {
+        "question_id": 14,
+        "question": "What operating systems are supported by Docker?",
+        "candidate_rank": 8,
+        "chunk_id": "697c4534-44a8-4495-ac47-6f1d9be6a0ef",
+        "decision": "not_relevant",
+        "title": "What is Docker?",
+        "section_heading": "Next steps"
+    },
+    {
+        "question_id": 14,
+        "question": "What operating systems are supported by Docker?",
+        "candidate_rank": 9,
+        "chunk_id": "bcea1a29-7404-4de7-ae96-5238b95e31eb",
+        "decision": "not_relevant",
+        "title": "Inference engines",
+        "section_heading": "vLLM won't start"
+    },
+    {
+        "question_id": 14,
+        "question": "What operating systems are supported by Docker?",
+        "candidate_rank": 10,
+        "chunk_id": "2d1520d5-4744-494a-a850-c6da880523b9",
+        "decision": "not_relevant",
+        "title": "Validating image inputs",
+        "section_heading": "Validate platform constraints"
+    },
+    {
+        "question_id": 15,
+        "question": "What is the Docker Engine?",
+        "candidate_rank": 1,
+        "chunk_id": "de0a271f-c16c-47b5-8797-6e63f223506d",
+        "decision": "not_relevant",
+        "title": "Get Docker",
+        "section_heading": "Introduction"
+    },
+    {
+        "question_id": 15,
+        "question": "What is the Docker Engine?",
+        "candidate_rank": 2,
+        "chunk_id": "e043e333-8f5e-45c8-86eb-f97de253275e",
+        "decision": "not_relevant",
+        "title": "Docker Desktop for Windows Edge Release notes",
+        "section_heading": "Upgrades"
+    },
+    {
+        "question_id": 15,
+        "question": "What is the Docker Engine?",
+        "candidate_rank": 3,
+        "chunk_id": "e6022503-ce8b-4aaf-a2bf-45e256c749c8",
+        "decision": "not_relevant",
+        "title": "Use provider services",
+        "section_heading": "Reference"
+    },
+    {
+        "question_id": 15,
+        "question": "What is the Docker Engine?",
+        "candidate_rank": 4,
+        "chunk_id": "70728325-c5b3-448e-8282-ea569124b43f",
+        "decision": "not_relevant",
+        "title": "What's next",
+        "section_heading": "Building images"
+    },
+    {
+        "question_id": 15,
+        "question": "What is the Docker Engine?",
+        "candidate_rank": 5,
+        "chunk_id": "4aa65779-9784-418d-972e-6ada00ec04ca",
+        "decision": "relevant",
+        "title": "What is Docker?",
+        "section_heading": "Docker Desktop"
+    },
+    {
+        "question_id": 15,
+        "question": "What is the Docker Engine?",
+        "candidate_rank": 6,
+        "chunk_id": "fdc22254-6393-4f8f-873f-50d20953e7ba",
+        "decision": "not_relevant",
+        "title": "Docker Desktop for Windows Edge Release notes",
+        "section_heading": "Docker Community Edition 17.03.0 Release Notes (2017-02-22 17.03.0-ce-rc1-win1)"
+    },
+    {
+        "question_id": 15,
+        "question": "What is the Docker Engine?",
+        "candidate_rank": 7,
+        "chunk_id": "697c4534-44a8-4495-ac47-6f1d9be6a0ef",
+        "decision": "not_relevant",
+        "title": "What is Docker?",
+        "section_heading": "Next steps"
+    },
+    {
+        "question_id": 15,
+        "question": "What is the Docker Engine?",
+        "candidate_rank": 8,
+        "chunk_id": "a2be0ce0-58ae-4ce5-80ff-621b34020ed6",
+        "decision": "not_relevant",
+        "title": "Writing a Dockerfile",
+        "section_heading": "Explanation"
+    },
+    {
+        "question_id": 15,
+        "question": "What is the Docker Engine?",
+        "candidate_rank": 9,
+        "chunk_id": "14979b57-ef94-4222-a36c-f37336658318",
+        "decision": "not_relevant",
+        "title": "What is Docker?",
+        "section_heading": "The Docker client"
+    },
+    {
+        "question_id": 15,
+        "question": "What is the Docker Engine?",
+        "candidate_rank": 10,
+        "chunk_id": "226628b0-664e-49f0-ae9e-d61b3f5a0626",
+        "decision": "not_relevant",
+        "title": "Docker Desktop for Windows Edge Release notes",
+        "section_heading": "Docker Community Edition 17.03.0 Release Notes (2017-03-06 17.03.0-ce-win1)"
+    },
+    {
+        "question_id": 16,
+        "question": "How does Docker differ from a traditional virtual machine?",
+        "candidate_rank": 1,
+        "chunk_id": "1ce2eed5-2be7-46b2-b40c-85d53cccc7bb",
+        "decision": "relevant",
+        "title": "What is Docker?",
+        "section_heading": "Running more workloads on the same hardware"
+    },
+    {
+        "question_id": 16,
+        "question": "How does Docker differ from a traditional virtual machine?",
+        "candidate_rank": 2,
+        "chunk_id": "80f35a1e-bcc1-4b0d-9290-949d3e206e92",
+        "decision": "not_relevant",
+        "title": "What is Docker?",
+        "section_heading": "Responsive deployment and scaling"
+    },
+    {
+        "question_id": 16,
+        "question": "How does Docker differ from a traditional virtual machine?",
+        "candidate_rank": 3,
+        "chunk_id": "f4115531-ad53-49d9-911b-3fb113037fdb",
+        "decision": "not_relevant",
+        "title": "Understand permission requirements for Windows",
+        "section_heading": "Containers running as root within the Linux VM"
+    },
+    {
+        "question_id": 16,
+        "question": "How does Docker differ from a traditional virtual machine?",
+        "candidate_rank": 4,
+        "chunk_id": "781e6253-6c74-4465-952f-5ddb8d416e69",
+        "decision": "not_relevant",
+        "title": "Run Docker Desktop for Windows in a VM or VDI environment",
+        "section_heading": "Use Docker Offload"
+    },
+    {
+        "question_id": 16,
+        "question": "How does Docker differ from a traditional virtual machine?",
+        "candidate_rank": 5,
+        "chunk_id": "830eeda9-ad9d-45ab-85b9-deeeb36c7c7e",
+        "decision": "not_relevant",
+        "title": "What is Docker?",
+        "section_heading": "The Docker platform"
+    },
+    {
+        "question_id": 16,
+        "question": "How does Docker differ from a traditional virtual machine?",
+        "candidate_rank": 6,
+        "chunk_id": "f1f67fd2-b375-4774-a020-c230d82de605",
+        "decision": "not_relevant",
+        "title": "FAQs for Docker Desktop for Windows",
+        "section_heading": "Can I use VirtualBox alongside Docker Desktop?"
+    },
+    {
+        "question_id": 16,
+        "question": "How does Docker differ from a traditional virtual machine?",
+        "candidate_rank": 7,
+        "chunk_id": "5f5842ae-323c-4d9f-8020-9f223511aa31",
+        "decision": "not_relevant",
+        "title": "Explore networking how-tos on Docker Desktop",
+        "section_heading": "There is no `docker0` bridge on the host"
+    },
+    {
+        "question_id": 16,
+        "question": "How does Docker differ from a traditional virtual machine?",
+        "candidate_rank": 8,
+        "chunk_id": "247c7dfa-d3e7-430e-b3a3-46f9c70508db",
+        "decision": "not_relevant",
+        "title": "FAQs for Docker Desktop for Windows",
+        "section_heading": "Why is Windows 10 or Windows 11 required?"
+    },
+    {
+        "question_id": 16,
+        "question": "How does Docker differ from a traditional virtual machine?",
+        "candidate_rank": 9,
+        "chunk_id": "da2c1be5-c4f3-457e-8014-04e1f593dd35",
+        "decision": "not_relevant",
+        "title": "Troubleshoot topics for Docker Desktop",
+        "section_heading": "Cause"
+    },
+    {
+        "question_id": 16,
+        "question": "How does Docker differ from a traditional virtual machine?",
+        "candidate_rank": 10,
+        "chunk_id": "0f4ab56d-d764-46c4-b6cc-a454d2c8bf5e",
+        "decision": "not_relevant",
+        "title": "Run Docker Desktop for Windows in a VM or VDI environment",
+        "section_heading": "Turn on nested virtualization"
+    },
+    {
+        "question_id": 17,
+        "question": "What is containerization?",
+        "candidate_rank": 1,
+        "chunk_id": "814a4ccd-2fc8-4413-a7ef-4214a81b9980",
+        "decision": "relevant",
+        "title": "What is Docker?",
+        "section_heading": "Containers"
+    },
+    {
+        "question_id": 17,
+        "question": "What is containerization?",
+        "candidate_rank": 2,
+        "chunk_id": "830eeda9-ad9d-45ab-85b9-deeeb36c7c7e",
+        "decision": "relevant",
+        "title": "What is Docker?",
+        "section_heading": "The Docker platform"
+    },
+    {
+        "question_id": 17,
+        "question": "What is containerization?",
+        "candidate_rank": 3,
+        "chunk_id": "de0a271f-c16c-47b5-8797-6e63f223506d",
+        "decision": "not_relevant",
+        "title": "Get Docker",
+        "section_heading": "Introduction"
+    },
+    {
+        "question_id": 17,
+        "question": "What is containerization?",
+        "candidate_rank": 4,
+        "chunk_id": "cab226f8-cc65-4fa1-a41c-4b519f5c8def",
+        "decision": "not_relevant",
+        "title": "Develop with containers",
+        "section_heading": "Next steps"
+    },
+    {
+        "question_id": 18,
+        "question": "Why is containerization important in modern software development?",
+        "candidate_rank": 1,
+        "chunk_id": "26bea447-9ba2-4f27-b514-0e52d256d7ad",
+        "decision": "relevant",
+        "title": "What is Docker?",
+        "section_heading": "Fast, consistent delivery of your applications"
+    },
+    {
+        "question_id": 18,
+        "question": "Why is containerization important in modern software development?",
+        "candidate_rank": 2,
+        "chunk_id": "830eeda9-ad9d-45ab-85b9-deeeb36c7c7e",
+        "decision": "relevant",
+        "title": "What is Docker?",
+        "section_heading": "The Docker platform"
+    },
+    {
+        "question_id": 18,
+        "question": "Why is containerization important in modern software development?",
+        "candidate_rank": 3,
+        "chunk_id": "85854283-fcd4-4705-bfb1-051765fab741",
+        "decision": "relevant",
+        "title": "Develop with containers",
+        "section_heading": "Recap"
+    },
+    {
+        "question_id": 18,
+        "question": "Why is containerization important in modern software development?",
+        "candidate_rank": 4,
+        "chunk_id": "04abe4e1-6380-449e-8cfb-324675e8e6bb",
+        "decision": "not_relevant",
+        "title": "Get Docker Desktop",
+        "section_heading": "What's next?"
+    },
+    {
+        "question_id": 18,
+        "question": "Why is containerization important in modern software development?",
+        "candidate_rank": 5,
+        "chunk_id": "d3fa9cf4-3464-4a36-aec2-2de907034f9c",
+        "decision": "not_relevant",
+        "title": "Sharing local files with containers",
+        "section_heading": "Next steps"
+    },
+    {
+        "question_id": 18,
+        "question": "Why is containerization important in modern software development?",
+        "candidate_rank": 6,
+        "chunk_id": "80f35a1e-bcc1-4b0d-9290-949d3e206e92",
+        "decision": "relevant",
+        "title": "What is Docker?",
+        "section_heading": "Responsive deployment and scaling"
+    },
+    {
+        "question_id": 18,
+        "question": "Why is containerization important in modern software development?",
+        "candidate_rank": 7,
+        "chunk_id": "70728325-c5b3-448e-8282-ea569124b43f",
+        "decision": "not_relevant",
+        "title": "What's next",
+        "section_heading": "Building images"
+    },
+    {
+        "question_id": 18,
+        "question": "Why is containerization important in modern software development?",
+        "candidate_rank": 8,
+        "chunk_id": "78cbb191-b91a-49d2-886f-0c1290191e51",
+        "decision": "not_relevant",
+        "title": "Build and push your first image",
+        "section_heading": "Next steps"
+    },
+    {
+        "question_id": 18,
+        "question": "Why is containerization important in modern software development?",
+        "candidate_rank": 9,
+        "chunk_id": "1ce2eed5-2be7-46b2-b40c-85d53cccc7bb",
+        "decision": "relevant",
+        "title": "What is Docker?",
+        "section_heading": "Running more workloads on the same hardware"
+    },
+    {
+        "question_id": 18,
+        "question": "Why is containerization important in modern software development?",
+        "candidate_rank": 10,
+        "chunk_id": "de0a271f-c16c-47b5-8797-6e63f223506d",
+        "decision": "relevant",
+        "title": "Get Docker",
+        "section_heading": "Introduction"
+    },
+    {
+        "question_id": 19,
+        "question": "What is the lifecycle of a Docker container?",
+        "candidate_rank": 1,
+        "chunk_id": "814a4ccd-2fc8-4413-a7ef-4214a81b9980",
+        "decision": "relevant",
+        "title": "What is Docker?",
+        "section_heading": "Containers"
+    },
+    {
+        "question_id": 19,
+        "question": "What is the lifecycle of a Docker container?",
+        "candidate_rank": 2,
+        "chunk_id": "04abe4e1-6380-449e-8cfb-324675e8e6bb",
+        "decision": "not_relevant",
+        "title": "Get Docker Desktop",
+        "section_heading": "What's next?"
+    },
+    {
+        "question_id": 19,
+        "question": "What is the lifecycle of a Docker container?",
+        "candidate_rank": 3,
+        "chunk_id": "830eeda9-ad9d-45ab-85b9-deeeb36c7c7e",
+        "decision": "relevant",
+        "title": "What is Docker?",
+        "section_heading": "The Docker platform"
+    },
+    {
+        "question_id": 19,
+        "question": "What is the lifecycle of a Docker container?",
+        "candidate_rank": 4,
+        "chunk_id": "70728325-c5b3-448e-8282-ea569124b43f",
+        "decision": "not_relevant",
+        "title": "What's next",
+        "section_heading": "Building images"
+    },
+    {
+        "question_id": 19,
+        "question": "What is the lifecycle of a Docker container?",
+        "candidate_rank": 5,
+        "chunk_id": "9ef2bb8b-63d9-40ba-8718-89a09a93ba37",
+        "decision": "relevant",
+        "title": "What is a container?",
+        "section_heading": "Next steps"
+    },
+    {
+        "question_id": 19,
+        "question": "What is the lifecycle of a Docker container?",
+        "candidate_rank": 6,
+        "chunk_id": "324a7cd5-a1b5-4820-a06c-fafdc717c1a4",
+        "decision": "not_relevant",
+        "title": "Build cache invalidation",
+        "section_heading": "Introduction"
+    },
+    {
+        "question_id": 19,
+        "question": "What is the lifecycle of a Docker container?",
+        "candidate_rank": 7,
+        "chunk_id": "cab226f8-cc65-4fa1-a41c-4b519f5c8def",
+        "decision": "relevant",
+        "title": "Develop with containers",
+        "section_heading": "Next steps"
+    },
+    {
+        "question_id": 19,
+        "question": "What is the lifecycle of a Docker container?",
+        "candidate_rank": 8,
+        "chunk_id": "9457a819-feed-4a46-9d41-0c4c3f00b07d",
+        "decision": "not_relevant",
+        "title": "What is a container?",
+        "section_heading": "Additional resources"
+    },
+    {
+        "question_id": 19,
+        "question": "What is the lifecycle of a Docker container?",
+        "candidate_rank": 9,
+        "chunk_id": "26bea447-9ba2-4f27-b514-0e52d256d7ad",
+        "decision": "relevant",
+        "title": "What is Docker?",
+        "section_heading": "Fast, consistent delivery of your applications"
+    },
+    {
+        "question_id": 19,
+        "question": "What is the lifecycle of a Docker container?",
+        "candidate_rank": 10,
+        "chunk_id": "5c6f0e94-1257-4565-95ef-a18cb44c13d4",
+        "decision": "not_relevant",
+        "title": "Docker Engine prior releases",
+        "section_heading": "Swarm Mode"
+    },
+    {
+        "question_id": 20,
+        "question": "How does Docker support cloud-native application development?",
+        "candidate_rank": 1,
+        "chunk_id": "a6badfe8-3aa9-42ed-a6be-8c5bd30992b1",
+        "decision": "relevant",
+        "title": "Docker Hub release notes",
+        "section_heading": "New features"
+    },
+    {
+        "question_id": 20,
+        "question": "How does Docker support cloud-native application development?",
+        "candidate_rank": 2,
+        "chunk_id": "781e6253-6c74-4465-952f-5ddb8d416e69",
+        "decision": "not_relevant",
+        "title": "Run Docker Desktop for Windows in a VM or VDI environment",
+        "section_heading": "Use Docker Offload"
+    },
+    {
+        "question_id": 20,
+        "question": "How does Docker support cloud-native application development?",
+        "candidate_rank": 3,
+        "chunk_id": "80f35a1e-bcc1-4b0d-9290-949d3e206e92",
+        "decision": "relevant",
+        "title": "What is Docker?",
+        "section_heading": "Responsive deployment and scaling"
+    },
+    {
+        "question_id": 20,
+        "question": "How does Docker support cloud-native application development?",
+        "candidate_rank": 4,
+        "chunk_id": "3a8ab6d9-7e6a-4c50-a7c1-ec92809b5410",
+        "decision": "not_relevant",
+        "title": "Deprecated and retired Docker products and features",
+        "section_heading": "Docker Cloud integrations"
+    },
+    {
+        "question_id": 20,
+        "question": "How does Docker support cloud-native application development?",
+        "candidate_rank": 5,
+        "chunk_id": "31db8906-16fb-4813-b8dd-de07cdd0736c",
+        "decision": "relevant",
+        "title": "Dockerfile overview",
+        "section_heading": "Example"
+    },
+    {
+        "question_id": 20,
+        "question": "How does Docker support cloud-native application development?",
+        "candidate_rank": 6,
+        "chunk_id": "40341594-db5b-42fd-89f6-076a391b7a79",
+        "decision": "not_relevant",
+        "title": "Use Docker Hardened Images with Red Hat OpenShift",
+        "section_heading": "Option 3: Use `oc debug` or ephemeral containers"
+    },
+    {
+        "question_id": 20,
+        "question": "How does Docker support cloud-native application development?",
+        "candidate_rank": 7,
+        "chunk_id": "fdc22254-6393-4f8f-873f-50d20953e7ba",
+        "decision": "relevant",
+        "title": "Docker Desktop for Windows Edge Release notes",
+        "section_heading": "Docker Community Edition 17.03.0 Release Notes (2017-02-22 17.03.0-ce-rc1-win1)"
+    },
+    {
+        "question_id": 20,
+        "question": "How does Docker support cloud-native application development?",
+        "candidate_rank": 8,
+        "chunk_id": "da2c1be5-c4f3-457e-8014-04e1f593dd35",
+        "decision": "not_relevant",
+        "title": "Troubleshoot topics for Docker Desktop",
+        "section_heading": "Cause"
+    },
+    {
+        "question_id": 20,
+        "question": "How does Docker support cloud-native application development?",
+        "candidate_rank": 9,
+        "chunk_id": "85854283-fcd4-4705-bfb1-051765fab741",
+        "decision": "relevant",
+        "title": "Develop with containers",
+        "section_heading": "Recap"
+    },
+    {
+        "question_id": 20,
+        "question": "How does Docker support cloud-native application development?",
+        "candidate_rank": 10,
+        "chunk_id": "830eeda9-ad9d-45ab-85b9-deeeb36c7c7e",
+        "decision": "not_relevant",
+        "title": "What is Docker?",
+        "section_heading": "The Docker platform"
+    }
+]
